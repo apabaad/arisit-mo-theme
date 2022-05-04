@@ -1,0 +1,114 @@
+<div class="page-width"> 
+<div class="arisit-statistics-container">
+    <div class="arisit-statistics-row">
+        
+            {% for block in section.blocks %}
+                {% if block.settings.arisit-statistics-number != blank %}
+                    <div class="arisit-statistics-item">
+                        <div class="statistics-item-content">
+                        <span class="statistics-number">
+                           {{ block.settings.arisit-statistics-number }}
+                        </span> <br>
+                        <span class="statistics-text">
+                            {{ block.settings.arisit-statistics-text }}
+                        </span> <br>
+                        <span class="statistics-small-text">
+                            {{ block.settings.arisit-statistics-small-text  }}
+                        </span>
+                    </div>
+                    </div>
+                {%endif%}
+                {% endfor %}
+
+    </div>
+</div>
+</div>
+
+{% schema %}
+
+{
+"blocks": [
+    {
+    "type":"arisit-statistics",
+    "name":"Stats Info",
+    "settings":[
+        {
+        "type":"text",
+        "id":"arisit-statistics-number",
+        "label":"Number"
+        },
+        {
+        "type":"text",
+        "id":"arisit-statistics-text",
+        "label":"Big Text"
+        },
+         {
+        "type":"textarea",
+        "id":"arisit-statistics-small-text",
+        "label":"Small Text"
+        }
+    ]}
+
+],
+"presets":[
+    {
+    "name":"Arisit Statistics",
+    "category":"Statistics"}
+]}
+{% endschema %}
+
+{% style %}
+.arisit-statistics-container{
+    margin-top:20px;
+
+}
+
+.arisit-statistics-row{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-item:center;
+
+    
+
+}
+
+.arisit-statistics-item{
+    min-width:10vw;
+    max-width: 250px;
+    margin:20px;
+    /* border: 2px solid black; */
+    background: #E7E9EB;
+    text-align:center;
+
+}
+
+.statistics-item-content{
+    padding:10px 0 10px 0;
+}
+
+.statistics-number{
+    /* align-item:center; */
+    font-size:40px;
+    font-weight: bold;
+    /* padding: 80px; */
+}
+
+.statistics-text{
+    font-weight:bold;
+    text-transform: uppercase;
+    /* padding: 20px;  */
+    margin-top: -200px;
+    /* display: table;
+    margin: 0 auto; */
+    
+}
+
+.statistics-small-text{
+    text-transform: uppercase;
+    padding-bottom:300px;
+
+}
+
+
+{% endstyle %}

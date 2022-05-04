@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page-full-width",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16515351931cd07a4a": {
+      "type": "rich-text",
+      "blocks": {
+        "165153519303ea9f11-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Arisit Distribution Within Australia & New Zealand"
+          }
+        }
+      },
+      "block_order": [
+        "165153519303ea9f11-0"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "16515353358f9a4f80": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Arisit_1000x1000_142a0389-5fe1-4257-9469-99236bea91da.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "",
+        "text": "<p>Beginning in 2021, Arisit took over distribution of the OneProducts brand within the Australia & New Zealand markets. This has allowed our products to be available for purchase within major retailers as well as a range of online channels helping to make our brand easily accessible to all.<\/p><p>Arisit is an Australian-owned company with its head office based in Melbourne, Victoria and has been in operation for more than 20 years. We have exclusive distribution of a diverse range of brands from around the world including Europe, the USA and Asia. These brands offer high quality products and great value with have been designed and optimised for modern home living solutions.  We now ship more than 1 million products annually within Australia & New Zealand with six warehouses strategically located to offer additional convenience and optimise delivery times.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "165153538513e9d658": {
+      "type": "advanced-content",
+      "blocks": {
+        "165153538567f274a1-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"feature-row\" style=\"margin-top:-25px;\">\n<p class=\"para-width\">\nArisit has had a dedicated eCommerce division operating on internal websites as well as online marketplaces since 2016. We have a dedicated team of sales, customer service, warranties and warehouse staff which allow us to deliver products all around Australia. This provides the ability for all customers to purchase directly from us and our delivery partners provide fast and affordable delivery right to your door with up-to-date tracking details.\n<\/p>\n<\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "165153538567f274a1-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16515351931cd07a4a",
+    "16515353358f9a4f80",
+    "165153538513e9d658"
+  ]
+}

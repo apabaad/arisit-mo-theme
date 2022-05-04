@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "1651537855b836ca3f": {
+      "type": "slideshow",
+      "blocks": {
+        "1651537855bda1a046-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 55,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/capital.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1651537855bda1a046-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "16510280273419cc8a": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "ARISTON",
+        "text": "",
+        "button_label": "Visit Website",
+        "button_link": "https:\/\/ariston.com.au\/",
+        "image": "shopify:\/\/shop_images\/ariston.jpg",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 550,
+        "parallax": true
+      }
+    },
+    "165102559753940f35": {
+      "type": "fading-images",
+      "disabled": true,
+      "blocks": {
+        "1651025597819b2d87-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ariston.jpg",
+            "focal_point": "center center",
+            "slide_title1": "ARISTON",
+            "slide_title2": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651025597819b2d87-0"
+      ],
+      "settings": {
+        "title_lines": "2",
+        "title_font": "heading",
+        "title_size": 45,
+        "title_color": "#e7d4d4",
+        "title_bg_color": "rgba(0,0,0,0)",
+        "text_align": "vertical-bottom horizontal-center",
+        "link": "",
+        "slide_speed": 10,
+        "color_overlay": "#000000",
+        "color_overlay_opacity": 22,
+        "desktop_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "16510250274640b95e": {
+      "type": "advanced-content",
+      "disabled": true,
+      "blocks": {
+        "16510250270a37f536-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"rte\" style=\"text-align:justify; margin-top:-75px; \" >    \n       {{ collection.description }}\n          <\/div>\n<a class = \"btn\" target=\"_blank\" href=\"https:\/\/ariston.com.au\/\">\nVisit Website\n<\/a>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16510250270a37f536-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "collection_subnav_style": "inline",
+            "per_row": 4,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "product_grid"
+      ],
+      "settings": {
+        "collection_image_enable": false,
+        "collection_image_height": 550,
+        "parallax": true,
+        "enable_sidebar": true,
+        "collapsed": true,
+        "enable_color_swatches": false,
+        "enable_sort": false
+      }
+    }
+  },
+  "order": [
+    "1651537855b836ca3f",
+    "16510280273419cc8a",
+    "165102559753940f35",
+    "16510250274640b95e",
+    "main-collection"
+  ]
+}

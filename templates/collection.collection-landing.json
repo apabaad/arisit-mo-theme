@@ -1,0 +1,91 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "title": "ARISTON",
+            "title_size": 52,
+            "subheading": "",
+            "link": "https:\/\/ariston.com.au\/",
+            "link_text": "Visit Website",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/ariston.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1651534640cef712d3": {
+      "type": "advanced-content",
+      "blocks": {
+        "1651534640161c28a0-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div  class=\"rte\" style=\"text-align:justify; margin-top:25px \" >    \n       {{ collection.description }}\n          <\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1651534640161c28a0-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "collection_subnav_style": "inline",
+            "per_row": 4,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "product_grid"
+      ],
+      "settings": {
+        "collection_image_enable": false,
+        "collection_image_height": 550,
+        "parallax": true,
+        "enable_sidebar": true,
+        "collapsed": true,
+        "enable_color_swatches": false,
+        "enable_sort": false
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "1651534640cef712d3",
+    "main-collection"
+  ]
+}

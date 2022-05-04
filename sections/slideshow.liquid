@@ -194,11 +194,21 @@
                     <div class="hero__text-content {{ block.settings.text_align }}">
 
                       {%- unless block.settings.title == blank -%}
+                      {% comment %} 
+                        original code commented to make hero subheading multiline
                         <h2 class="h1 hero__title">
                           <div class="animation-cropper"><div class="animation-contents">
                           {{ block.settings.title | newline_to_br }}
                           </div></div>
                         </h2>
+                       {% endcomment %}
+
+                       <div class="hero__subtitle">
+                        <div class="animation-cropper"><div class="animation-contents">
+                        {{ block.settings.title | newline_to_br }}
+                        </div></div>
+                      </div> 
+
                       {%- endunless -%}
                       {%- if block.settings.subheading or block.settings.link -%}
                         {%- unless block.settings.subheading == blank -%}

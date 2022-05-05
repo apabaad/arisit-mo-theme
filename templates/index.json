@@ -94,24 +94,94 @@
         "autoplay_speed": 5
       }
     },
-    "16516174797aa94e77": {
-      "type": "advanced-content",
+    "16517273870cfeb94f": {
+      "type": "arisit-statistic",
       "blocks": {
-        "16516174797c4a40d9-1": {
-          "type": "liquid",
+        "7cd68470-f402-41ad-bf72-08bc6790b1f0": {
+          "type": "arisit-statistics",
           "settings": {
-            "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.<\/p>",
-            "width": "100%",
-            "alignment": "center"
+            "arisit-statistics-number": "20",
+            "arisit-statistics-text": "brands",
+            "arisit-statistics-small-text": "imported & sold within aus\/nz"
+          }
+        },
+        "6d9475d1-8318-4c13-a0b3-bbebfd8b714f": {
+          "type": "arisit-statistics",
+          "settings": {
+            "arisit-statistics-number": "$120M",
+            "arisit-statistics-text": "ex gst sold",
+            "arisit-statistics-small-text": "annually within australia alone"
+          }
+        },
+        "46e73b3c-9bcd-4283-95f7-06e791c8a930": {
+          "type": "arisit-statistics",
+          "settings": {
+            "arisit-statistics-number": "1,000,000",
+            "arisit-statistics-text": "products",
+            "arisit-statistics-small-text": "sold annually within australia"
+          }
+        },
+        "548aab80-1c76-462c-b507-0299b5110c84": {
+          "type": "arisit-statistics",
+          "settings": {
+            "arisit-statistics-number": "+100",
+            "arisit-statistics-text": "full time staff",
+            "arisit-statistics-small-text": "employed in total"
           }
         }
       },
       "block_order": [
-        "16516174797c4a40d9-1"
+        "7cd68470-f402-41ad-bf72-08bc6790b1f0",
+        "6d9475d1-8318-4c13-a0b3-bbebfd8b714f",
+        "46e73b3c-9bcd-4283-95f7-06e791c8a930",
+        "548aab80-1c76-462c-b507-0299b5110c84"
       ],
       "settings": {
-        "full_width": false,
-        "space_around": true
+      }
+    },
+    "1651727589e6c5cd6c": {
+      "type": "arisit-statistic",
+      "blocks": {
+        "ee443267-ce3e-4945-92ad-42c3f3dc09ee": {
+          "type": "arisit-statistics",
+          "settings": {
+            "arisit-statistics-number": "+20",
+            "arisit-statistics-text": "staff employed",
+            "arisit-statistics-small-text": "warranty & customer care"
+          }
+        },
+        "a9ee8bcf-e058-43a3-9f2c-f7d807c5974f": {
+          "type": "arisit-statistics",
+          "settings": {
+            "arisit-statistics-number": "6",
+            "arisit-statistics-text": "distribution centres",
+            "arisit-statistics-small-text": "within aus & nz"
+          }
+        },
+        "47bcd189-5298-4b9d-8ace-19f8cdfe9bbc": {
+          "type": "arisit-statistics",
+          "settings": {
+            "arisit-statistics-number": "6",
+            "arisit-statistics-text": "sales divisions",
+            "arisit-statistics-small-text": "each with specialist products & staff"
+          }
+        },
+        "f7224714-89ed-4b37-b448-c8f4df160286": {
+          "type": "arisit-statistics",
+          "settings": {
+            "arisit-statistics-number": "100",
+            "arisit-statistics-text": "reasons to buy",
+            "arisit-statistics-small-text": "from us"
+          }
+        }
+      },
+      "block_order": [
+        "ee443267-ce3e-4945-92ad-42c3f3dc09ee",
+        "a9ee8bcf-e058-43a3-9f2c-f7d807c5974f",
+        "47bcd189-5298-4b9d-8ace-19f8cdfe9bbc",
+        "f7224714-89ed-4b37-b448-c8f4df160286"
+      ],
+      "settings": {
       }
     },
     "rich-text": {
@@ -139,6 +209,55 @@
         "align_text": "center",
         "narrow_column": false,
         "divider": false
+      }
+    },
+    "16517251279a34dba3": {
+      "type": "arisit-brands",
+      "blocks": {
+        "f031863c-d1c5-4348-8bf5-f7902798c45a": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/whirlpool_logo-black-01.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances. Upgrade you...",
+            "brand-btn-link": "shopify:\/\/pages\/about-arisit",
+            "brand-shop-btn": "Whirlpool"
+          }
+        },
+        "2cd31f2c-8f31-46dc-ab76-0d327ca79f84": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Steel_black_logo.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances. Upgrade you...",
+            "brand-btn-link": "shopify:\/\/products\/40-cart-model-open-grill-bbq-acg40rfs-1-n-l",
+            "brand-shop-btn": "Steel"
+          }
+        },
+        "09152186-2f57-4f68-a2c1-2e91e6d5e02e": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thor.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "shopify:\/\/pages\/about-arisit",
+            "brand-shop-btn": "THOR"
+          }
+        },
+        "2a40549b-d50e-4f2a-b18d-fedf36efe891": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ariston_logo_black_text_df3f3c53-3880-46dd-bd55-38e04b73c87e.jpg",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "shopify:\/\/products\/40-cart-model-open-grill-bbq-acg40rfs-1-n-l",
+            "brand-shop-btn": "Ariston"
+          }
+        }
+      },
+      "block_order": [
+        "f031863c-d1c5-4348-8bf5-f7902798c45a",
+        "2cd31f2c-8f31-46dc-ab76-0d327ca79f84",
+        "09152186-2f57-4f68-a2c1-2e91e6d5e02e",
+        "2a40549b-d50e-4f2a-b18d-fedf36efe891"
+      ],
+      "settings": {
       }
     },
     "16515415725f876716": {
@@ -628,8 +747,10 @@
   },
   "order": [
     "16509386597f84c70b",
-    "16516174797aa94e77",
+    "16517273870cfeb94f",
+    "1651727589e6c5cd6c",
     "rich-text",
+    "16517251279a34dba3",
     "16515415725f876716",
     "16509417798855314a",
     "collection-callout",

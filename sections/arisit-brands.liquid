@@ -1,5 +1,7 @@
 
         <div class="page-width arisit-brand-container">
+
+<span class="brand-row-title">{{ section.settings.brand-row-title }}</span>
             <div class="arisit-brand-row">
                 {% for block in section.blocks %}
                     {% if block.settings.image and block.settings.arisit-brand-text != blank %}
@@ -22,6 +24,14 @@
 
 {% schema %}
 {
+    "name": "Brands",
+    "settings":[
+        {
+        "type": "text",
+        "id":"brand-row-title",
+        "label":"Row Title"
+    }
+    ],
     "blocks": [
                 {
                 "type":"arisit-brands",
@@ -63,10 +73,19 @@
 
     }
 
+    .brand-row-title{
+        font-size:x-large;
+        font-weight:bold;
+        margin-bottom: 200px;
+        color:#20447E;
+        text-align:center;
+    }
+
     .arisit-brand-row{
         display:flex;
         flex-direction:row;
-        justify-content:space-evenly;
+        /* justify-content:space-evenly; */
+        align-items:flex-start;
          /* border: 1px solid black; */
        
 
@@ -77,10 +96,10 @@
         flex-direction:column;
         justify-content: space-between;
         height:300px;
-        width:13vw;
-        border: 1px solid #E5E5E5;
+        width:20%;
+        border: 2px solid #E5E5E5;
         border-radius: 10px;
-        /* margin: 20px; */
+        margin: 20px 20px 0 0;
 
     }
 
@@ -135,14 +154,16 @@
         border-radius: 5px;
         border: none;
 
+        text-transform:uppercase;
+
 	}
 
     .brand-buttons:hover{
         background:white;
         color:black;
-        /* border: 1px solid black; */
+        /* border: 1px solid rgba(0,0,0,0);  this makes div jump*/
+        box-shadow: 0 0 0 1px red;
         }
-
     }
     
     {% endstyle %}

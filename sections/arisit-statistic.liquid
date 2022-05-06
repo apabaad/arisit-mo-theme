@@ -1,11 +1,9 @@
 
-<div class="page-width arisit-statistics-container">
-    <div class="arisit-statistics-row">
+    <div class=" arisit-statistics-row page-width">
         
             {% for block in section.blocks %}
                 {% if block.settings.arisit-statistics-number != blank %}
                     <div class="arisit-statistics-item">
-                        <div class="statistics-item-content">
                         <span class="statistics-number">
                            {{ block.settings.arisit-statistics-number }}
                         </span> <br>
@@ -16,11 +14,8 @@
                             {{ block.settings.arisit-statistics-small-text  }}
                         </span>
                     </div>
-                    </div>
                 {%endif%}
                 {% endfor %}
-
-    </div>
 </div>
 
 
@@ -58,34 +53,36 @@
 {% endschema %}
 
 {% style %}
-.arisit-statistics-container{
-    margin-top:20px;
-
-}
 
 .arisit-statistics-row{
+    margin-top:20px;
+    
     display:flex;
-    flex-direction:row;
+    flex-wrap: wrap;
+     flex-direction:row;
     justify-content:space-between;
-    
-
-    
-
 }
 
+
 .arisit-statistics-item{
-    min-width:14vw;
-    max-width: 300px;
-    margin:0 20px 0 20px;
+    float:left;
+    /* min-width:14vw; */
+    /* max-width: 0px; */
+    /* width: 50%; */
+    margin:20px 20px 0 20px; 
     /* border: 2px solid black; */
     background: #E7E9EB;
     text-align:center;
+    width:25%
 
-}
-
-.statistics-item-content{
     padding:10px 5px 10px 5px;
+    flex: 1 0 21%;
+
 }
+
+.barisit-statistics-item>span {
+        flex: 1 1 160px;
+      }
 
 .statistics-number{
     /* align-item:center; */
@@ -110,5 +107,31 @@
 
 }
 
+/* @media screen and (max-width: 992px) {
+  .arisit-statistics-item {
+    
+  }
+} */
+
+@media screen and (max-width: 600px) {
+
+    .arisit-statistics-row{
+    margin-top:20px;
+    flex: 1 1 1;
+     /* flex-direction:column column; */
+    }
+
+    .arisit-statistics-item{
+        margin-bottom:-10px;
+        padding:10px;
+        font-size: 14px;
+        min-width:50%;
+
+    
+    }
+    .statistics-number{
+        font-size: 25px;
+    }
+}
 
 {% endstyle %}

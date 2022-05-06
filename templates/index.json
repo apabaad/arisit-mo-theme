@@ -249,13 +249,23 @@
             "brand-btn-link": "shopify:\/\/products\/40-cart-model-open-grill-bbq-acg40rfs-1-n-l",
             "brand-shop-btn": "Ariston"
           }
+        },
+        "7649d66d-160a-48a8-a986-be49725699c0": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sirius_red_d1ba2295-df23-4372-babc-36d992aee712.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "shopify:\/\/collections\/richter",
+            "brand-shop-btn": "sirius"
+          }
         }
       },
       "block_order": [
         "f031863c-d1c5-4348-8bf5-f7902798c45a",
         "2cd31f2c-8f31-46dc-ab76-0d327ca79f84",
         "09152186-2f57-4f68-a2c1-2e91e6d5e02e",
-        "2a40549b-d50e-4f2a-b18d-fedf36efe891"
+        "2a40549b-d50e-4f2a-b18d-fedf36efe891",
+        "7649d66d-160a-48a8-a986-be49725699c0"
       ],
       "settings": {
       }

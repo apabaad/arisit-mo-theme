@@ -84,8 +84,9 @@
     .arisit-brand-row{
         display:flex;
         flex-direction:row;
-        /* justify-content:space-evenly; */
+        justify-content:space-evenly;
         align-items:flex-start;
+        flex-wrap:wrap;
          /* border: 1px solid black; */
        
 
@@ -94,12 +95,12 @@
     .arisit-brand-item{
         display:flex;
         flex-direction:column;
-        justify-content: space-between;
+        justify-content: flex-end;
         height:300px;
-        width:20%;
+        max-width:230px;
         border: 2px solid #E5E5E5;
         border-radius: 10px;
-        margin: 20px 20px 0 0;
+        margin: 20px 0 0 0;
 
     }
 
@@ -123,9 +124,9 @@
     } 
 
     .arisit-brand-text{
+        font-size:16px;
         margin: 0 10px 0 10px;
         text-align:justify;
-
     }
 
     .brand-buttons{
@@ -164,6 +165,12 @@
         /* border: 1px solid rgba(0,0,0,0);  this makes div jump*/
         box-shadow: 0 0 0 1px red;
         }
+    }
+
+    @media screen and (max-width: 600px){
+
+        .arisit-brand-item{
+            /* min-width: 400px; */
     }
     
     {% endstyle %}

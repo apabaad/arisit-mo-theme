@@ -1,3 +1,17 @@
+<div class ="tile-container">
+    
+    <div class="tile-row">
+        {% for block in section.blocks %}
+            <div class="tile-item">
+               <img src={{ block.settings.tile-image | img_url: 'master' }} class="tile-image" >
+                {{ block.settings.tile-title }}
+                {{ block.settings.tile-text }}
+            </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
 {% schema %}
 
 {
@@ -16,17 +30,17 @@
         "settings":[
             {
             "type":"image_picker",
-            "id":"tile_image",
+            "id":"tile-image",
             "label":"Pick an image"
         },
     {
         "type":"text",
-        "id":"tile_title",
+        "id":"tile-title",
         "label":"Tile Title"
     },
     {
         "type":"textarea",
-        "id":"tile_textarea",
+        "id":"tile-text",
         "label":"Tile Text"
     }
         ]}
@@ -39,3 +53,34 @@
     ]}
 
 {% endschema %}
+
+
+{% style %}
+
+ .tile-container{
+     margin:1%;
+   
+
+ }
+
+ .tile-row{
+
+ }
+
+ .tile-item{
+
+ }
+
+ .tile-image{
+     width:300px;
+     hieght:500px;
+ }
+
+ .tile-title{
+
+ }
+
+ .tile-text{
+
+ }
+{% endstyle %}

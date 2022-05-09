@@ -1,0 +1,41 @@
+{% schema %}
+
+{
+    "name":"arisit-image-tile",
+    "settings":[
+        {
+        "type":"text",
+        "id":"arisit-image-tile-title",
+        "label":"Row Title"
+    }
+    ],
+    "blocks":[
+        {
+        "type":"arisit-images",
+        "name":"Image Tile",
+        "settings":[
+            {
+            "type":"image_picker",
+            "id":"tile_image",
+            "label":"Pick an image"
+        },
+    {
+        "type":"text",
+        "id":"tile_title",
+        "label":"Tile Title"
+    },
+    {
+        "type":"textarea",
+        "id":"tile_textarea",
+        "label":"Tile Text"
+    }
+        ]}
+    ],
+
+    "presets": [
+        {
+        "name":"Arisit Tiles",
+        "category":"Image"}
+    ]}
+
+{% endschema %}

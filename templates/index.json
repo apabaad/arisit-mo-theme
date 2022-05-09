@@ -6,12 +6,12 @@
         "1650938659ef42ead3-0": {
           "type": "image",
           "settings": {
-            "title": "Whirlpool",
+            "title": "Importer & Distributor of Home Appliances\n& Electronics Within the \nAustralia & New Zealand Markets",
             "title_size": 60,
-            "subheading": "Bring your brand to life",
-            "link": "https:\/\/whirlpool.com.au\/",
-            "link_text": "Visit Website",
-            "text_align": "vertical-bottom horizontal-left",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/home_slide02.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -128,21 +128,8 @@
             "arisit-statistics-text": "full time staff",
             "arisit-statistics-small-text": "employed in total"
           }
-        }
-      },
-      "block_order": [
-        "7cd68470-f402-41ad-bf72-08bc6790b1f0",
-        "6d9475d1-8318-4c13-a0b3-bbebfd8b714f",
-        "46e73b3c-9bcd-4283-95f7-06e791c8a930",
-        "548aab80-1c76-462c-b507-0299b5110c84"
-      ],
-      "settings": {
-      }
-    },
-    "1651727589e6c5cd6c": {
-      "type": "arisit-statistic",
-      "blocks": {
-        "ee443267-ce3e-4945-92ad-42c3f3dc09ee": {
+        },
+        "63b35845-e97c-460c-a5eb-83cb5ac25502": {
           "type": "arisit-statistics",
           "settings": {
             "arisit-statistics-number": "+20",
@@ -150,7 +137,7 @@
             "arisit-statistics-small-text": "warranty & customer care"
           }
         },
-        "a9ee8bcf-e058-43a3-9f2c-f7d807c5974f": {
+        "5f7ab400-3807-4e90-a7fb-da1fbd582deb": {
           "type": "arisit-statistics",
           "settings": {
             "arisit-statistics-number": "6",
@@ -158,7 +145,7 @@
             "arisit-statistics-small-text": "within aus & nz"
           }
         },
-        "47bcd189-5298-4b9d-8ace-19f8cdfe9bbc": {
+        "991646ae-35c8-4e2b-a058-70019e31a1b9": {
           "type": "arisit-statistics",
           "settings": {
             "arisit-statistics-number": "6",
@@ -166,7 +153,7 @@
             "arisit-statistics-small-text": "each with specialist products & staff"
           }
         },
-        "f7224714-89ed-4b37-b448-c8f4df160286": {
+        "f0a4fc2e-a0b4-466b-b319-1e320a03999d": {
           "type": "arisit-statistics",
           "settings": {
             "arisit-statistics-number": "100",
@@ -176,10 +163,14 @@
         }
       },
       "block_order": [
-        "ee443267-ce3e-4945-92ad-42c3f3dc09ee",
-        "a9ee8bcf-e058-43a3-9f2c-f7d807c5974f",
-        "47bcd189-5298-4b9d-8ace-19f8cdfe9bbc",
-        "f7224714-89ed-4b37-b448-c8f4df160286"
+        "7cd68470-f402-41ad-bf72-08bc6790b1f0",
+        "6d9475d1-8318-4c13-a0b3-bbebfd8b714f",
+        "46e73b3c-9bcd-4283-95f7-06e791c8a930",
+        "548aab80-1c76-462c-b507-0299b5110c84",
+        "63b35845-e97c-460c-a5eb-83cb5ac25502",
+        "5f7ab400-3807-4e90-a7fb-da1fbd582deb",
+        "991646ae-35c8-4e2b-a058-70019e31a1b9",
+        "f0a4fc2e-a0b4-466b-b319-1e320a03999d"
       ],
       "settings": {
       }
@@ -258,6 +249,15 @@
             "brand-btn-link": "shopify:\/\/collections\/richter",
             "brand-shop-btn": "sirius"
           }
+        },
+        "ed58c176-a57a-4600-8614-bcaf53a27881": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Capital-Brand-Logo_ad8d2070-3937-46f3-95cc-72359edf9b93.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "shopify:\/\/products\/40-cart-model-open-grill-bbq-acg40rfs-1-n-l",
+            "brand-shop-btn": "Capital"
+          }
         }
       },
       "block_order": [
@@ -265,13 +265,66 @@
         "2cd31f2c-8f31-46dc-ab76-0d327ca79f84",
         "09152186-2f57-4f68-a2c1-2e91e6d5e02e",
         "2a40549b-d50e-4f2a-b18d-fedf36efe891",
-        "7649d66d-160a-48a8-a986-be49725699c0"
+        "7649d66d-160a-48a8-a986-be49725699c0",
+        "ed58c176-a57a-4600-8614-bcaf53a27881"
       ],
       "settings": {
+        "brand-row-title": "Our Home Appliances Brands"
+      }
+    },
+    "16520527709b6700c4": {
+      "type": "arisit-brands",
+      "blocks": {
+        "45e1466e-0a4d-4868-99a4-a742f641331b": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Steel_black_logo.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "",
+            "brand-shop-btn": "steel"
+          }
+        },
+        "22f1e5d0-867a-48eb-8ba7-610db85834f0": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sonorous.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "shopify:\/\/pages\/about-arisit",
+            "brand-shop-btn": "sonorous"
+          }
+        },
+        "fdd49a54-5034-4925-a0ef-b0583328efa1": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sirius_red_d1ba2295-df23-4372-babc-36d992aee712.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "shopify:\/\/products\/40-built-in-barbecue-with-open-grill-acg40rbi-1-n-l",
+            "brand-shop-btn": "sirius"
+          }
+        },
+        "af37a207-3296-48ad-81d3-d640286230da": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ariston_logo_black_text_df3f3c53-3880-46dd-bd55-38e04b73c87e.jpg",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "shopify:\/\/products\/52-built-in-barbecue-with-open-grill-acg52rbi-1-n-l",
+            "brand-shop-btn": "ariston"
+          }
+        }
+      },
+      "block_order": [
+        "45e1466e-0a4d-4868-99a4-a742f641331b",
+        "22f1e5d0-867a-48eb-8ba7-610db85834f0",
+        "fdd49a54-5034-4925-a0ef-b0583328efa1",
+        "af37a207-3296-48ad-81d3-d640286230da"
+      ],
+      "settings": {
+        "brand-row-title": "Our Consumer Technology Brands"
       }
     },
     "16515415725f876716": {
       "type": "logo-list",
+      "disabled": true,
       "blocks": {
         "16515415729d5fa37b-0": {
           "type": "logo_image",
@@ -362,58 +415,6 @@
         "divider": false
       }
     },
-    "16509417798855314a": {
-      "type": "advanced-content",
-      "disabled": true,
-      "blocks": {
-        "16509417794f64af2a-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<a href=\"\" class=\"btn\" style=\"margin-left:500px; margin-top:-100px\" >\n              All Brands\n            <\/a>",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "16509417794f64af2a-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
-    "collection-callout": {
-      "type": "collection-callout",
-      "disabled": true,
-      "settings": {
-        "collection": "",
-        "subtitle": "Brand new",
-        "title": "Collection callout",
-        "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
-        "cta_text1": "Shop Jackets",
-        "cta_link1": "",
-        "cta_text2": "Shop All",
-        "cta_link2": "",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "background-image-text": {
-      "type": "background-image-text",
-      "disabled": true,
-      "settings": {
-        "subtitle": "Impressive",
-        "title": "Large image and text",
-        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "focal_point": "center",
-        "layout": "left",
-        "height": 650,
-        "parallax": true
-      }
-    },
     "16509418271c94c84c": {
       "type": "logo-list",
       "blocks": {
@@ -492,6 +493,7 @@
     },
     "featured-collections": {
       "type": "featured-collections",
+      "disabled": true,
       "blocks": {
         "1499789718857-0": {
           "type": "collection",
@@ -632,6 +634,7 @@
     },
     "16509454124ca8ea48": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Picture4.jpg",
         "image_width": 700,
@@ -648,6 +651,7 @@
     },
     "165094569164a5d1de": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Picture3.jpg",
         "image_width": 700,
@@ -664,6 +668,7 @@
     },
     "16509456999821b1fb": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Picture2.jpg",
         "image_width": 700,
@@ -680,6 +685,7 @@
     },
     "16509468303a6117bd": {
       "type": "testimonials",
+      "disabled": true,
       "blocks": {
         "1650946830acb4d8ea-0": {
           "type": "testimonial",
@@ -747,6 +753,7 @@
     },
     "1650946990d92f5b1a": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "title": "Contact us",
         "text": "",
@@ -758,13 +765,10 @@
   "order": [
     "16509386597f84c70b",
     "16517273870cfeb94f",
-    "1651727589e6c5cd6c",
     "rich-text",
     "16517251279a34dba3",
+    "16520527709b6700c4",
     "16515415725f876716",
-    "16509417798855314a",
-    "collection-callout",
-    "background-image-text",
     "16509418271c94c84c",
     "featured-collections",
     "16509454124ca8ea48",

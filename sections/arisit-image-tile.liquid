@@ -1,20 +1,22 @@
-<div class ="tile-container page-width">
+<div class ="tile-container">
     
     <div class="tile-row">
         {% for block in section.blocks %}
+            {% if block.settings.tile-image != blank %}
             <div class="tile-item">
+                <span class = "tile-title"> {{ block.settings.tile-title }} </span>
                <img src={{ block.settings.tile-image | img_url: 'master' }} class="tile-image" >
-               <span class = "tile-title"> {{ block.settings.tile-title }} </span>
+               {% comment %} <span class = "tile-title"> {{ block.settings.tile-title }} </span> {% endcomment %}
                 <div class="tile-text-container">
                     <div class="tile-text">
                         {{ block.settings.tile-text }}
                     </div>
                 </div>
             </div>
-            </div>
+            {% endif %}
         {% endfor %}
     </div>
-</div>
+    </div>
 
 {% schema %}
 
@@ -62,28 +64,40 @@
 {% style %}
 
  .tile-container{
-     margin:20px 20px;
-     border-radius:50%;
+     align-items:center;
+     /* width:95%; */
 
  }
 
  .tile-row{
+     margin:0 5%; 0 4%;
+
      display:flex;
-     flex-direction:row;
+     flex-wrap:wrap;
+     justify-content: center;
+    
  }
 
  .tile-item{
     display:flex;
     flex-direction:column;
-    width:25%;
+    min-height:200px;
+    height:288px;
+    /* min-width:25%; */
+    max-width:25%;
     position:relative;
     cursor:pointer;
+    margin:20px 20px 0 20px;
+    flex: 1 0 21%; 
+
+    border-radius:5%;
+    overflow:hidden;
 
 
  }
 
  .tile-image{
-     width:100%;
+     /* width:375px; */
      opacity: 1;
      transition: 0.3s ease;
 
@@ -92,21 +106,26 @@
  .tile-title{
     text-align:center;
     text-transform: uppercase;
-    color: #2F4E82;
+    color: white;
+    background:#2F4E82;
+    /* max-width:375px; */
+
  }
 
  .tile-text-container{
      position:absolute;
-     background: #2F4E82;
-     top:63%;
+     background: white;
+     /* bottom:27px; */
+     bottom:0;
      opacity:0;
      transition: 0.5s ease;
-     width:100%
+     /* max-width:375px; */
+     flex-wrap:wrap;
  }
 
  .tile-text{
      text-align:justify;
-     color:white;
+     color:#2F4E82;
      padding:20px;
      opacity:1;
 
@@ -119,11 +138,26 @@
  } */
 
  .tile-item:hover .tile-image {
-     opacity: 0.9;
+     opacity: 0.8;
  }
 
  .tile-item:hover .tile-text-container {
-     opacity: 5;
+     opacity: 1;
+ }
+
+ .tile-item:hover {
+    border: 2px solid #E5E5E5;
+ }
+
+ @media screen and (max-width:600px)
+ {
+    .tile-title{
+        font-size:14px;
+        text-transform:capitalize;
+    }
+    .tile-text{
+        font-size:14px;
+    }
  }
 
 {% endstyle %}

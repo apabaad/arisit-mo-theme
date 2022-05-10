@@ -1,11 +1,15 @@
-<div class ="tile-container">
+<div class ="tile-container page-width">
     
     <div class="tile-row">
         {% for block in section.blocks %}
             <div class="tile-item">
                <img src={{ block.settings.tile-image | img_url: 'master' }} class="tile-image" >
-                {{ block.settings.tile-title }}
-                {{ block.settings.tile-text }}
+               <span class = "tile-title"> {{ block.settings.tile-title }} </span>
+                <div class="tile-text-container">
+                    <div class="tile-text">
+                        {{ block.settings.tile-text }}
+                    </div>
+                </div>
             </div>
             </div>
         {% endfor %}
@@ -15,7 +19,7 @@
 {% schema %}
 
 {
-    "name":"arisit-image-tile",
+    "name":"Arisit Image Tile",
     "settings":[
         {
         "type":"text",
@@ -58,29 +62,68 @@
 {% style %}
 
  .tile-container{
-     margin:1%;
-   
+     margin:20px 20px;
+     border-radius:50%;
 
  }
 
  .tile-row{
-
+     display:flex;
+     flex-direction:row;
  }
 
  .tile-item{
+    display:flex;
+    flex-direction:column;
+    width:25%;
+    position:relative;
+    cursor:pointer;
+
 
  }
 
  .tile-image{
-     width:300px;
-     hieght:500px;
+     width:100%;
+     opacity: 1;
+     transition: 0.3s ease;
+
  }
 
  .tile-title{
+    text-align:center;
+    text-transform: uppercase;
+    color: #2F4E82;
+ }
 
+ .tile-text-container{
+     position:absolute;
+     background: #2F4E82;
+     top:63%;
+     opacity:0;
+     transition: 0.5s ease;
+     width:100%
  }
 
  .tile-text{
+     text-align:justify;
+     color:white;
+     padding:20px;
+     opacity:1;
 
  }
+
+ /* .tile-text-container .btn{
+     text-align:center;
+     position: absolute;
+     top:100%;
+ } */
+
+ .tile-item:hover .tile-image {
+     opacity: 0.9;
+ }
+
+ .tile-item:hover .tile-text-container {
+     opacity: 5;
+ }
+
 {% endstyle %}

@@ -1309,7 +1309,12 @@ html[dir=rtl] .grid--small-gutters .grid__item{
 
 @media only screen and (max-width:589px){.small--show{display:block !important;}.small--hide{display:none !important;}.small--text-left{text-align:left !important;}.small--text-right{text-align:right !important;}.small--text-center{text-align:center !important;}}
 
-@media only screen and (max-width:768px){.medium-down--show{display:block !important;}.medium-down--hide{display:none !important;}.medium-down--text-left{text-align:left !important;}.medium-down--text-right{text-align:right !important;}.medium-down--text-center{text-align:center !important;}}
+@media only screen and (max-width:768px){
+  .medium-down--show{display:block !important;}
+  .medium-down--hide{display:none !important;}
+  .medium-down--text-left{text-align:left !important;}
+  .medium-down--text-right{text-align:right !important;}
+  .medium-down--text-center{text-align:center !important;}}
 
 @media only screen and (min-width:590px){.medium-up--show{display:block !important;}.medium-up--hide{display:none !important;}.medium-up--text-left{text-align:left !important;}.medium-up--text-right{text-align:right !important;}.medium-up--text-center{text-align:center !important;}}
 
@@ -11473,6 +11478,16 @@ margin-bottom:-60px;
 }
 }
   
+.section-header__title
+  {
+  {% comment %} margin-bottom:75px; {% endcomment %}
+  font-size:25px;
+  font-weight:bold;
+  color:#20447E;
+  text-align:left;
+  {% comment %} margin-left:15px; {% endcomment %}
+
+  }
  
 
     {% comment %} .site-nav{
@@ -11500,6 +11515,7 @@ margin-bottom:-60px;
   color:white !important;
 background-color:#20447E;
 border-radius:5px;
+margin-bottom:-6px;
 
 }
 
@@ -11518,28 +11534,49 @@ border-radius:5px;
 }    
 
 .arisit-menu .header-item{
-  justify-content: space-between;
+  justify-content: center; 
 } 
 
 .arisit-search-bar{
-margin-top:30px;}
+margin-top:30px;
+}
+
 .search-bar--page{
   min-width:800px;
 }
 
-.arisit-search-icon{
-   background-color:#20447E;
-   color:white;
+@media screen and (max-width:1230px){
+  .search-bar-page{
+    max-width: 600px;
+}
 }
 
-.input-group{
-  {% comment %} border:1px solid #20447E; {% endcomment %}
-  border-radius:5px;
+.btn{
+  background-color:#20447E !important;
+  border-radius:0 5px 5px 0 !important;
+}
+.arisit-search-icon{
+   background-color:#20447E  !important;
+   color:white;
+   
 }
 
 .input-group-btn{
   background-color:#20447E;
   color: white;
+  border-radius:15px;
+  overflow:hiddden;
+}
+.input-group-field{
+  border: 2px solid #20447E;
+  border-radius:5px 0 0 5px;
+
+  {% comment %} margin-right:-10px; {% endcomment %}
+}
+
+::placeholder { 
+  color: #20447E;
+  opacity: 1; /* Firefox */
 }
 
 .slideshow-wrapper{
@@ -11555,4 +11592,11 @@ max-width:1570px;}
 
 .header-wrapper{
 {% comment %} border-bottom:2px solid white; {% endcomment %}
+}
+
+
+@media and screen (max-width:768px){
+  .arisit-search-bar{
+    display:hidden;
+    }
 }

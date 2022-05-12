@@ -11435,6 +11435,9 @@ iframe.zoid-component-frame{
   }
 }
     
+
+{% comment %} custom CSS {% endcomment %}
+
 /*    added  for rich text in about us page */
 
     .rte{  
@@ -11460,15 +11463,96 @@ iframe.zoid-component-frame{
   }
   
   .page-width{
-  max-width:1650px;}
-  
-  .section-header__title
-  {
-  {% comment %} margin-bottom:75px; {% endcomment %}
-  font-size:25px;
-  font-weight:bold;
-  color:#20447E;
-  text-align:left;
-  {% comment %} margin-left:15px; {% endcomment %}
+  max-width:1650px;
+}
 
-  }
+@media screen and (max-width: 590px) {
+  .logo-bar {
+margin-top:20px;
+margin-bottom:-60px;
+}
+}
+  
+ 
+
+    {% comment %} .site-nav{
+    min-width:100%;
+  display:flex;
+  justify-content:space-between;
+  background: #20447E;
+  color:white;
+  border-radius:5px;
+  
+}
+{% endcomment %}
+
+
+{% comment %} .header-layout {
+  width:100%; {% endcomment %}
+  {% comment %} background: #20447E; 
+}
+{% endcomment %}
+
+
+.arisit-menu{
+  {% comment %} margin:auto; {% endcomment %}
+  {% comment %} width:90%; {% endcomment %}
+  color:white !important;
+background-color:#20447E;
+border-radius:5px;
+
+}
+
+.arisit-menu .site-nav__link{
+  color:white;
+} 
+
+
+.site-nav--icons{
+ 
+}
+
+   .site-nav__link{
+  color:#20447E;
+  
+}    
+
+.arisit-menu .header-item{
+  justify-content: space-between;
+} 
+
+.arisit-search-bar{
+margin-top:30px;}
+.search-bar--page{
+  min-width:800px;
+}
+
+.arisit-search-icon{
+   background-color:#20447E;
+   color:white;
+}
+
+.input-group{
+  {% comment %} border:1px solid #20447E; {% endcomment %}
+  border-radius:5px;
+}
+
+.input-group-btn{
+  background-color:#20447E;
+  color: white;
+}
+
+.slideshow-wrapper{
+  
+   border-radius:5px;
+  overflow:hidden;
+  margin: auto;
+  border:none;
+max-width:1570px;} 
+
+.main-content{
+}
+
+.header-wrapper{
+{% comment %} border-bottom:2px solid white; {% endcomment %}
+}

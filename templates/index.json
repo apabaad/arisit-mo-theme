@@ -12,81 +12,17 @@
             "link": "",
             "link_text": "",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/home_slide02.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "1650938659ef42ead3-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "title": "Ariston",
-            "title_size": 70,
-            "subheading": "And big, beautiful imagery",
-            "link": "https:\/\/ariston.com.au\/",
-            "link_text": "Visit Website",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/ariston.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "ed82522e-2173-4176-b7fc-a3f17c9bd5d7": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "title": "Sirius",
-            "title_size": 60,
-            "subheading": "Range hoods for your home",
-            "link": "https:\/\/siriusbrand.com\/",
-            "link_text": "Visit Website",
-            "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/sirius-valentina-arisit-web-banner.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "71f50094-433e-4c83-ae6f-0c30efc220d9": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "title": "Husky",
-            "title_size": 60,
-            "subheading": "stylish, reliable and energy efficient refrigeration units",
-            "link": "https:\/\/huskybrand.com.au\/",
-            "link_text": "Visit Website",
-            "text_align": "vertical-bottom horizontal-center",
-            "image": "shopify:\/\/shop_images\/husky-slider.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "b64c35ad-4d5c-4602-af0a-5329ec70363b": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "title": "One Products",
-            "title_size": 59,
-            "subheading": "",
-            "link": "https:\/\/one-products.com.au\/",
-            "link_text": "Visit Website",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/Promounts_1000x1000_d5b9afc7-68e3-4b63-96bd-bc08f5b8f65b.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
         }
       },
       "block_order": [
-        "1650938659ef42ead3-0",
-        "1650938659ef42ead3-1",
-        "ed82522e-2173-4176-b7fc-a3f17c9bd5d7",
-        "71f50094-433e-4c83-ae6f-0c30efc220d9",
-        "b64c35ad-4d5c-4602-af0a-5329ec70363b"
+        "1650938659ef42ead3-0"
       ],
       "settings": {
-        "section_height": "450px",
+        "section_height": "650px",
         "mobile_height": "auto",
         "parallax": false,
         "style": "dots",
@@ -97,6 +33,13 @@
     "16515415725f876716": {
       "type": "logo-list",
       "blocks": {
+        "5ff26038-b2dc-45a1-8fcb-3a07dab1ed62": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/whirlpool_logo-black-01.png",
+            "link": ""
+          }
+        },
         "16515415729d5fa37b-0": {
           "type": "logo_image",
           "settings": {
@@ -118,24 +61,18 @@
             "link": ""
           }
         },
+        "6107969e-70ea-4ee4-b934-f7cec22283e3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sirius_red_d1ba2295-df23-4372-babc-36d992aee712.png",
+            "link": ""
+          }
+        },
         "16515415729d5fa37b-3": {
           "type": "logo_image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/monster_739dc6f7-6d3b-4259-aa15-d821cc325704.png",
-            "link": ""
-          }
-        },
-        "5ff26038-b2dc-45a1-8fcb-3a07dab1ed62": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/whirlpool_logo-black-01.png",
-            "link": ""
-          }
-        },
-        "8e89e3d4-1373-44a4-8a61-57a823e704ba": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/thor.png",
             "link": ""
           }
         },
@@ -146,8 +83,16 @@
             "link": ""
           }
         },
+        "8e89e3d4-1373-44a4-8a61-57a823e704ba": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thor.png",
+            "link": ""
+          }
+        },
         "f1bb79cf-bbef-4b33-8a7f-7bf2dde74bcc": {
           "type": "logo_image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/softerwater.png",
             "link": ""
@@ -159,30 +104,43 @@
             "image": "shopify:\/\/shop_images\/Steel_black_logo.png",
             "link": ""
           }
-        },
-        "6107969e-70ea-4ee4-b934-f7cec22283e3": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sirius_red_d1ba2295-df23-4372-babc-36d992aee712.png",
-            "link": ""
-          }
         }
       },
       "block_order": [
+        "5ff26038-b2dc-45a1-8fcb-3a07dab1ed62",
         "16515415729d5fa37b-0",
         "16515415729d5fa37b-1",
         "16515415729d5fa37b-2",
+        "6107969e-70ea-4ee4-b934-f7cec22283e3",
         "16515415729d5fa37b-3",
-        "5ff26038-b2dc-45a1-8fcb-3a07dab1ed62",
-        "8e89e3d4-1373-44a4-8a61-57a823e704ba",
         "66447ac7-1409-457b-96b1-3468e3d58bc0",
+        "8e89e3d4-1373-44a4-8a61-57a823e704ba",
         "f1bb79cf-bbef-4b33-8a7f-7bf2dde74bcc",
-        "6c571cd9-a2fd-4553-9ad3-637ddbc1dab5",
-        "6107969e-70ea-4ee4-b934-f7cec22283e3"
+        "6c571cd9-a2fd-4553-9ad3-637ddbc1dab5"
       ],
       "settings": {
         "title": "",
         "logo_opacity": 100,
+        "divider": false
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Arisit is 100% Australian Owned Company and has exclusive distribution of a range of appliance brands from around the world including Europe, US & China. These appliances range from laundry and cooking appliances to state-of-the-art electronics. From premium, high quality products to affordable living solutions, we provide you with the latest products and appliances helping you to laugh, live and enjoy your everyday life.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
         "divider": false
       }
     },
@@ -267,106 +225,6 @@
       "settings": {
       }
     },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Who are we?"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>Arisit is 100% Australian Owned Company and has exclusive distribution of a range of appliance brands from around the world including Europe, US & China. These appliances range from laundry and cooking appliances to state-of-the-art electronics. From premium, high quality products to affordable living solutions, we provide you with the latest products and appliances helping you to laugh, live and enjoy your everyday life.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": false,
-        "divider": false
-      }
-    },
-    "16522239895aa3d498": {
-      "type": "arisit-image-tile",
-      "blocks": {
-        "a8058290-c9e5-4f31-bbd8-5d99265f927f": {
-          "type": "arisit-images",
-          "settings": {
-            "tile-image": "shopify:\/\/shop_images\/9898.jpg",
-            "tile-title": "Arisit",
-            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances."
-          }
-        },
-        "310a1f19-9c20-4f10-807e-502534e3d6ba": {
-          "type": "arisit-images",
-          "settings": {
-            "tile-image": "shopify:\/\/shop_images\/Arisit_1000x1000_142a0389-5fe1-4257-9469-99236bea91da.png",
-            "tile-title": "Arisit commercial",
-            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances. microwave ovens, & cooking appliances."
-          }
-        },
-        "6d1ddeb7-065e-498d-abeb-2b8f9bfe16f3": {
-          "type": "arisit-images",
-          "settings": {
-            "tile-image": "shopify:\/\/shop_images\/Promounts_1000x1000_d5b9afc7-68e3-4b63-96bd-bc08f5b8f65b.png",
-            "tile-title": "One products",
-            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances."
-          }
-        },
-        "1e90598e-7599-41f0-85d2-44f22ce069d8": {
-          "type": "arisit-images",
-          "settings": {
-            "tile-image": "shopify:\/\/shop_images\/Arisit_1000x1000_142a0389-5fe1-4257-9469-99236bea91da.png",
-            "tile-title": "arisit",
-            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances."
-          }
-        },
-        "c9fbf182-794d-4865-9919-3bdc3a915ce8": {
-          "type": "arisit-images",
-          "settings": {
-            "tile-image": "shopify:\/\/shop_images\/Promounts_1000x1000_d5b9afc7-68e3-4b63-96bd-bc08f5b8f65b.png",
-            "tile-title": "one products",
-            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances."
-          }
-        },
-        "372e6a3d-514e-425c-b07a-3e67b6e18b7c": {
-          "type": "arisit-images",
-          "settings": {
-            "tile-image": "shopify:\/\/shop_images\/Arisit_1000x1000_142a0389-5fe1-4257-9469-99236bea91da.png",
-            "tile-title": "arisit",
-            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances."
-          }
-        },
-        "3b9a9ddc-e347-48f1-8afa-e93664eea7e4": {
-          "type": "arisit-images",
-          "settings": {
-            "tile-image": "shopify:\/\/shop_images\/9898.jpg",
-            "tile-title": "Arisit it",
-            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances."
-          }
-        }
-      },
-      "block_order": [
-        "a8058290-c9e5-4f31-bbd8-5d99265f927f",
-        "310a1f19-9c20-4f10-807e-502534e3d6ba",
-        "6d1ddeb7-065e-498d-abeb-2b8f9bfe16f3",
-        "1e90598e-7599-41f0-85d2-44f22ce069d8",
-        "c9fbf182-794d-4865-9919-3bdc3a915ce8",
-        "372e6a3d-514e-425c-b07a-3e67b6e18b7c",
-        "3b9a9ddc-e347-48f1-8afa-e93664eea7e4"
-      ],
-      "settings": {
-        "arisit-image-tile-title": ""
-      }
-    },
     "16517251279a34dba3": {
       "type": "arisit-brands",
       "blocks": {
@@ -375,7 +233,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/whirlpool_logo-black-01.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances. Upgrade you...",
-            "brand-btn-link": "shopify:\/\/pages\/about-arisit",
+            "brand-btn-link": "shopify:\/\/products\/52-cart-model-open-grill-bbq-acg52rfs-1-n-l",
             "brand-shop-btn": "Whirlpool"
           }
         },
@@ -558,9 +416,85 @@
         "1e304322-da96-4c9b-b4b3-d44264219c9e"
       ],
       "settings": {
-        "title": "Retail Channels - Partnerships",
+        "title": "Our Retail Partners",
         "logo_opacity": 100,
-        "divider": true
+        "divider": false
+      }
+    },
+    "16522239895aa3d498": {
+      "type": "arisit-image-tile",
+      "blocks": {
+        "a8058290-c9e5-4f31-bbd8-5d99265f927f": {
+          "type": "arisit-images",
+          "disabled": true,
+          "settings": {
+            "tile-image": "shopify:\/\/shop_images\/9898.jpg",
+            "tile-title": "Arisit",
+            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances."
+          }
+        },
+        "310a1f19-9c20-4f10-807e-502534e3d6ba": {
+          "type": "arisit-images",
+          "settings": {
+            "tile-image": "shopify:\/\/shop_images\/Arisit_1000x1000_142a0389-5fe1-4257-9469-99236bea91da.png",
+            "tile-title": "Commercial division",
+            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances. microwave ovens, & cooking appliances."
+          }
+        },
+        "6d1ddeb7-065e-498d-abeb-2b8f9bfe16f3": {
+          "type": "arisit-images",
+          "settings": {
+            "tile-image": "shopify:\/\/shop_images\/Promounts_1000x1000_d5b9afc7-68e3-4b63-96bd-bc08f5b8f65b.png",
+            "tile-title": "online division",
+            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances."
+          }
+        },
+        "1e90598e-7599-41f0-85d2-44f22ce069d8": {
+          "type": "arisit-images",
+          "settings": {
+            "tile-image": "shopify:\/\/shop_images\/Arisit_1000x1000_142a0389-5fe1-4257-9469-99236bea91da.png",
+            "tile-title": "warehousing, it & logistics",
+            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances."
+          }
+        },
+        "c9fbf182-794d-4865-9919-3bdc3a915ce8": {
+          "type": "arisit-images",
+          "settings": {
+            "tile-image": "shopify:\/\/shop_images\/Promounts_1000x1000_d5b9afc7-68e3-4b63-96bd-bc08f5b8f65b.png",
+            "tile-title": "sales & customer support team",
+            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances."
+          }
+        },
+        "372e6a3d-514e-425c-b07a-3e67b6e18b7c": {
+          "type": "arisit-images",
+          "disabled": true,
+          "settings": {
+            "tile-image": "shopify:\/\/shop_images\/Arisit_1000x1000_142a0389-5fe1-4257-9469-99236bea91da.png",
+            "tile-title": "arisit",
+            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances."
+          }
+        },
+        "3b9a9ddc-e347-48f1-8afa-e93664eea7e4": {
+          "type": "arisit-images",
+          "disabled": true,
+          "settings": {
+            "tile-image": "shopify:\/\/shop_images\/9898.jpg",
+            "tile-title": "Arisit it",
+            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances."
+          }
+        }
+      },
+      "block_order": [
+        "a8058290-c9e5-4f31-bbd8-5d99265f927f",
+        "310a1f19-9c20-4f10-807e-502534e3d6ba",
+        "6d1ddeb7-065e-498d-abeb-2b8f9bfe16f3",
+        "1e90598e-7599-41f0-85d2-44f22ce069d8",
+        "c9fbf182-794d-4865-9919-3bdc3a915ce8",
+        "372e6a3d-514e-425c-b07a-3e67b6e18b7c",
+        "3b9a9ddc-e347-48f1-8afa-e93664eea7e4"
+      ],
+      "settings": {
+        "arisit-image-tile-title": ""
       }
     },
     "featured-collections": {
@@ -757,64 +691,31 @@
     },
     "16509468303a6117bd": {
       "type": "testimonials",
-      "disabled": true,
       "blocks": {
         "1650946830acb4d8ea-0": {
           "type": "testimonial",
-          "disabled": true,
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author name",
-            "author_info": "Los Angeles, CA"
+            "testimonial": "<p>Excellent service.<\/p>",
+            "image": "shopify:\/\/shop_images\/Narta.png",
+            "author": "Narta",
+            "author_info": ""
           }
         },
         "1650946830acb4d8ea-1": {
           "type": "testimonial",
-          "disabled": true,
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "1650946830acb4d8ea-2": {
-          "type": "testimonial",
-          "disabled": true,
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "1650946830acb4d8ea-3": {
-          "type": "testimonial",
-          "disabled": true,
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "1650946830acb4d8ea-4": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Need Content<\/p>",
-            "author": "Author name",
-            "author_info": "Address"
+            "testimonial": "<p>Excellent distribution.<\/p>",
+            "image": "shopify:\/\/shop_images\/spartan.png",
+            "author": "Spartan",
+            "author_info": ""
           }
         }
       },
       "block_order": [
         "1650946830acb4d8ea-0",
-        "1650946830acb4d8ea-1",
-        "1650946830acb4d8ea-2",
-        "1650946830acb4d8ea-3",
-        "1650946830acb4d8ea-4"
+        "1650946830acb4d8ea-1"
       ],
       "settings": {
         "title": "Words from our vendors",
@@ -825,7 +726,6 @@
     },
     "1650946990d92f5b1a": {
       "type": "contact-form",
-      "disabled": true,
       "settings": {
         "title": "Contact us",
         "text": "",
@@ -837,12 +737,12 @@
   "order": [
     "16509386597f84c70b",
     "16515415725f876716",
-    "16517273870cfeb94f",
     "rich-text",
-    "16522239895aa3d498",
+    "16517273870cfeb94f",
     "16517251279a34dba3",
     "16520527709b6700c4",
     "16509418271c94c84c",
+    "16522239895aa3d498",
     "featured-collections",
     "16509454124ca8ea48",
     "165094569164a5d1de",

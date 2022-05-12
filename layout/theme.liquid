@@ -12,6 +12,7 @@
   <link rel="dns-prefetch" href="https://ajax.googleapis.com">
   <link rel="dns-prefetch" href="https://maps.googleapis.com">
   <link rel="dns-prefetch" href="https://maps.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
   {%- if settings.favicon != blank -%}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
@@ -70,6 +71,7 @@
   </script>
 
   {{ content_for_header }}
+  
 
   <script src="{{ 'vendor-scripts-v14.js' | asset_url | split: '?' | first }}" defer="defer"></script>
 
@@ -96,13 +98,14 @@
     <div class="transition-body">
 
     {%- section 'header' -%}
+    
 
-      <main class="main-content" id="MainContent">
+       <main class="main-content" id="MainContent">
         {{ content_for_layout }}
-      </main>
+      </main> 
 
       {%- section 'footer-promotions' -%}
-      {%- section 'footer' -%}
+      {%- section 'footer' -%} 
 
     </div>
   </div>

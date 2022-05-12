@@ -1,21 +1,20 @@
-
-    <div class=" arisit-statistics-row page-width">
+<div class=" arisit-statistics-row page-width">
         
-            {% for block in section.blocks %}
-                {% if block.settings.arisit-statistics-number != blank %}
-                    <div class="arisit-statistics-item">
-                        <span class="statistics-number">
-                           {{ block.settings.arisit-statistics-number }}
-                        </span> <br>
-                        <span class="statistics-text">
-                            {{ block.settings.arisit-statistics-text }}
-                        </span> <br>
-                        <span class="statistics-small-text">
-                            {{ block.settings.arisit-statistics-small-text }}
-                        </span>
-                    </div>
-                {%endif%}
-                {% endfor %}
+    {% for block in section.blocks %}
+        {% if block.settings.arisit-statistics-number != blank %}
+            <div class="arisit-statistics-item">
+                <span class="statistics-number">
+                   {{ block.settings.arisit-statistics-number }}
+                </span> <br>
+                <span class="statistics-text">
+                    {{ block.settings.arisit-statistics-text }}
+                </span> <br>
+                <span class="statistics-small-text">
+                    {{ block.settings.arisit-statistics-small-text }}
+                </span>
+            </div>
+        {%endif%}
+        {% endfor %}
 </div>
 
 
@@ -23,120 +22,120 @@
 
 {
 "blocks": [
-    {
-    "type":"arisit-statistics",
-    "name":"Stats Info",
-    "settings":[
-        {
-        "type":"text",
-        "id":"arisit-statistics-number",
-        "label":"Number"
-        },
-        {
-        "type":"text",
-        "id":"arisit-statistics-text",
-        "label":"Big Text"
-        },
-         {
-        "type":"textarea",
-        "id":"arisit-statistics-small-text",
-        "label":"Small Text"
-        }
-    ]}
+{
+"type":"arisit-statistics",
+"name":"Stats Info",
+"settings":[
+{
+"type":"text",
+"id":"arisit-statistics-number",
+"label":"Number"
+},
+{
+"type":"text",
+"id":"arisit-statistics-text",
+"label":"Big Text"
+},
+ {
+"type":"textarea",
+"id":"arisit-statistics-small-text",
+"label":"Small Text"
+}
+]}
 
 ],
 "presets":[
-    {
-    "name":"Arisit Statistics",
-    "category":"Statistics"}
+{
+"name":"Arisit Statistics",
+"category":"Statistics"}
 ]}
 {% endschema %}
 
 {% style %}
 
 .arisit-statistics-row{
-    margin-top:-130px;
-    
-    display:flex;
-    flex-wrap: wrap; /* it tells items to wrap in a container making multiline. in default there is nowrap which brings items in a single line  */
-     flex-direction:row;
-    justify-content:space-between;
+margin-top:-130px;
+
+display:flex;
+flex-wrap: wrap; /* it tells items to wrap in a container making multiline. in default there is nowrap which brings items in a single line  */
+flex-direction:row;
+justify-content:space-between;
 }
 
 
 .arisit-statistics-item{
-    float:left;
+float:left;
 
-    /* min-width:14vw; */
-    /* max-width: 0px; */
-    width: 50%;
+/* min-width:14vw; */
+/* max-width: 0px; */
+width: 50%;
 
-    margin:20px 20px 0 20px; 
-    /* border: 2px solid black; */
-    background: #E7E9EB;
-    text-align:center;
-    padding:10px 5px 15px 5px;
-    flex: 1 0 21%;  /* flex is a shorthand for flex-grow flex-shrink, flex-basis  */
+margin:20px 20px 0 20px; 
+/* border: 2px solid black; */
+background: #E7E9EB;
+text-align:center;
+padding:10px 5px 15px 5px;
+flex: 1 0 21%;  /* flex is a shorthand for flex-grow flex-shrink, flex-basis  */
 
 }
 
 /* .barisit-statistics-item>span {
-        flex: 1 1 160px;
-      } */
+flex: 1 1 160px;
+} */
 
 .statistics-number{
-    /* align-item:center; */
-    font-size:40px;
-    font-weight: bold;
-    color:#20447E;
-    /* padding: 80px; */
+/* align-item:center; */
+font-size:40px;
+font-weight: bold;
+color:#20447E;
+/* padding: 80px; */
 }
 
 .statistics-text{
-    font-weight:bold;
-    text-transform: uppercase;
-    /* display: table;
-    margin: 0 auto; */
-    
+font-weight:bold;
+text-transform: uppercase;
+/* display: table;
+margin: 0 auto; */
+
 }
 
 .statistics-small-text{
-    text-transform: uppercase;
-    /* padding-bottom:10px; */
-    /* color:#20447E; */
+text-transform: uppercase;
+/* padding-bottom:10px; */
+/* color:#20447E; */
 
 }
 
 /* @media screen and (max-width: 992px) {
-  .arisit-statistics-item {
-    
-  }
+.arisit-statistics-item {
+
+}
 } */
 
 @media screen and (max-width: 600px) {
 
-    .arisit-statistics-row{
-    margin-top:20px;
-    flex: 1 1 1;
-     /* flex-direction:column column; */
-    }
+.arisit-statistics-row{
+margin-top:20px;
+flex: 1 1 1;
+/* flex-direction:column column; */
+}
 
-    .arisit-statistics-item{
-        margin-bottom:-140px;
-        padding:10px;
-        font-size: 14px;
-        min-width:50%;
-        
+.arisit-statistics-item{
+/* margin-bottom:-140px; */
+padding:10px;
+font-size: 14px;
+min-width:50%;
 
-    
-    }
-    .statistics-number{
-        font-size: 25px;
-    }
 
-    .statistics-small-text{
-        text-transform: capitalize;
-    }
+
+}
+.statistics-number{
+font-size: 25px;
+}
+
+.statistics-small-text{
+text-transform: capitalize;
+}
 }
 
 {% endstyle %}

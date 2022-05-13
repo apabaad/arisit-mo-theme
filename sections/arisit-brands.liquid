@@ -100,6 +100,7 @@
             border-radius: 10px;
             margin: 20px 10px 0 0;.
             flex-wrap:wrap;
+            transition: 0.3s ease;
             /* flex: 1 0 21%; */
     
         }
@@ -133,7 +134,11 @@
            
             background: #2F4E82;
             color: white;
-            border: 1px solid black;
+            /* border: 1px solid black; */
+
+             
+            /* background: white;
+            color: white; */
            
     
             padding: 11px 20px;
@@ -147,23 +152,30 @@
            
             text-align: center;
             cursor: pointer;
+            transition: transform .1s;
             
             -webkit-user-select: none;
             user-select: none; 
             -webkit-appearance: none;
             -moz-appearance: none;
             border-radius: 5px;
-            border: none;
+            /* border: none; */
     
             text-transform:uppercase;
     
         }
-    
+        
+        .arisit-brand-item:hover{
+            border: 2px solid #2F4E82;
+        }
+
         .brand-buttons:hover{
-            background:white;
-            color:black;
+            /* background:white; */
+            color:white;        
+            /* transform: scale(1.05); (zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+            /* transition: 0.5s ease; */
             /* border: 1px solid rgba(0,0,0,0);  this makes div jump*/
-            box-shadow: 0 0 0 1px red;
+            /* box-shadow: 0 0 0 1px red; */
             }
         }
     

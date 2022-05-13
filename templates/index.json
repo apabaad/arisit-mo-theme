@@ -688,50 +688,6 @@
         "layout": "right",
         "divider": false
       }
-    },
-    "16509468303a6117bd": {
-      "type": "testimonials",
-      "blocks": {
-        "1650946830acb4d8ea-0": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Excellent service.<\/p>",
-            "image": "shopify:\/\/shop_images\/Narta.png",
-            "author": "Narta",
-            "author_info": ""
-          }
-        },
-        "1650946830acb4d8ea-1": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Excellent distribution.<\/p>",
-            "image": "shopify:\/\/shop_images\/spartan.png",
-            "author": "Spartan",
-            "author_info": ""
-          }
-        }
-      },
-      "block_order": [
-        "1650946830acb4d8ea-0",
-        "1650946830acb4d8ea-1"
-      ],
-      "settings": {
-        "title": "Words from our vendors",
-        "round_images": true,
-        "color_background": "#f9f9f9",
-        "color_text": "#1c1d1d"
-      }
-    },
-    "1650946990d92f5b1a": {
-      "type": "contact-form",
-      "settings": {
-        "title": "Contact us",
-        "text": "",
-        "show_phone": false,
-        "narrow_column": true
-      }
     }
   },
   "order": [
@@ -746,8 +702,6 @@
     "featured-collections",
     "16509454124ca8ea48",
     "165094569164a5d1de",
-    "16509456999821b1fb",
-    "16509468303a6117bd",
-    "1650946990d92f5b1a"
+    "16509456999821b1fb"
   ]
 }

@@ -11486,7 +11486,7 @@ margin-bottom:-60px;
 {% comment %} for header {% endcomment %}
 
 .header-layout{
-  margin-top:-20px;
+  margin-top:-10px;
 }
 .section-header__title
   {
@@ -11504,6 +11504,11 @@ background-color:#20447E;
 border-radius:5px;
 margin: -15px 0 -6px 0;
 {% comment %} margin-bottom:-6px; {% endcomment %}
+}
+
+.logo-position{
+  background:red;
+  margin-top:800px;
 }
 
 .arisit-menu .site-nav__link{
@@ -11532,8 +11537,8 @@ margin-top:25px;
 
 .search-bar--page{
   
-  min-width:800px;
-  flex:1 0 10%;
+  min-width:700px;
+  {% comment %} flex:1 0 10%; {% endcomment %}
 }
 
 .btn{
@@ -11548,6 +11553,12 @@ margin-top:25px;
 
 .arisit-phone-icon{
   margin-top:5px;
+
+}
+
+.arisit-call-number{
+  font-size:12px;
+  margin-left:1px;
 }
 
 .input-group-btn{
@@ -11585,16 +11596,20 @@ margin-top:25px;
 
 @media screen and (max-width:1250px){
   .search-bar--page{
-    min-width: 600px;
+    min-width: 500px;
 }
+
+
+
 }
 @media screen and (max-width:1040px){
-  .search-bar--page{
-    min-width: 400px;
-}
-}
-@media screen and (max-width:840px){
+
   .search-bar--page{
     min-width: 300px;
+}
+}
+@media screen and (max-width:750px){
+  .search-bar--page{
+    min-width: 120px;
 }
 }

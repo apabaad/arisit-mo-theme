@@ -22,7 +22,7 @@
         "1650938659ef42ead3-0"
       ],
       "settings": {
-        "section_height": "650px",
+        "section_height": "550px",
         "mobile_height": "auto",
         "parallax": false,
         "style": "dots",
@@ -100,6 +100,7 @@
         },
         "6c571cd9-a2fd-4553-9ad3-637ddbc1dab5": {
           "type": "logo_image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Steel_black_logo.png",
             "link": ""
@@ -232,16 +233,25 @@
           "type": "arisit-brands",
           "settings": {
             "image": "shopify:\/\/shop_images\/whirlpool_logo-black-01.png",
-            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances. Upgrade you...",
-            "brand-btn-link": "shopify:\/\/products\/52-cart-model-open-grill-bbq-acg52rfs-1-n-l",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "https:\/\/www.whirlpool.com.au\/",
             "brand-shop-btn": "Whirlpool"
+          }
+        },
+        "ed58c176-a57a-4600-8614-bcaf53a27881": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Capital-Brand-Logo_ad8d2070-3937-46f3-95cc-72359edf9b93.png",
+            "arisit-brand-text": "Enjoy a perfect Outdoor BBQ with Capital range Outdoor Built In BBQ and Cart BBQs",
+            "brand-btn-link": "shopify:\/\/collections\/capital",
+            "brand-shop-btn": "Capital"
           }
         },
         "2cd31f2c-8f31-46dc-ab76-0d327ca79f84": {
           "type": "arisit-brands",
           "settings": {
             "image": "shopify:\/\/shop_images\/Steel_black_logo.png",
-            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances. Upgrade you...",
+            "arisit-brand-text": "Steel supplying premium quality, Italian-made cooktops, rangehoods, refrigerator and combi steam ovens throughout the Australian market.",
             "brand-btn-link": "shopify:\/\/products\/40-cart-model-open-grill-bbq-acg40rfs-1-n-l",
             "brand-shop-btn": "Steel"
           }
@@ -250,7 +260,7 @@
           "type": "arisit-brands",
           "settings": {
             "image": "shopify:\/\/shop_images\/thor.png",
-            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "arisit-brand-text": "Superbly crafted, full-featured, stainless steel kitchen appliances designed to please the eyes and appetites",
             "brand-btn-link": "shopify:\/\/pages\/about-arisit",
             "brand-shop-btn": "THOR"
           }
@@ -259,7 +269,7 @@
           "type": "arisit-brands",
           "settings": {
             "image": "shopify:\/\/shop_images\/Ariston_logo_black_text_df3f3c53-3880-46dd-bd55-38e04b73c87e.jpg",
-            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "arisit-brand-text": "Ariston is suppliers of electrical appliances across Australia. We offer range of laundry, kitchen and cooking appliances.",
             "brand-btn-link": "shopify:\/\/products\/40-cart-model-open-grill-bbq-acg40rfs-1-n-l",
             "brand-shop-btn": "Ariston"
           }
@@ -268,28 +278,19 @@
           "type": "arisit-brands",
           "settings": {
             "image": "shopify:\/\/shop_images\/sirius_red_d1ba2295-df23-4372-babc-36d992aee712.png",
-            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "arisit-brand-text": "Sirius Rangehood is an Italian designed rangehood filled with modern design asthetics and functionalities",
             "brand-btn-link": "shopify:\/\/collections\/richter",
             "brand-shop-btn": "sirius"
-          }
-        },
-        "ed58c176-a57a-4600-8614-bcaf53a27881": {
-          "type": "arisit-brands",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Capital-Brand-Logo_ad8d2070-3937-46f3-95cc-72359edf9b93.png",
-            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
-            "brand-btn-link": "shopify:\/\/products\/40-cart-model-open-grill-bbq-acg40rfs-1-n-l",
-            "brand-shop-btn": "Capital"
           }
         }
       },
       "block_order": [
         "f031863c-d1c5-4348-8bf5-f7902798c45a",
+        "ed58c176-a57a-4600-8614-bcaf53a27881",
         "2cd31f2c-8f31-46dc-ab76-0d327ca79f84",
         "09152186-2f57-4f68-a2c1-2e91e6d5e02e",
         "2a40549b-d50e-4f2a-b18d-fedf36efe891",
-        "7649d66d-160a-48a8-a986-be49725699c0",
-        "ed58c176-a57a-4600-8614-bcaf53a27881"
+        "7649d66d-160a-48a8-a986-be49725699c0"
       ],
       "settings": {
         "brand-row-title": "Our Home Appliances Brands"
@@ -301,28 +302,28 @@
         "45e1466e-0a4d-4868-99a4-a742f641331b": {
           "type": "arisit-brands",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Steel_black_logo.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_2_b52307df-1802-4090-aafe-f9caf7054afa.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
             "brand-btn-link": "",
-            "brand-shop-btn": "steel"
-          }
-        },
-        "22f1e5d0-867a-48eb-8ba7-610db85834f0": {
-          "type": "arisit-brands",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sonorous.png",
-            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
-            "brand-btn-link": "shopify:\/\/pages\/about-arisit",
-            "brand-shop-btn": "sonorous"
+            "brand-shop-btn": "One Products"
           }
         },
         "fdd49a54-5034-4925-a0ef-b0583328efa1": {
           "type": "arisit-brands",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sirius_red_d1ba2295-df23-4372-babc-36d992aee712.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_1.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
             "brand-btn-link": "shopify:\/\/products\/40-built-in-barbecue-with-open-grill-acg40rbi-1-n-l",
-            "brand-shop-btn": "sirius"
+            "brand-shop-btn": "sanus"
+          }
+        },
+        "22f1e5d0-867a-48eb-8ba7-610db85834f0": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "shopify:\/\/pages\/about-arisit",
+            "brand-shop-btn": "sonorous"
           }
         },
         "af37a207-3296-48ad-81d3-d640286230da": {
@@ -337,8 +338,8 @@
       },
       "block_order": [
         "45e1466e-0a4d-4868-99a4-a742f641331b",
-        "22f1e5d0-867a-48eb-8ba7-610db85834f0",
         "fdd49a54-5034-4925-a0ef-b0583328efa1",
+        "22f1e5d0-867a-48eb-8ba7-610db85834f0",
         "af37a207-3296-48ad-81d3-d640286230da"
       ],
       "settings": {
@@ -443,6 +444,7 @@
         },
         "6d1ddeb7-065e-498d-abeb-2b8f9bfe16f3": {
           "type": "arisit-images",
+          "disabled": true,
           "settings": {
             "tile-image": "shopify:\/\/shop_images\/Promounts_1000x1000_d5b9afc7-68e3-4b63-96bd-bc08f5b8f65b.png",
             "tile-title": "online division",

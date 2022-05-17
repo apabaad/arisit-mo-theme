@@ -1,5 +1,6 @@
 <div
   id="CollectionSection"
+  class="arisit-collection-section"
   data-section-id="{{ section.id }}"
   data-section-type="collection-template"
   {% if section.settings.parallax %}data-parallax="true"{% endif %}>
@@ -82,9 +83,9 @@
             <hr class="hr--clear hr--medium">
           {%- endunless -%}
 
-          <div class="collection-description rte" {{ block.shopify_attributes }}>
+          <div class="collection-description rte arisit-rte" {{ block.shopify_attributes }}>
             <div class="enlarge-text">
-              {{ collection.description }}
+              {{ collection.description }}  <span class="btn btn--tertiary btn--small"> Shop All Capital </span>
             </div>
           </div>
 

@@ -1,35 +1,5 @@
 {
   "sections": {
-    "1651537855b836ca3f": {
-      "type": "slideshow",
-      "blocks": {
-        "1651537855bda1a046-0": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "title_size": 55,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/capital.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "1651537855bda1a046-0"
-      ],
-      "settings": {
-        "section_height": "natural",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 5
-      }
-    },
     "16510280273419cc8a": {
       "type": "background-image-text",
       "disabled": true,
@@ -109,9 +79,10 @@
         },
         "product_grid": {
           "type": "product_grid",
+          "disabled": true,
           "settings": {
             "collection_subnav_style": "inline",
-            "per_row": 4,
+            "per_row": 5,
             "mobile_flush_grid": false
           }
         }
@@ -124,18 +95,84 @@
         "collection_image_enable": false,
         "collection_image_height": 550,
         "parallax": true,
-        "enable_sidebar": true,
-        "collapsed": true,
+        "enable_sidebar": false,
+        "collapsed": false,
         "enable_color_swatches": false,
         "enable_sort": false
+      }
+    },
+    "1652743193157a6141": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/progrill_35e3992e-69d2-435c-b0e5-fc5b7cdb4161.png",
+        "image_width": 580,
+        "subtitle": "",
+        "title": "Progrill Series",
+        "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
+        "button_label": "Shop progrill series",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "165274518879973c72": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "Capital’s Outdoor",
+        "title": "BBQ Kitchen",
+        "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
+        "button_label": "SHOP",
+        "button_link": "shopify:\/\/collections\/capital",
+        "image": "shopify:\/\/shop_images\/capital.jpg",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "165274346483a68eef": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/precision_69814560-088a-4b1c-bf5e-4a18fa96d709.png",
+        "image_width": 580,
+        "subtitle": "",
+        "title": "Precision Series",
+        "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
+        "button_label": "Shop Precision Series",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "16527441603830ad26": {
+      "type": "collection-callout",
+      "disabled": true,
+      "settings": {
+        "collection": "capital",
+        "subtitle": "Outdoor BBQ",
+        "title": "Precision Series",
+        "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+        "cta_text1": "Shop Precision Series",
+        "cta_link1": "",
+        "cta_text2": "",
+        "cta_link2": "",
+        "layout": "right",
+        "divider": false
       }
     }
   },
   "order": [
-    "1651537855b836ca3f",
     "16510280273419cc8a",
     "165102559753940f35",
     "16510250274640b95e",
-    "main-collection"
+    "main-collection",
+    "1652743193157a6141",
+    "165274518879973c72",
+    "165274346483a68eef",
+    "16527441603830ad26"
   ]
 }

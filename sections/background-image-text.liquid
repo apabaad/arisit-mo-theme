@@ -1,3 +1,4 @@
+
 {%- if section.settings.image != blank -%}
   {%- style -%}
     @media screen and (max-width: 768px) {
@@ -7,6 +8,8 @@
     }
   {%- endstyle -%}
 {%- endif -%}
+
+
 
 <div
   data-section-id="{{ section.id }}"
@@ -61,7 +64,7 @@
                 <h2 class="h3">{{ section.settings.title | escape }}</h2>
               {%- endif -%}
               {%- if section.settings.text != blank -%}
-                <div class="rte background-media-text__subtext">{{ section.settings.text }}</div>
+                <div class="background-media-text__subtext">{{ section.settings.text }}</div>
               {%- endif -%}
               {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}
                 <a href="{{ section.settings.button_link }}" class="btn">
@@ -75,6 +78,7 @@
     </div>
   {%- endif -%}
 </div>
+
 
 <div class="background-media-text__spacer background-media-text--{{ section.settings.height }}"></div>
 

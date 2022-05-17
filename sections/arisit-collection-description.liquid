@@ -1,0 +1,42 @@
+<div id="CollectionSection" class="arisit-collection-section">
+    <div class="page-width page-content">
+<header class="section-header">
+    <h1 class="section-header__title collection-title">
+      {{ collection.title }}
+    </h1>
+  </header>
+  
+<div class="collection-description rte arisit-rte" {{ block.shopify_attributes }}>
+    <div class="enlarge-text">
+      {{ collection.description }} 
+      {% for block in section.blocks %} <a class="btn btn--tertiary btn--small btn-shop-all" href={{block.settings.shop-btn-link}}> Shop All </a> {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
+
+
+  {% schema %}
+    {
+        "name": "Collection Description",
+        "blocks": [
+                    {
+                    "type":"shop-all-url",
+                    "name":"Shop All",
+                    "settings":[
+                        {
+                        "id": "shop-btn-link",
+                        "type": "url",
+                        "label": "Button URL"
+                        }
+                    ]}
+        
+                  ],
+        "presets":[
+            {
+            "name":"Collection Description",
+            "category":"URL"
+        }
+        ]}
+    {% endschema %}
+    

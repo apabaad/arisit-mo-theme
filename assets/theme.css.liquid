@@ -11459,7 +11459,7 @@ iframe.zoid-component-frame{
       margin-bottom:0;
     }
     
-    .h1{
+    .h1, .h3, .subtitle{
       color:#20447E !important;
     }
 
@@ -11538,7 +11538,7 @@ margin: -10px 0 -6px 0;
 }    
 
 .site-nav__dropdown{
-column-count:2;
+column-count:3;
 padding-bottom:10px;
 }
 
@@ -11583,7 +11583,15 @@ background-color:#20447E !important;
 }
 
 .btn-shop-all{
-color:white !important; }
+  background-color:white !important;
+color:#20447E !important; 
+border-radius: 2px solid black; 
+}
+
+#FilterDrawerTrigger{
+  background-color:white !important;
+  margin-top:50px;
+}
 
 .input-group-btn{
   background-color:#20447E;
@@ -11646,11 +11654,6 @@ padding:0;
   margin-bottom:-100px !important;
 }
 
-.background-media-text{
-  background-color:black;
-  max-width:1450px;
-  margin-left:200px;
-}
 
 @media screen and (max-width:1250px){
   .search-bar--page{
@@ -11666,6 +11669,14 @@ padding:0;
     min-width: 300px;
 }
 }
+
+@media screen and (min-width:590px){
+  .arisit-grid--uniform{
+    width:90%;
+    margin:0 auto;
+  }
+}
+
 @media screen and (max-width:750px){
   .search-bar--page{
     min-width: 120px;

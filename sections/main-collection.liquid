@@ -1,6 +1,5 @@
 <div
   id="CollectionSection"
-  class="arisit-collection-section"
   data-section-id="{{ section.id }}"
   data-section-type="collection-template"
   {% if section.settings.parallax %}data-parallax="true"{% endif %}>
@@ -104,7 +103,7 @@
 
         {%- paginate collection.products by paginate_by -%}
 
-        <div id="CollectionAjaxResult" {{ block.shopify_attributes }}>
+        <div id="CollectionAjaxResult" {{ block.shopify_attributes }} class="arisit-collection-product-grid">
           <div id="CollectionAjaxContent">
 
             {% render 'collection-grid',

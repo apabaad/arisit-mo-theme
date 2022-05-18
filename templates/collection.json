@@ -18,6 +18,7 @@
     },
     "165102559753940f35": {
       "type": "fading-images",
+      "disabled": true,
       "blocks": {
         "1651025597819b2d87-0": {
           "type": "image",
@@ -49,6 +50,7 @@
     },
     "16510250274640b95e": {
       "type": "advanced-content",
+      "disabled": true,
       "blocks": {
         "16510250270a37f536-1": {
           "type": "liquid",
@@ -69,7 +71,6 @@
     },
     "main-collection": {
       "type": "main-collection",
-      "disabled": true,
       "blocks": {
         "collection_description": {
           "type": "collection_description",
@@ -79,10 +80,9 @@
         },
         "product_grid": {
           "type": "product_grid",
-          "disabled": true,
           "settings": {
             "collection_subnav_style": "inline",
-            "per_row": 4,
+            "per_row": 5,
             "mobile_flush_grid": false
           }
         }

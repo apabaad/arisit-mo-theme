@@ -107,7 +107,7 @@
   .arisit-contact-container {
     height: 100%;
     margin:25px;
-    {% comment %} border:2px solid #E7E9EB; {% endcomment %}
+    border:2px solid #20447E;
     border-radius:20px;
     overflow:hidden;
      background-color: white; 
@@ -117,6 +117,7 @@
     height:inherit;
     display: flex;
     flex-wrap:wrap;
+    {% comment %} flex-direction: row-reverse; {% endcomment %}
   }
 
   .contact-text-section {
@@ -124,12 +125,18 @@
     {% comment %} width:60%; {% endcomment %}
     color:white;
     padding: 45px;
+    flex-wrap:wrap;
+    {% comment %} width:60%; {% endcomment %}
     {% comment %} margin-bottom:20px; {% endcomment %}
+    flex: 1 0 40%;
   }
 
   .contact-form-section{
     padding: 45px;
     color: #20447E;
+    flex: 1 0 50%;
+    {% comment %} max-width:40%; {% endcomment %}
+    {% comment %} border:2px solid #20447E;  {% endcomment %}
     {% comment %} background-color: #E6EFFF {% endcomment %}
 }
 
@@ -150,4 +157,15 @@
     {% comment %} margin-left:20px; {% endcomment %}
     }
 
+    @media screen and (max-width:768px){
+        .arisit-contact-container {
+            margin:10px 0 10px 0px;
+    }
+        .contact-text-section {
+            padding: 25px;
+        }
+
+        .contact-text-section h4{
+            padding-top:15px;
+        }
 </style>

@@ -69,8 +69,7 @@
         {% style %}
         
         .arisit-brand-container{
-            margin-top: 80px;
-    
+            margin-top: 60px;
         }
     
         .brand-row-title{
@@ -84,7 +83,7 @@
         .arisit-brand-row{
             display:flex;
             flex-direction:row;
-            /* justify-content:center; */
+            justify-content:center;
             align-items:flex-start;
             flex-wrap:wrap;
              /* border: 1px solid black; */
@@ -179,15 +178,21 @@
             }
         }
     
-        @media screen and (max-width: 600px){
-    
-            .arisit-brand-row{
-                /* align-items:center;
-                justify-content:center; */
-                /* justify-content: space-between; */
-            }
+        @media screen and (max-width: 599px){
             .arisit-brand-item{
                 margin: 20px 0 0 0;
         }
         
+        }
+
+        @media screen and (max-width: 599px) {
+        .arisit-brand-row{
+            justify-content:center;
+            }
+            
+            .arisit-brand-container{
+            margin-top: 30px;
+        }
+        }
+
         {% endstyle %}

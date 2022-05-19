@@ -238,6 +238,15 @@
             "brand-shop-btn": "find out more"
           }
         },
+        "9804673f-b205-4be6-8ed1-bc8678546f07": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Husky-Logo_e637a6ce-869a-4660-9ee8-295e0bb08d04.png",
+            "arisit-brand-text": "We offer different range of husky bar fridge, outdoor fridge, wine fridge",
+            "brand-btn-link": "",
+            "brand-shop-btn": "find out more"
+          }
+        },
         "d75df7a5-ed9e-40f0-afad-63d99c7153d2": {
           "type": "arisit-brands",
           "settings": {
@@ -263,6 +272,24 @@
             "arisit-brand-text": "Sirius Rangehood is an Italian designed rangehood filled with modern design asthetics and functionalities",
             "brand-btn-link": "shopify:\/\/collections\/richter",
             "brand-shop-btn": "find out more"
+          }
+        },
+        "78f8dfbe-5f38-4e36-8b6b-7d1e6cfda6e5": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/softerwater.png",
+            "arisit-brand-text": "We offer different range of husky bar fridge, outdoor fridge, wine fridge",
+            "brand-btn-link": "",
+            "brand-shop-btn": "find out more"
+          }
+        },
+        "bea39861-a2b0-4a71-aa37-ff19828d99f2": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sonorous.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "shopify:\/\/collections\/sonorous",
+            "brand-shop-btn": "Find out more"
           }
         },
         "2cd31f2c-8f31-46dc-ab76-0d327ca79f84": {
@@ -291,28 +318,21 @@
             "brand-btn-link": "https:\/\/www.whirlpool.com.au\/",
             "brand-shop-btn": "find out more"
           }
-        },
-        "bea39861-a2b0-4a71-aa37-ff19828d99f2": {
-          "type": "arisit-brands",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sonorous.png",
-            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
-            "brand-btn-link": "shopify:\/\/collections\/sonorous",
-            "brand-shop-btn": "Find out more"
-          }
         }
       },
       "block_order": [
         "a2e74a32-ab99-4c3a-afb0-3ead0d4477e7",
         "2a40549b-d50e-4f2a-b18d-fedf36efe891",
         "ed58c176-a57a-4600-8614-bcaf53a27881",
+        "9804673f-b205-4be6-8ed1-bc8678546f07",
         "d75df7a5-ed9e-40f0-afad-63d99c7153d2",
         "aba9d3ce-4f03-4fce-9269-5ce668e18a0d",
         "7649d66d-160a-48a8-a986-be49725699c0",
+        "78f8dfbe-5f38-4e36-8b6b-7d1e6cfda6e5",
+        "bea39861-a2b0-4a71-aa37-ff19828d99f2",
         "2cd31f2c-8f31-46dc-ab76-0d327ca79f84",
         "09152186-2f57-4f68-a2c1-2e91e6d5e02e",
-        "f031863c-d1c5-4348-8bf5-f7902798c45a",
-        "bea39861-a2b0-4a71-aa37-ff19828d99f2"
+        "f031863c-d1c5-4348-8bf5-f7902798c45a"
       ],
       "settings": {
         "brand-row-title": "Our Brands"

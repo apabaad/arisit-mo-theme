@@ -32,7 +32,7 @@
         "image_width": 700,
         "subtitle": "",
         "title": "",
-        "text": "<p>Beginning in 2021, Arisit took over distribution of the OneProducts brand within the Australia & New Zealand markets. This has allowed our products to be available for purchase within major retailers as well as a range of online channels helping to make our brand easily accessible to all.<\/p><p>Arisit is an Australian-owned company with its head office based in Melbourne, Victoria and has been in operation for more than 20 years. We have exclusive distribution of a diverse range of brands from around the world including Europe, the USA and Asia. These brands offer high quality products and great value with have been designed and optimised for modern home living solutions.  We now ship more than 1 million products annually within Australia & New Zealand with six warehouses strategically located to offer additional convenience and optimise delivery times.<\/p>",
+        "text": "<p>Arisit is an Australian-owned company with its head office based in Melbourne, Victoria and has been in operation for more than 20 years. We have exclusive distribution of a diverse range of brands from around the world including Europe, the USA and Asia. These brands offer high quality products and great value with have been designed and optimised for modern home living solutions.  We now ship more than 1 million products annually within Australia & New Zealand with six warehouses strategically located to offer additional convenience and optimise delivery times.<\/p><p>Arisit has had a dedicated eCommerce division operating on internal websites as well as online marketplaces since 2016. We have a dedicated team of sales, customer service, warranties and warehouse staff which allow us to deliver products all around Australia. This provides the ability for all customers to purchase directly from us and our delivery partners provide fast and affordable delivery right to your door with up-to-date tracking details.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -43,6 +43,7 @@
     },
     "165153538513e9d658": {
       "type": "advanced-content",
+      "disabled": true,
       "blocks": {
         "165153538567f274a1-1": {
           "type": "liquid",

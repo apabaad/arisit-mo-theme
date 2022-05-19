@@ -54,7 +54,8 @@
                         {
                         "id": "brand-shop-btn",
                         "type": "text",
-                        "label": "Button name"
+                        "label": "Button name",
+                        "default":"find out more"
                         }
                     ]}
         
@@ -86,7 +87,6 @@
             justify-content:center;
             align-items:flex-start;
             flex-wrap:wrap;
-             /* border: 1px solid black; */
         }
     
         .arisit-brand-item{
@@ -94,13 +94,14 @@
             flex-direction:column;
             justify-content: space-between;
             height:300px;
-            max-width:250px;
+            width:250px;
             border: 2px solid #E5E5E5;
             border-radius: 10px;
-            margin: 20px 10px 0 0;.
+            margin: 20px 10px 10px 0;.
             flex-wrap:wrap;
             transition: 0.3s ease;
-            /* flex: 1 0 21%; */
+            overflow:hidden;
+            /* flex: 1 0 18%; */
     
         }
     
@@ -117,10 +118,10 @@
             /* max-width: 100%; */
             opacity: 1;
             transition: opacity 0.4s ease;
-            margin: 5PX 10px 5px 10px;
+            /* margin: 5PX 10px 5px 10px; */
             display: block;
-            /* width: 100%;  */
-            height: 80px;
+            width: 100%; 
+            height: 85px;
         } 
     
         .arisit-brand-text{

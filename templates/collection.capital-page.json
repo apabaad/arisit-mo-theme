@@ -12,7 +12,7 @@
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/husky-slider.jpg",
+            "image": "shopify:\/\/shop_images\/capital.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -22,7 +22,7 @@
         "1652769532c102b60e-0"
       ],
       "settings": {
-        "section_height": "450px",
+        "section_height": "550px",
         "mobile_height": "auto",
         "parallax": false,
         "style": "arrows",
@@ -63,31 +63,15 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/progrill_35e3992e-69d2-435c-b0e5-fc5b7cdb4161.png",
-        "image_width": 580,
+        "image_width": 650,
         "subtitle": "",
         "title": "Progrill Series",
         "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
         "button_label": "Shop progrill series",
-        "button_link": "",
+        "button_link": "shopify:\/\/collections\/sanus-products",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
-        "divider": false
-      }
-    },
-    "165274346483a68eef": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/precision_4c5cf04a-cebd-47de-b322-1e7f9f5f22ba.png",
-        "image_width": 580,
-        "subtitle": "",
-        "title": "Precision Series",
-        "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
-        "button_label": "Shop Precision Series",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "left",
         "divider": false
       }
     },
@@ -102,8 +86,24 @@
         "image": "shopify:\/\/shop_images\/steel-banner_nl.jpg",
         "focal_point": "center",
         "layout": "right",
-        "height": 550,
-        "parallax": false
+        "height": 650,
+        "parallax": true
+      }
+    },
+    "165274346483a68eef": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/precision_4c5cf04a-cebd-47de-b322-1e7f9f5f22ba.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Precision Series",
+        "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
+        "button_label": "Shop Precision Series",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
       }
     }
   },
@@ -112,7 +112,7 @@
     "1652763813505c2bc4",
     "main-collection",
     "1652743193157a6141",
-    "165274346483a68eef",
-    "165274518879973c72"
+    "165274518879973c72",
+    "165274346483a68eef"
   ]
 }

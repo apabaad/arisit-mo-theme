@@ -111,6 +111,14 @@
               "container_width": 20
             }
           },
+          "711fa66c-6cd0-4e09-9818-f1fa55ac9c94": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
+              "container_width": 20
+            }
+          },
           "1494292487693": {
             "type": "newsletter",
             "settings": {
@@ -123,6 +131,7 @@
         },
         "block_order": [
           "1494292485313",
+          "711fa66c-6cd0-4e09-9818-f1fa55ac9c94",
           "1494292487693"
         ],
         "settings": {

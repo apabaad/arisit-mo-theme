@@ -216,7 +216,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/12.png",
             "arisit-brand-text": "Buy your face mask and filter at AirPop. Face masks with ergonomic design, breathable materials, lightweight construction and exceptional filtration.",
-            "brand-btn-link": "",
+            "brand-btn-link": "https:\/\/airpophealth.com.au\/",
             "brand-shop-btn": "find out more"
           }
         },
@@ -225,7 +225,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Ariston_logo_black_text_df3f3c53-3880-46dd-bd55-38e04b73c87e.jpg",
             "arisit-brand-text": "Ariston is suppliers of electrical appliances across Australia. We offer range of laundry, kitchen and cooking appliances.",
-            "brand-btn-link": "shopify:\/\/products\/40-cart-model-open-grill-bbq-acg40rfs-1-n-l",
+            "brand-btn-link": "https:\/\/ariston.com.au\/",
             "brand-shop-btn": "find out more"
           }
         },
@@ -243,7 +243,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Husky-Logo_e637a6ce-869a-4660-9ee8-295e0bb08d04.png",
             "arisit-brand-text": "We offer different range of husky bar fridge, outdoor fridge, wine fridge",
-            "brand-btn-link": "",
+            "brand-btn-link": "https:\/\/huskybrand.com.au\/",
             "brand-shop-btn": "find out more"
           }
         },
@@ -252,7 +252,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2_b52307df-1802-4090-aafe-f9caf7054afa.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
-            "brand-btn-link": "",
+            "brand-btn-link": "https:\/\/one-products.com.au\/",
             "brand-shop-btn": "find out more"
           }
         },
@@ -261,7 +261,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_1.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
-            "brand-btn-link": "",
+            "brand-btn-link": "shopify:\/\/collections\/capital",
             "brand-shop-btn": "find out more"
           }
         },
@@ -270,7 +270,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/sirius_red_d1ba2295-df23-4372-babc-36d992aee712.png",
             "arisit-brand-text": "Sirius Rangehood is an Italian designed rangehood filled with modern design asthetics and functionalities",
-            "brand-btn-link": "shopify:\/\/collections\/richter",
+            "brand-btn-link": "https:\/\/siriusbrand.com\/",
             "brand-shop-btn": "find out more"
           }
         },
@@ -279,7 +279,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/softerwater.png",
             "arisit-brand-text": "We offer different range of husky bar fridge, outdoor fridge, wine fridge",
-            "brand-btn-link": "",
+            "brand-btn-link": "http:\/\/softerwater.com.au\/",
             "brand-shop-btn": "find out more"
           }
         },
@@ -297,7 +297,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Steel_black_logo.png",
             "arisit-brand-text": "Steel supplying premium quality, Italian-made cooktops, rangehoods, refrigerator and combi steam ovens throughout the Australian market.",
-            "brand-btn-link": "shopify:\/\/products\/40-cart-model-open-grill-bbq-acg40rfs-1-n-l",
+            "brand-btn-link": "https:\/\/steelbrand.com.au\/",
             "brand-shop-btn": "find out more"
           }
         },

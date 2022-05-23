@@ -12,7 +12,7 @@
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/4d_adcanced_tilt.jpg",
+            "image": "shopify:\/\/shop_images\/capital.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -36,7 +36,7 @@
         "c6e3c306-d3fa-458f-90bc-1cd78069708d": {
           "type": "shop-all-url",
           "settings": {
-            "shop-btn-link": "shopify:\/\/collections\/sanus-products"
+            "shop-btn-link": "shopify:\/\/collections\/avs-products"
           }
         }
       },
@@ -62,13 +62,13 @@
     "1652743193157a6141": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/sanus-hero.jpg",
-        "image_width": 580,
+        "image": "shopify:\/\/shop_images\/progrill_35e3992e-69d2-435c-b0e5-fc5b7cdb4161.png",
+        "image_width": 650,
         "subtitle": "",
-        "title": "AV Furnishings",
-        "text": "<p>SANUS offers an extensive range of TV wall mounts, TV stands and speaker brackets that enable users to place their AV equipment wherever they want it.<\/p>",
-        "button_label": "Shop AV Furnishings",
-        "button_link": "shopify:\/\/products\/sanus-42-90-fixed-position-flat-panel-tv-mount",
+        "title": "Progrill Series",
+        "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
+        "button_label": "Shop progrill series",
+        "button_link": "shopify:\/\/collections\/sanus-products",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -78,12 +78,12 @@
     "165274518879973c72": {
       "type": "background-image-text",
       "settings": {
-        "subtitle": "Sanus Tilt & Swivel",
-        "title": "Projector Mount",
-        "text": "<p>For serious home entertainment enthusiasts, the Sanus Tilt & Swivel Projector Mount is ideal for projectors up to 22.73 kg, with bayonet style mounting, solid steel construction.<\/p>",
-        "button_label": "Shop Now",
+        "subtitle": "Capital’s Outdoor",
+        "title": "BBQ Kitchen",
+        "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
+        "button_label": "SHOP",
         "button_link": "shopify:\/\/collections\/capital",
-        "image": "shopify:\/\/shop_images\/Main1_1944x_13f4d57e-55bf-4131-b1f7-c9c2bf08386c.webp",
+        "image": "shopify:\/\/shop_images\/steel-banner_nl.jpg",
         "focal_point": "center",
         "layout": "right",
         "height": 650,
@@ -93,13 +93,13 @@
     "165274346483a68eef": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/VMA401_B1_VMA401_B_LS.jpg",
-        "image_width": 580,
+        "image": "shopify:\/\/shop_images\/precision_4c5cf04a-cebd-47de-b322-1e7f9f5f22ba.png",
+        "image_width": 700,
         "subtitle": "",
-        "title": "On-Wall Component Shelving",
-        "text": "<p>Fitting under a wall-mounted TV, the Sanus VMA401 On-Wall Component Shelving can be adjusted to accommodate any AV setup<\/p>",
-        "button_label": "Shop Now",
-        "button_link": "shopify:\/\/products\/sanus-32-85-tilting-tv-wall-mount",
+        "title": "Precision Series",
+        "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
+        "button_label": "Shop Precision Series",
+        "button_link": "",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",

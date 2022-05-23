@@ -37,7 +37,7 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/whirlpool_logo-black-01.png",
-            "link": ""
+            "link": "https:\/\/www.whirlpool.com.au\/"
           }
         },
         "16515415729d5fa37b-0": {
@@ -51,21 +51,21 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Capital-Brand-Logo_ad8d2070-3937-46f3-95cc-72359edf9b93.png",
-            "link": "shopify:\/\/collections\/capital"
+            "link": "https:\/\/capitalbrand.com.au\/"
           }
         },
         "16515415729d5fa37b-2": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Husky-Logo_e637a6ce-869a-4660-9ee8-295e0bb08d04.png",
-            "link": ""
+            "link": "https:\/\/huskybrand.com.au\/"
           }
         },
         "6107969e-70ea-4ee4-b934-f7cec22283e3": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sirius_red_d1ba2295-df23-4372-babc-36d992aee712.png",
-            "link": ""
+            "link": "https:\/\/siriusbrand.com\/"
           }
         },
         "16515415729d5fa37b-3": {
@@ -80,14 +80,14 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/smart_4dc1ef31-7e98-4009-b0b3-a5d988f1774d.png",
-            "link": ""
+            "link": "https:\/\/smartbbqs.com.au\/"
           }
         },
         "8e89e3d4-1373-44a4-8a61-57a823e704ba": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/thor.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/thor"
           }
         },
         "f1bb79cf-bbef-4b33-8a7f-7bf2dde74bcc": {
@@ -176,7 +176,7 @@
           "type": "arisit-statistics",
           "settings": {
             "arisit-statistics-number": "+20",
-            "arisit-statistics-text": "staff employed",
+            "arisit-statistics-text": "dedicated staff",
             "arisit-statistics-small-text": "warranty & customer care"
           }
         },
@@ -261,7 +261,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_1.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
-            "brand-btn-link": "shopify:\/\/collections\/capital",
+            "brand-btn-link": "shopify:\/\/collections\/sanus",
             "brand-shop-btn": "find out more"
           }
         },
@@ -306,7 +306,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/thor.png",
             "arisit-brand-text": "Superbly crafted, full-featured, stainless steel kitchen appliances designed to please the eyes and appetites",
-            "brand-btn-link": "shopify:\/\/pages\/about-arisit",
+            "brand-btn-link": "shopify:\/\/collections\/thor",
             "brand-shop-btn": "find out more"
           }
         },
@@ -345,70 +345,70 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/winning-logo-637138690335837076.svg_28bf8469-8639-44f7-9d29-ebe5fffb4e50.png",
-            "link": ""
+            "link": "https:\/\/www.winnings.com.au\/"
           }
         },
         "16509418276831eb52-1": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/dm_logo_282x31_d8bce59a-9611-4108-bb85-f12bdebe844a.png",
-            "link": ""
+            "link": "https:\/\/www.domayne.com.au\/"
           }
         },
         "16509418276831eb52-2": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Bing_Lee_360x_2a0717eb-9aca-472e-933a-03f9aafa11c4.png",
-            "link": ""
+            "link": "https:\/\/www.binglee.com.au\/"
           }
         },
         "16509418276831eb52-3": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/98122501226526.png",
-            "link": ""
+            "link": "https:\/\/www.costco.com.au\/"
           }
         },
         "16509418276831eb52-0": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/HN-Logo_360x_b405e6ad-7b7c-4435-acc6-b316f730f5d5.png",
-            "link": ""
+            "link": "https:\/\/www.harveynorman.com.au\/"
           }
         },
         "6deecfe2-a863-442a-9c03-e6671ae714db": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/retravision-white.svg_7e6ca01f-e069-4c6a-b3a4-19556923487e.png",
-            "link": ""
+            "link": "https:\/\/www.retravision.com.au\/"
           }
         },
         "f1115400-7658-4439-87b8-93a00915b62b": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/hnc_logo.png",
-            "link": ""
+            "link": "https:\/\/www.harveynormancommercial.com.au\/"
           }
         },
         "1e304322-da96-4c9b-b4b3-d44264219c9e": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/jm_logo.jpg",
-            "link": ""
+            "link": "https:\/\/www.joycemayne.com.au\/"
           }
         },
         "c8566632-4b33-42bc-b9eb-727b7e2aa572": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Bi-tire.png",
-            "link": ""
+            "link": "https:\/\/www.birite.com.au\/"
           }
         },
         "98a82c99-3aea-4afe-aac3-b04b96b15bcc": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/dm_logo_282x31_d8bce59a-9611-4108-bb85-f12bdebe844a.png",
-            "link": ""
+            "link": "https:\/\/www.domayne.com.au\/"
           }
         }
       },

@@ -1,0 +1,210 @@
+<div class ="commercial-tile-container page-width">
+    <h2 class="section-header__title page-width" id="arisit-division">{{ section.settings.arisit-commercial-tile-title }}</h2>
+    <div class="commercial-tile-row">
+        {% for block in section.blocks %}
+            {% if block.settings.tile-commercial != blank %}
+            <div class="commercial-tile-item">
+                <span class = "commercial-tile-title"> {{ block.settings.tile-title }} </span>
+               <img src={{ block.settings.tile-commercial | img_url: 'master' }} class="tile-commercial" >
+               {% comment %} <span class = "tile-title"> {{ block.settings.tile-title }} </span> {% endcomment %}
+                <div class="commercial-tile-text-container">
+                    <div class="commercial-tile-text">
+                        {{ block.settings.tile-text }}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    </div>
+
+{% schema %}
+
+{
+    "name":"Arisit commercial Tile",
+    "settings":[
+        {
+        "type":"text",
+        "id":"arisit-commercial-tile-title",
+        "label":"Row Title"
+    }
+    ],
+    "blocks":[
+        {
+        "type":"arisit-images",
+        "name":"commercial Tile",
+        "settings":[
+            {
+            "type":"image_picker",
+            "id":"tile-commercial",
+            "label":"Pick an commercial"
+        },
+    {
+        "type":"text",
+        "id":"tile-title",
+        "label":"Tile Title"
+    },
+    {
+        "type":"textarea",
+        "id":"tile-text",
+        "label":"Tile Text"
+    }
+        ]}
+    ],
+
+    "presets": [
+        {
+        "name":"Arisit Tiles",
+        "category":"commercial"}
+    ]}
+
+{% endschema %}
+
+
+{% style %}
+
+.arisit-hr-line{
+    margin-top:150px;
+}
+ .commercial-tile-container{
+     align-items:center;
+     margin: 0 auto;
+     margin-bottom:100px;
+     margin-top:20px;
+ }
+
+ .commercial-tile-row{
+     margin:0 7% 0 6%;
+     display:flex;
+     flex-wrap:wrap;
+     justify-content: center;
+ }
+
+ .commercial-tile-item{
+    display:flex;
+    flex-direction:column;
+    height:333px;
+    min-width:25%;
+    position:relative;
+    cursor:pointer;
+    margin:20px 20px 0 20px;
+    /* flex: 1 0 50%;  */
+    border-radius:5%;
+    overflow:hidden;
+ }
+
+ .commercial-tile{
+     opacity: 1;
+     transition: 0.3s ease;
+ }
+
+ .commercial-tile-title{
+    text-align:center;
+    text-transform: uppercase;
+    font-size:18px;
+    color: white;
+    background:#2F4E82;
+    padding:2px;
+ }
+
+ .commercial-tile-text-container{
+     position:absolute;
+     background: white;
+     width:100%;
+     bottom:0;
+     opacity:0;
+     transition: 0.5s ease;
+     flex-wrap:wrap;
+ }
+
+ .commercial-tile-text{
+     text-align:justify;
+     color:#2F4E82;
+     padding:20px;
+     opacity:1;
+ }
+
+ .commercial-tile-item:hover .tile-commercial {
+     opacity: 0.5;
+ }
+
+ .commercial-tile-item:hover .commercial-tile-text-container {
+     opacity: 1;
+ }
+
+ .commercial-tile-item:hover {
+    border: 2px solid #E5E5E5;
+ }
+
+ @media screen and (max-width:2100px)
+ {  
+     .commercial-tile-item{
+        flex:  1 0 21%; 
+        margin-right:5px;
+     }
+ }
+
+ 
+ @media screen and (max-width:1024px)
+ {  
+     .commercial-tile-item{
+        flex:  1 0 21%; 
+        margin-right:5px;
+     }
+ }
+
+ @media screen and (max-width:912px)
+ {  
+     .commercial-tile-item{
+        height:auto;
+        flex:  1 0 30%; 
+        margin-right:5px;
+     }
+    .commerical-tile-title{
+        font-size:14px;
+    }
+    .commercial-tile-text{
+        font-size:14px;
+        padding:5px;
+    }
+ }
+
+ @media screen and (max-width:820px)
+ {  
+     .commercial-tile-item{
+        height:auto;
+        max-width:39%;
+        flex:  1 0 40%; 
+        margin-right:5px;
+     }
+    .commerical-tile-title{
+        font-size:14px;
+    }
+    .commercial-tile-text{
+        font-size:14px;
+        padding:5px;
+    }
+ }
+
+ @media screen and (max-width:600px)
+ {  
+     .commercial-tile-row{
+         margin:0;
+     }
+     .tile-item{
+        height:auto;
+        max-width:39%;
+        flex:  1 0 40%; 
+        margin-right:5px;
+     }
+    .commerical-tile-title{
+        font-size:14px;
+        text-transform:capitalize;
+    }
+    .tile-text{
+        font-size:14px;
+        padding:5px;
+    }
+ }
+ 
+{% endstyle %}

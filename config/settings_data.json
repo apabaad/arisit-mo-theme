@@ -5,6 +5,7 @@
     "color_button": "#111111",
     "color_button_text": "#ffffff",
     "color_header": "#f8f9fa",
+    "color_announcement": "#20447e",
     "color_footer": "#111111",
     "color_footer_text": "#ffffff",
     "color_drawer_background": "#ffffff",
@@ -94,8 +95,8 @@
           "header_sticky": false,
           "sticky_index": false,
           "sticky_collection": false,
-          "show_announcement": false,
-          "announcement_text": "Free shipping and returns",
+          "show_announcement": true,
+          "announcement_text": "FREE METRO DELIVERIES ON ORDER OVER $99",
           "announcement_link": "",
           "announcement_closable": false
         }

@@ -5,6 +5,7 @@
       "blocks": {
         "1650938659ef42ead3-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "",
             "title_size": 60,
@@ -16,113 +17,48 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "a687369c-b66c-4ccc-9000-ae7e5b373ce0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/whirlpool-australia-slider.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "9f35571e-f7bd-49d9-83c8-f6b2cba871f4": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/ariston.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
-        "1650938659ef42ead3-0"
+        "1650938659ef42ead3-0",
+        "a687369c-b66c-4ccc-9000-ae7e5b373ce0",
+        "9f35571e-f7bd-49d9-83c8-f6b2cba871f4"
       ],
       "settings": {
-        "section_height": "550px",
+        "section_height": "650px",
         "mobile_height": "auto",
         "parallax": false,
         "style": "dots",
         "autoplay": true,
-        "autoplay_speed": 5
-      }
-    },
-    "16515415725f876716": {
-      "type": "logo-list",
-      "blocks": {
-        "5ff26038-b2dc-45a1-8fcb-3a07dab1ed62": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/whirlpool_logo-black-01.png",
-            "link": "https:\/\/www.whirlpool.com.au\/"
-          }
-        },
-        "16515415729d5fa37b-0": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ariston_logo_black_text_df3f3c53-3880-46dd-bd55-38e04b73c87e.jpg",
-            "link": "https:\/\/ariston.com.au\/"
-          }
-        },
-        "16515415729d5fa37b-1": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Capital-Brand-Logo_ad8d2070-3937-46f3-95cc-72359edf9b93.png",
-            "link": "https:\/\/capitalbrand.com.au\/"
-          }
-        },
-        "16515415729d5fa37b-2": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Husky-Logo_e637a6ce-869a-4660-9ee8-295e0bb08d04.png",
-            "link": "https:\/\/huskybrand.com.au\/"
-          }
-        },
-        "6107969e-70ea-4ee4-b934-f7cec22283e3": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sirius_red_d1ba2295-df23-4372-babc-36d992aee712.png",
-            "link": "https:\/\/siriusbrand.com\/"
-          }
-        },
-        "16515415729d5fa37b-3": {
-          "type": "logo_image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/monster_739dc6f7-6d3b-4259-aa15-d821cc325704.png",
-            "link": ""
-          }
-        },
-        "66447ac7-1409-457b-96b1-3468e3d58bc0": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/smart_4dc1ef31-7e98-4009-b0b3-a5d988f1774d.png",
-            "link": "https:\/\/smartbbqs.com.au\/"
-          }
-        },
-        "8e89e3d4-1373-44a4-8a61-57a823e704ba": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/thor.png",
-            "link": "shopify:\/\/collections\/thor"
-          }
-        },
-        "f1bb79cf-bbef-4b33-8a7f-7bf2dde74bcc": {
-          "type": "logo_image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/softerwater.png",
-            "link": ""
-          }
-        },
-        "6c571cd9-a2fd-4553-9ad3-637ddbc1dab5": {
-          "type": "logo_image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Steel_black_logo.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "5ff26038-b2dc-45a1-8fcb-3a07dab1ed62",
-        "16515415729d5fa37b-0",
-        "16515415729d5fa37b-1",
-        "16515415729d5fa37b-2",
-        "6107969e-70ea-4ee4-b934-f7cec22283e3",
-        "16515415729d5fa37b-3",
-        "66447ac7-1409-457b-96b1-3468e3d58bc0",
-        "8e89e3d4-1373-44a4-8a61-57a823e704ba",
-        "f1bb79cf-bbef-4b33-8a7f-7bf2dde74bcc",
-        "6c571cd9-a2fd-4553-9ad3-637ddbc1dab5"
-      ],
-      "settings": {
-        "title": "",
-        "logo_opacity": 100,
-        "divider": false
+        "autoplay_speed": 7
       }
     },
     "rich-text": {
@@ -410,6 +346,78 @@
             "image": "shopify:\/\/shop_images\/dm_logo_282x31_d8bce59a-9611-4108-bb85-f12bdebe844a.png",
             "link": "https:\/\/www.domayne.com.au\/"
           }
+        },
+        "e1a3a91f-0e56-439d-b841-e99e15178317": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/spartans-logo.jpg",
+            "link": ""
+          }
+        },
+        "0acab954-2503-43d9-905f-f8a93acc1297": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/designer-appliances-logo.jpg",
+            "link": ""
+          }
+        },
+        "13a1b539-2857-4beb-8585-35cdeb5b4fa3": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elite-logo.jpg",
+            "link": ""
+          }
+        },
+        "948b992f-40ae-49db-b806-0f6990790d04": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/berloni-logo.jpg",
+            "link": ""
+          }
+        },
+        "495ccfed-b58c-4895-b26b-d6c6797bb603": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/newtons-logo.jpg",
+            "link": ""
+          }
+        },
+        "628563bc-4280-4ea8-8dfc-7c467c8f0554": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eands-logo2.jpg",
+            "link": ""
+          }
+        },
+        "f60c6b95-8db1-4e5a-996b-17a1688d6fb8": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hart-and-co-web.jpg",
+            "link": ""
+          }
+        },
+        "8ba53a0d-1292-42dd-8e18-4a5e0d29943f": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/status-plus-logo.jpg",
+            "link": ""
+          }
+        },
+        "8e093c64-f53c-41b5-9543-a351f3caa1fa": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/betta-logo.jpg",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -422,7 +430,16 @@
         "f1115400-7658-4439-87b8-93a00915b62b",
         "1e304322-da96-4c9b-b4b3-d44264219c9e",
         "c8566632-4b33-42bc-b9eb-727b7e2aa572",
-        "98a82c99-3aea-4afe-aac3-b04b96b15bcc"
+        "98a82c99-3aea-4afe-aac3-b04b96b15bcc",
+        "e1a3a91f-0e56-439d-b841-e99e15178317",
+        "0acab954-2503-43d9-905f-f8a93acc1297",
+        "13a1b539-2857-4beb-8585-35cdeb5b4fa3",
+        "948b992f-40ae-49db-b806-0f6990790d04",
+        "495ccfed-b58c-4895-b26b-d6c6797bb603",
+        "628563bc-4280-4ea8-8dfc-7c467c8f0554",
+        "f60c6b95-8db1-4e5a-996b-17a1688d6fb8",
+        "8ba53a0d-1292-42dd-8e18-4a5e0d29943f",
+        "8e093c64-f53c-41b5-9543-a351f3caa1fa"
       ],
       "settings": {
         "title": "Our Retail Partners",
@@ -470,7 +487,6 @@
   },
   "order": [
     "16509386597f84c70b",
-    "16515415725f876716",
     "rich-text",
     "16517273870cfeb94f",
     "16517251279a34dba3",

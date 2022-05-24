@@ -1,6 +1,8 @@
+<div class="page-width">
+
 {% section 'slideshow' %}
 
-<div class="page-width commercial-container">
+<div class="commercial-container">
         <div class="commercial-container-title"> 
             <h2 align="center"><span class="title-black">WHO IS </span> ARISIT COMMERCIAL </h2>
         </div>
@@ -39,6 +41,7 @@
 </div>
 
 </div>
+</div>
 
 {% style %}
 
@@ -65,5 +68,15 @@
     padding:0 20px 10px 0;
 }
  
+@media screen and (max-width:768px){
+    .commercial-row{
+        flex-direction:column;
+        justify-content:flex-start;
+    }
+
+    .wpb_wrapper{
+    max-width:100%;
+    }
+}
 
 {% endstyle %}

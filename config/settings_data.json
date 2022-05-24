@@ -396,6 +396,39 @@
           "logo_opacity": 76,
           "divider": false
         }
+      },
+      "commercial-slidehow": {
+        "type": "commercial-slidehow",
+        "blocks": {
+          "764aab31-7288-44c2-a0a4-987be166d15a": {
+            "type": "commercial-project",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Yorkshire-Brewery.jpg",
+              "commercial-project-text": "YORKSHIRE BREWERY APARTMENTS | VICTORIA",
+              "commercial-developer": "SMA Projects Australia",
+              "commercial-architect": "SMA Projects Australia",
+              "commercial-builder": "Icon Construction",
+              "commercial-apartments": "365"
+            }
+          },
+          "e1931016-f1a6-43a6-8f0d-b94d93c2a1fb": {
+            "type": "commercial-project",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Swanston-Central.jpg",
+              "commercial-project-text": "SWANSTON CENTRAL | VICTORIA",
+              "commercial-developer": "Hengyi Australia",
+              "commercial-architect": "Elenberg Fraser",
+              "commercial-builder": "Multiplex",
+              "commercial-apartments": "1039"
+            }
+          }
+        },
+        "block_order": [
+          "764aab31-7288-44c2-a0a4-987be166d15a",
+          "e1931016-f1a6-43a6-8f0d-b94d93c2a1fb"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [

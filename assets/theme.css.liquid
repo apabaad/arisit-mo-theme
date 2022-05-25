@@ -11454,7 +11454,6 @@ iframe.zoid-component-frame{
     .rte{  
     text-align: justify;
       padding:0 40px 40px 40px;
-      margin-bottom:0;
       margin-top:-80px;
     }
     
@@ -11678,6 +11677,19 @@ text-align:center;
 }
 }
 
+@media screen and (max-width:750px){
+  .search-bar--page{
+    min-width: 120px;
+}
+}
+
+ @media screen and (max-width:600px){
+  
+  .rte{
+    padding:0;
+  }
+}
+
 @media screen and (min-width:590px){
   .arisit-grid--uniform{
     width:90%;
@@ -11685,8 +11697,13 @@ text-align:center;
   }
 }
 
-@media screen and (max-width:750px){
-  .search-bar--page{
-    min-width: 120px;
+@media screen and (max-width:589px){
+  
+  .rte{
+    margin:0 auto ;
+    padding:0;
+
+  }
 }
-}
+
+

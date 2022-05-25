@@ -174,12 +174,13 @@
           "d241bb79-4f1a-4dd9-b49d-0f22dc5d6258": {
             "type": "image",
             "settings": {
-              "title": "Two line\nslide title.",
-              "title_size": 80,
+              "title": "Arisit Commercial",
+              "title_size": 68,
+              "subheading1": "",
               "subheading": "",
               "link": "",
               "link_text": "",
-              "text_align": "vertical-bottom horizontal-left",
+              "text_align": "vertical-center horizontal-left",
               "image": "shopify:\/\/shop_images\/commercial_banner.jpg",
               "overlay_opacity": 0,
               "focal_point": "center center"

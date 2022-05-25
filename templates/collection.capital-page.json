@@ -8,9 +8,10 @@
           "settings": {
             "title": "",
             "title_size": 80,
+            "subheading1": "",
             "subheading": "",
             "link": "",
-            "link_text": "",
+            "link_text": "visit website",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/capital.jpg",
             "overlay_opacity": 0,

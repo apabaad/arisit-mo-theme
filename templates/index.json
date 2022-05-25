@@ -168,30 +168,66 @@
             "brand-shop-btn": "find out more"
           }
         },
+        "ba9ff469-c160-4289-a24c-d779482903f2": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AVS.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "",
+            "brand-shop-btn": "find out more"
+          }
+        },
         "ed58c176-a57a-4600-8614-bcaf53a27881": {
           "type": "arisit-brands",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Capital-Brand-Logo_ad8d2070-3937-46f3-95cc-72359edf9b93.png",
+            "image": "shopify:\/\/shop_images\/Capital_b6e80e35-aafe-4902-b8a9-cd3884580133.png",
             "arisit-brand-text": "Enjoy a perfect Outdoor BBQ with Capital range Outdoor Built In BBQ and Cart BBQs",
             "brand-btn-link": "shopify:\/\/collections\/capital",
+            "brand-shop-btn": "find out more"
+          }
+        },
+        "d0a0e4ab-f588-4a86-a34b-b97f0a56dd31": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Chief.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "",
             "brand-shop-btn": "find out more"
           }
         },
         "9804673f-b205-4be6-8ed1-bc8678546f07": {
           "type": "arisit-brands",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Husky-Logo_e637a6ce-869a-4660-9ee8-295e0bb08d04.png",
+            "image": "shopify:\/\/shop_images\/Husky_ec05ce51-0f46-480e-b9e8-a092874ca58d.png",
             "arisit-brand-text": "We offer different range of husky bar fridge, outdoor fridge, wine fridge",
             "brand-btn-link": "https:\/\/huskybrand.com.au\/",
+            "brand-shop-btn": "find out more"
+          }
+        },
+        "8536c887-988e-4eed-951d-5ce6ad50f6e8": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Monster_2cfa098b-73f7-44b4-bf5b-5bc666644787.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "",
             "brand-shop-btn": "find out more"
           }
         },
         "d75df7a5-ed9e-40f0-afad-63d99c7153d2": {
           "type": "arisit-brands",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2_b52307df-1802-4090-aafe-f9caf7054afa.png",
+            "image": "shopify:\/\/shop_images\/One_Products.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
             "brand-btn-link": "https:\/\/one-products.com.au\/",
+            "brand-shop-btn": "find out more"
+          }
+        },
+        "e4a84a47-bb87-4be9-8bc9-42342c2fe81a": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Richter.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "",
             "brand-shop-btn": "find out more"
           }
         },
@@ -207,16 +243,25 @@
         "7649d66d-160a-48a8-a986-be49725699c0": {
           "type": "arisit-brands",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sirius_red_d1ba2295-df23-4372-babc-36d992aee712.png",
+            "image": "shopify:\/\/shop_images\/Sirius_21a054d3-f130-43d5-bade-3d0f4bbbc0f1.png",
             "arisit-brand-text": "Sirius Rangehood is an Italian designed rangehood filled with modern design asthetics and functionalities",
             "brand-btn-link": "https:\/\/siriusbrand.com\/",
+            "brand-shop-btn": "find out more"
+          }
+        },
+        "dbf6c1e4-2457-479e-8dc1-2f7fb0d43e2f": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Smart_BBQ.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "",
             "brand-shop-btn": "find out more"
           }
         },
         "78f8dfbe-5f38-4e36-8b6b-7d1e6cfda6e5": {
           "type": "arisit-brands",
           "settings": {
-            "image": "shopify:\/\/shop_images\/softerwater.png",
+            "image": "shopify:\/\/shop_images\/Softerwater_aa891a59-879f-4e36-a32b-05799bcba132.png",
             "arisit-brand-text": "We offer different range of husky bar fridge, outdoor fridge, wine fridge",
             "brand-btn-link": "http:\/\/softerwater.com.au\/",
             "brand-shop-btn": "find out more"
@@ -225,7 +270,7 @@
         "bea39861-a2b0-4a71-aa37-ff19828d99f2": {
           "type": "arisit-brands",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sonorous.png",
+            "image": "shopify:\/\/shop_images\/Sonorous_ecb4bb07-6d2d-482c-9b30-28ae5534a848.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
             "brand-btn-link": "shopify:\/\/collections\/sonorous",
             "brand-shop-btn": "Find out more"
@@ -234,7 +279,7 @@
         "2cd31f2c-8f31-46dc-ab76-0d327ca79f84": {
           "type": "arisit-brands",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Steel_black_logo.png",
+            "image": "shopify:\/\/shop_images\/Steel_0dc89cb7-36f5-4729-86c9-cc7806e7eb2b.png",
             "arisit-brand-text": "Steel supplying premium quality, Italian-made cooktops, rangehoods, refrigerator and combi steam ovens throughout the Australian market.",
             "brand-btn-link": "https:\/\/steelbrand.com.au\/",
             "brand-shop-btn": "find out more"
@@ -243,9 +288,18 @@
         "09152186-2f57-4f68-a2c1-2e91e6d5e02e": {
           "type": "arisit-brands",
           "settings": {
-            "image": "shopify:\/\/shop_images\/thor.png",
+            "image": "shopify:\/\/shop_images\/Thor_9c5d5806-cec3-4f92-a5c2-ef7e818fba2d.png",
             "arisit-brand-text": "Superbly crafted, full-featured, stainless steel kitchen appliances designed to please the eyes and appetites",
             "brand-btn-link": "shopify:\/\/collections\/thor",
+            "brand-shop-btn": "find out more"
+          }
+        },
+        "6a41c149-dbd2-452e-b410-11256b1bee51": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tisira_3aa3305d-ad2c-45cc-8614-797d76f25bd4.png",
+            "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "brand-btn-link": "",
             "brand-shop-btn": "find out more"
           }
         },
@@ -262,15 +316,21 @@
       "block_order": [
         "a2e74a32-ab99-4c3a-afb0-3ead0d4477e7",
         "2a40549b-d50e-4f2a-b18d-fedf36efe891",
+        "ba9ff469-c160-4289-a24c-d779482903f2",
         "ed58c176-a57a-4600-8614-bcaf53a27881",
+        "d0a0e4ab-f588-4a86-a34b-b97f0a56dd31",
         "9804673f-b205-4be6-8ed1-bc8678546f07",
+        "8536c887-988e-4eed-951d-5ce6ad50f6e8",
         "d75df7a5-ed9e-40f0-afad-63d99c7153d2",
+        "e4a84a47-bb87-4be9-8bc9-42342c2fe81a",
         "aba9d3ce-4f03-4fce-9269-5ce668e18a0d",
         "7649d66d-160a-48a8-a986-be49725699c0",
+        "dbf6c1e4-2457-479e-8dc1-2f7fb0d43e2f",
         "78f8dfbe-5f38-4e36-8b6b-7d1e6cfda6e5",
         "bea39861-a2b0-4a71-aa37-ff19828d99f2",
         "2cd31f2c-8f31-46dc-ab76-0d327ca79f84",
         "09152186-2f57-4f68-a2c1-2e91e6d5e02e",
+        "6a41c149-dbd2-452e-b410-11256b1bee51",
         "f031863c-d1c5-4348-8bf5-f7902798c45a"
       ],
       "settings": {

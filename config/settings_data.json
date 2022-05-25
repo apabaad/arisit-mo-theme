@@ -190,7 +190,7 @@
           "d241bb79-4f1a-4dd9-b49d-0f22dc5d6258"
         ],
         "settings": {
-          "section_height": "natural",
+          "section_height": "750px",
           "mobile_height": "auto",
           "parallax": false,
           "style": "arrows",
@@ -393,7 +393,7 @@
         ],
         "settings": {
           "title": "",
-          "logo_opacity": 76,
+          "logo_opacity": 100,
           "divider": false
         }
       },
@@ -421,11 +421,47 @@
               "commercial-builder": "Multiplex",
               "commercial-apartments": "1039"
             }
+          },
+          "ba0b731e-1788-41d2-bbc8-2fe57125f8d9": {
+            "type": "commercial-project",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Lighthouse-Tower.jpg",
+              "commercial-project-text": "LIGHT HOUSE TOWER | VICTORIA",
+              "commercial-developer": "Hengyi Australia",
+              "commercial-architect": "Elenberg Fraser",
+              "commercial-builder": "Multiplex",
+              "commercial-apartments": "605"
+            }
+          },
+          "0232f0c1-f60c-4bfc-8d86-1e544ddda407": {
+            "type": "commercial-project",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Empire-Apartments.jpg",
+              "commercial-project-text": "EMPIRE APARTMENTS | VICTORIA",
+              "commercial-developer": "Mammoth Empire Holdings &amp; PDS Group",
+              "commercial-architect": "Hayball",
+              "commercial-builder": "ProBuild",
+              "commercial-apartments": "474"
+            }
+          },
+          "0bdc2805-110b-4910-9fcb-53016666fe47": {
+            "type": "commercial-project",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Bohem-Apartments.jpg",
+              "commercial-project-text": "BOHEM APARTMENTS | SOUTH AUSTRALIA",
+              "commercial-developer": "Developer – Starfish Developments",
+              "commercial-architect": "Architect – Enzo Caroscio Architecture",
+              "commercial-builder": "Builder – Maxcon",
+              "commercial-apartments": "234"
+            }
           }
         },
         "block_order": [
           "764aab31-7288-44c2-a0a4-987be166d15a",
-          "e1931016-f1a6-43a6-8f0d-b94d93c2a1fb"
+          "e1931016-f1a6-43a6-8f0d-b94d93c2a1fb",
+          "ba0b731e-1788-41d2-bbc8-2fe57125f8d9",
+          "0232f0c1-f60c-4bfc-8d86-1e544ddda407",
+          "0bdc2805-110b-4910-9fcb-53016666fe47"
         ],
         "settings": {
         }

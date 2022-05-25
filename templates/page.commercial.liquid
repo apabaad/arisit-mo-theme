@@ -4,7 +4,10 @@
 
 <div class="commercial-container">
         <div class="commercial-container-title"> 
-            <h2 align="center"><span class="title-black">WHO IS </span> ARISIT COMMERCIAL </h2>
+            <h2 class="para-title">
+                <span class="title-black">WHO IS </span> 
+                <span class="title-blue">ARISIT COMMERCIAL</span> 
+            </h2>
         </div>
         <div class="commercial-main-content">
             <div class="commercial-row">
@@ -14,26 +17,35 @@
         
             <div class="map-container">
                 <p align="center">
-                    <img class="map-image" src="https://arisit.com/media/Australia-and-NZ.png" alt="Map of Australia">
+                    <img class="map-image" src="https://cdn.shopify.com/s/files/1/0630/1057/0459/files/Australia-and-NZ.png?v=1653440957" alt="Map of Australia">
                 </p>
             </div>
         </div>
 
         <div class="commercial-container-title"> 
-            <h2 align="center"><span class="title-black">OUR</span> BRANDS</h2>
+            <h2 align="center" class="para-title">
+                <span class="title-black">OUR </span>
+                <span class="title-blue">BRANDS</span>
+            </h2>
         </div>
         
 
         {% section 'arisit-commercial-tile' %}
         
         <div class="commercial-container-title"> 
-        <h2 align="center"><span class="title-black">RECENT</span> PROJECTS</h2>
+        <h2 align="center" class="para-title">
+            <span class="title-black">RECENT </span> 
+            <span class="title-blue">PROJECTS</span>
+        </h2>
         </div> 
 
         {% section 'commercial-slidehow'%}
 
     <div class="commercial-container-title"> 
-         <h2 align="center"><span class="title-black">OUR</span> PARTNERS</h2>
+         <h2 align="center" class="para-title">
+            <span class="title-black">OUR </span> 
+            <span class="title-blue">PARTNERS</span>
+         </h2>
 
          {% section 'logo-list' %}
     </div>
@@ -47,8 +59,8 @@
 
 .commercial-container{
     margin-top:40px;
-
 }
+
 
 .commercial-row{
     display:flex;
@@ -58,14 +70,38 @@
     margin-bottom:40px;
 }
 
+.commercial-intro{
+    font-size:16px;
+}
+
 .title-black{
     color:black;
+    background: #FFF;
+    padding-left: 30px;
+}
+
+.title-blue{
+    background: #FFF;
+    padding-right: 30px;
 }
 
 .wpb_wrapper{
     max-width:40%;
     text-align:justify;
     padding:0 20px 10px 0;
+}
+
+.para-title{
+    box-sizing: border-box;
+    border-bottom: 4px solid #1d417b;
+    line-height: 0.1em;
+    margin: auto;
+    text-align: center;
+
+    justify-content:center;
+    margin-bottom: 0;
+    max-width:75%;
+
 }
  
 @media screen and (max-width:768px){

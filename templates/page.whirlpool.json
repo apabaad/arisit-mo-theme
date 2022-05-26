@@ -1,0 +1,95 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16535310126e449e09": {
+      "type": "slideshow",
+      "blocks": {
+        "165353101251614a3e-0": {
+          "type": "image",
+          "settings": {
+            "title": "WHIRLPOOL",
+            "title_size": 66,
+            "subheading1": "",
+            "subheading": "",
+            "link": "https:\/\/whirlpool.com.au\/",
+            "link_text": "Visit Website",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/home_slide01.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "165353101251614a3e-0"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1653531260ffce2a62": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/JQ280IX-29L-Convection-Crisp-Grill-Microwave-Web-Image-2.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "MICROWAVE OVENS",
+        "text": "<p> Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/whirlpool.com.au\/product-category\/microwaves\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "1653531272c6c35cdc": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "washing machine",
+        "title": "FRONT LOADER",
+        "text": "<p>Our essential range of front load washing machines.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/whirlpool.com.au\/product-category\/washing-machines\/",
+        "image": "shopify:\/\/shop_images\/home_slide02.jpg",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 650,
+        "parallax": true
+      }
+    },
+    "1653531300bf45a031": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/dryer.png",
+        "image_width": 700,
+        "subtitle": "whirlpool",
+        "title": "SUPREME CARE DRYERS",
+        "text": "<p>Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16535310126e449e09",
+    "1653531260ffce2a62",
+    "1653531272c6c35cdc",
+    "1653531300bf45a031"
+  ]
+}

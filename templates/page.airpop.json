@@ -1,0 +1,130 @@
+{
+  "sections": {
+    "1653531272c6c35cdc": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "reusable kn95",
+        "title": "Better for Working",
+        "text": "<p>Engineered for all-day comfort. Professional level performance and unrestricted breathing for every essential worker<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/airpophealth.com.au\/",
+        "image": "shopify:\/\/shop_images\/Better_for_Working_Female_1296x_fe8103ac-7adc-49a0-a397-7c5abcec7c4c.webp",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 650,
+        "parallax": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16535310126e449e09": {
+      "type": "slideshow",
+      "blocks": {
+        "165353101251614a3e-0": {
+          "type": "image",
+          "settings": {
+            "title": "AIRPOP HEALTH",
+            "title_size": 66,
+            "subheading1": "",
+            "subheading": "Better People Protection",
+            "link": "https:\/\/airpophealth.com.au",
+            "link_text": "Visit Website",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify:\/\/shop_images\/Better_for_Working_Female_1296x_fe8103ac-7adc-49a0-a397-7c5abcec7c4c.webp",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "165353101251614a3e-0"
+      ],
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1653544741c80114a4": {
+      "type": "arisit-page-description",
+      "blocks": {
+        "3253e590-c043-41d8-b443-d972b16b93ed": {
+          "type": "Description",
+          "settings": {
+            "page-description": "Buy your face mask and filter at AirPop. Face masks with ergonomic design, breathable materials, lightweight construction and exceptional filtration.",
+            "shop-btn-link": "https:\/\/airpophealth.com.au\/"
+          }
+        }
+      },
+      "block_order": [
+        "3253e590-c043-41d8-b443-d972b16b93ed"
+      ],
+      "settings": {
+      }
+    },
+    "1653531300bf45a031": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/251133219_407905577475098_5300501146477428020_n_1512x_2048x_4a636776-c783-4eba-86c0-22312d078f65.webp",
+        "image_width": 580,
+        "subtitle": "ASTM F3502",
+        "title": "AirPop Kids KN95",
+        "text": "<p>Finally, a reusable KN95 mask designed for kids that is so breathable and comfortable they forget they’re wearing it. Engineered specifically for the breathing cycles of young lungs.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/airpophealth.com.au\/products\/kids-mask",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "16535470543b875dab": {
+      "type": "hero-video",
+      "settings": {
+        "title": "AIRPOP HEALTH",
+        "title_size": 60,
+        "subheading": "Better People Protection",
+        "link_text": "Visit Website",
+        "link": "https:\/\/airpophealth.com.au\/",
+        "text_align": "vertical-bottom horizontal-left",
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0604\/8684\/4674\/files\/output_compress-video-online.com_12.mp4?v=1636693670",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "1653531260ffce2a62": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pocket_Black_RegularEarloops_Front_2048x_fbaf7ba0-0c0a-474e-a16a-5f0aa924edd0.webp",
+        "image_width": 580,
+        "subtitle": "",
+        "title": "AirPop Pocket KN95",
+        "text": "<p>No matter how chaotic or streamlined your day is, the reusable AirPop Pocket KN95 mask is engineered for the way we all live today, providing incredible comfort, filtration, and effortless breathability, it’s unique shape and foldable construction makes it the perfect mask for on-the-go protection & convenience.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/airpophealth.com.au\/products\/pocket-mask",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "1653531272c6c35cdc",
+    "main",
+    "16535310126e449e09",
+    "1653544741c80114a4",
+    "1653531300bf45a031",
+    "16535470543b875dab",
+    "1653531260ffce2a62"
+  ]
+}

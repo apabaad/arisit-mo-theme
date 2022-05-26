@@ -1,13 +1,13 @@
 <div id="CollectionSection" class="arisit-collection-section">
     <div class="page-width page-content">
 <header class="section-header">
-    <h1 class="section-header__title collection-title">
+    <h1 class="section-header__title collection-title arisit-collection-title">
       {{ collection.title }}
     </h1>
   </header>
   
-<div class="collection-description rte arisit-rte" {{ block.shopify_attributes }}>
-    <div class="enlarge-text">
+<div class="collection-description rte" {{ block.shopify_attributes }}>
+    <div class="enlarge-text arisit-enlarge-text">
       {{ collection.description }} 
       {% for block in section.blocks %} <a class="btn btn--tertiary btn--small btn-shop-all" href={{block.settings.shop-btn-link}}> Shop All </a> {% endfor %}
     </div>
@@ -40,3 +40,11 @@
         ]}
     {% endschema %}
     
+
+    {% style %}
+
+    /* .rte{
+      margin-top: 80px !important;
+    } */
+    
+    {% endstyle %}

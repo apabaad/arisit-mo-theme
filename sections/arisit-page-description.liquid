@@ -1,0 +1,49 @@
+<div id="CollectionSection" class="arisit-collection-section">
+    <div class="page-width page-content">
+
+  
+<div class="collection-description rte" {{ block.shopify_attributes }}>
+    <div class="enlarge-text arisit-enlarge-text">
+        {% for block in section.blocks %}
+      {{ block.settings.page-description }}
+      <a class="btn btn--tertiary btn--small btn-shop-all" href={{block.settings.shop-btn-link}}> Shop Now </a>
+       {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
+
+
+  {% schema %}
+    {
+        "name": "Page Description",
+        "blocks": [
+                    {
+                    "type":"Description",
+                    "name":"Description",
+                    "settings":[
+                        {
+                        "id": "page-description",
+                        "type": "textarea",
+                        "label": "Description"
+                        },
+                        {
+                            "id": "shop-btn-link",
+                            "type": "url",
+                            "label": "Button URL"
+                        }
+                    ]}
+                   
+                  ],
+        "presets":[
+            {
+            "name":"Arisit Page Description",
+            "category":"Description"
+        }
+        ]}
+    {% endschema %}
+    
+
+    {% style %}
+    
+    {% endstyle %}

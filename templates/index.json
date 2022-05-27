@@ -139,7 +139,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/12.png",
             "arisit-brand-text": "Buy your face mask and filter at AirPop. Face masks with ergonomic design, breathable materials, lightweight construction and exceptional filtration.",
-            "brand-btn-link": "https:\/\/airpophealth.com.au\/",
+            "brand-btn-link": "shopify:\/\/pages\/airpop",
             "brand-shop-btn": "find out more"
           }
         },
@@ -148,7 +148,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Ariston_logo_black_text_df3f3c53-3880-46dd-bd55-38e04b73c87e.jpg",
             "arisit-brand-text": "Ariston is suppliers of electrical appliances across Australia. We offer range of laundry, kitchen and cooking appliances.",
-            "brand-btn-link": "https:\/\/ariston.com.au\/",
+            "brand-btn-link": "shopify:\/\/pages\/ariston",
             "brand-shop-btn": "find out more"
           }
         },
@@ -157,7 +157,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/AVS.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
-            "brand-btn-link": "",
+            "brand-btn-link": "shopify:\/\/pages\/avs",
             "brand-shop-btn": "find out more"
           }
         },
@@ -175,7 +175,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Chief.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
-            "brand-btn-link": "",
+            "brand-btn-link": "shopify:\/\/pages\/chief",
             "brand-shop-btn": "find out more"
           }
         },
@@ -184,7 +184,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Husky_ec05ce51-0f46-480e-b9e8-a092874ca58d.png",
             "arisit-brand-text": "We offer different range of husky bar fridge, outdoor fridge, wine fridge",
-            "brand-btn-link": "https:\/\/huskybrand.com.au\/",
+            "brand-btn-link": "shopify:\/\/pages\/husky",
             "brand-shop-btn": "find out more"
           }
         },
@@ -193,7 +193,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Monster_2cfa098b-73f7-44b4-bf5b-5bc666644787.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
-            "brand-btn-link": "",
+            "brand-btn-link": "shopify:\/\/pages\/monster",
             "brand-shop-btn": "find out more"
           }
         },
@@ -202,7 +202,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/One_Products.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
-            "brand-btn-link": "https:\/\/one-products.com.au\/",
+            "brand-btn-link": "shopify:\/\/pages\/one-products",
             "brand-shop-btn": "find out more"
           }
         },
@@ -211,7 +211,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Richter.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
-            "brand-btn-link": "",
+            "brand-btn-link": "shopify:\/\/pages\/richter-1",
             "brand-shop-btn": "find out more"
           }
         },
@@ -229,7 +229,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Sirius_21a054d3-f130-43d5-bade-3d0f4bbbc0f1.png",
             "arisit-brand-text": "Sirius Rangehood is an Italian designed rangehood filled with modern design asthetics and functionalities",
-            "brand-btn-link": "https:\/\/siriusbrand.com\/",
+            "brand-btn-link": "shopify:\/\/pages\/sirius",
             "brand-shop-btn": "find out more"
           }
         },
@@ -238,7 +238,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Smart_BBQ.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
-            "brand-btn-link": "",
+            "brand-btn-link": "shopify:\/\/pages\/smart-bbq",
             "brand-shop-btn": "find out more"
           }
         },
@@ -247,7 +247,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Softerwater_aa891a59-879f-4e36-a32b-05799bcba132.png",
             "arisit-brand-text": "We offer different range of husky bar fridge, outdoor fridge, wine fridge",
-            "brand-btn-link": "http:\/\/softerwater.com.au\/",
+            "brand-btn-link": "shopify:\/\/pages\/softerwater",
             "brand-shop-btn": "find out more"
           }
         },
@@ -265,7 +265,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Steel_0dc89cb7-36f5-4729-86c9-cc7806e7eb2b.png",
             "arisit-brand-text": "Steel supplying premium quality, Italian-made cooktops, rangehoods, refrigerator and combi steam ovens throughout the Australian market.",
-            "brand-btn-link": "https:\/\/steelbrand.com.au\/",
+            "brand-btn-link": "shopify:\/\/pages\/steel",
             "brand-shop-btn": "find out more"
           }
         },
@@ -283,7 +283,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Tisira_3aa3305d-ad2c-45cc-8614-797d76f25bd4.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
-            "brand-btn-link": "",
+            "brand-btn-link": "shopify:\/\/pages\/tisira",
             "brand-shop-btn": "find out more"
           }
         },
@@ -292,7 +292,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/whirlpool_logo-black-01.png",
             "arisit-brand-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
-            "brand-btn-link": "https:\/\/www.whirlpool.com.au\/",
+            "brand-btn-link": "shopify:\/\/pages\/whirlpool",
             "brand-shop-btn": "find out more"
           }
         }

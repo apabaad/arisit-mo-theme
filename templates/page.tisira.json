@@ -12,14 +12,14 @@
         "165353101251614a3e-0": {
           "type": "image",
           "settings": {
-            "title": "ONE PRODUCTS",
+            "title": "TISIRA",
             "title_size": 66,
             "subheading1": "",
             "subheading": "",
-            "link": "https:\/\/one-products.com.au\/",
+            "link": "https:\/\/tisira.com\/",
             "link_text": "Visit Website",
             "text_align": "vertical-center horizontal-right",
-            "image": "shopify:\/\/shop_images\/Main1_1944x_13f4d57e-55bf-4131-b1f7-c9c2bf08386c.webp",
+            "image": "shopify:\/\/shop_images\/Final_kitchen_opt.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -29,7 +29,7 @@
         "165353101251614a3e-0"
       ],
       "settings": {
-        "section_height": "750px",
+        "section_height": "650px",
         "mobile_height": "auto",
         "parallax": false,
         "style": "arrows",
@@ -43,8 +43,8 @@
         "3253e590-c043-41d8-b443-d972b16b93ed": {
           "type": "Description",
           "settings": {
-            "page-description": "Established in 2004 in the USA under the ProMounts brand, our focus from day one was to deliver innovative and exceptional products to consumers. Our product range initially started with mounting solutions for flat panel TV’s due to the ever-increasing demand which has continued to this day. We then expanded our products to include a more comprehensive and diverse range which include audio speakers, HDMI cables, HD antennas and much more. We then created the OneProducts brand to diversify this range even more which resulted in us becoming one of the industry leaders for innovation and excellence.",
-            "shop-btn-link": "https:\/\/one-products.com.au\/"
+            "page-description": "Source directly from a leading appliance manufacturer, the new Tisira range of ovens, cooktops, rangehoods and dishwashers offer a value alternative for any project. We are the first manufacturer to offer a Pyrolytic and Induction package specifically for serviced apartment applications.",
+            "shop-btn-link": ""
           }
         }
       },
@@ -57,21 +57,38 @@
     "1653531260ffce2a62": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/OPMOTO120_750x_d646f229-050d-4c8f-8986-4e89e553e7d0.webp",
+        "image": "shopify:\/\/shop_images\/tisira-web-homepage_46b381ad-9c34-4a3e-abc9-c6f8810e1e02.jpg",
         "image_width": 580,
-        "subtitle": "PREMIUM\/DELUXE",
-        "title": "Electric Projection Screen-120’’",
-        "text": "<p>A motorized, remote control electric projector drop down screen. With a touch of a button, easily convert your living room into a home theater.<\/p>",
+        "subtitle": "tisira",
+        "title": "Wide Range of Products",
+        "text": "<p>With a full commitment to innovation and a dedicated R&D centre, Tisira has a wide range of products suited for every household need. We know that you work hard for your money and that you want products that look great and perform well – not to mention outstanding value for money!<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "https:\/\/one-products.com.au\/products\/opmoto120-premium-deluxe-electric-projection-screen-120-16-9-4k-white-pvc-fabric-for-normal-long",
+        "button_link": "https:\/\/tisira.com\/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
         "divider": false
       }
     },
+    "1653531300bf45a031": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tisira-web-Lifestyle-Cooktop-and-Oven.jpg",
+        "image_width": 700,
+        "subtitle": "tisira",
+        "title": "About Us",
+        "text": "<p>Tisira makes quality European designed products for the Australian market catering for the commercial market up to the home buyer renovator.<\/p><p>Our local team of product designers, cooks and engineers are designing products with three key elements – Design, Performance & Value. Being an Australian Company we understand your requirements and we would be proud to have any of our products in our own homes!<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/tisira.com\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
     "1653531272c6c35cdc": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "IMPRESSIVE",
         "title": "ONE CABLE",
@@ -84,22 +101,6 @@
         "height": 650,
         "parallax": true
       }
-    },
-    "1653531300bf45a031": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/005_OMT8405-AU_TV-Mount_1800x1800_750x_95eeda98-5832-4603-a58f-ab733c1888e7.webp",
-        "image_width": 700,
-        "subtitle": "X-LARGE",
-        "title": "Tilt Mount 60\"-100\"",
-        "text": "<p>A secure & easy to install, low profile design sits just 3.35” (8.5 cm) from the wall.<\/p>",
-        "button_label": "SHOP NOW",
-        "button_link": "https:\/\/one-products.com.au\/products\/omt8405-au-tilt-mount-x-large-60-100?_pos=2&_psq=tilt%20mo&_ss=e&_v=1.0",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "left",
-        "divider": false
-      }
     }
   },
   "order": [
@@ -107,7 +108,7 @@
     "16535310126e449e09",
     "1653544741c80114a4",
     "1653531260ffce2a62",
-    "1653531272c6c35cdc",
-    "1653531300bf45a031"
+    "1653531300bf45a031",
+    "1653531272c6c35cdc"
   ]
 }

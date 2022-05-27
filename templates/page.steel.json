@@ -12,14 +12,14 @@
         "165353101251614a3e-0": {
           "type": "image",
           "settings": {
-            "title": "ONE PRODUCTS",
-            "title_size": 66,
+            "title": "STEEL",
+            "title_size": 52,
             "subheading1": "",
-            "subheading": "",
-            "link": "https:\/\/one-products.com.au\/",
+            "subheading": "Cooking equipments range.",
+            "link": "https:\/\/steelbrand.com.au\/",
             "link_text": "Visit Website",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify:\/\/shop_images\/Main1_1944x_13f4d57e-55bf-4131-b1f7-c9c2bf08386c.webp",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/steel-banner_nl.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -43,8 +43,8 @@
         "3253e590-c043-41d8-b443-d972b16b93ed": {
           "type": "Description",
           "settings": {
-            "page-description": "Established in 2004 in the USA under the ProMounts brand, our focus from day one was to deliver innovative and exceptional products to consumers. Our product range initially started with mounting solutions for flat panel TV’s due to the ever-increasing demand which has continued to this day. We then expanded our products to include a more comprehensive and diverse range which include audio speakers, HDMI cables, HD antennas and much more. We then created the OneProducts brand to diversify this range even more which resulted in us becoming one of the industry leaders for innovation and excellence.",
-            "shop-btn-link": "https:\/\/one-products.com.au\/"
+            "page-description": "Steel is an Italian company with a long family heritage. Situated in Carpi near Bologna it is owned and run by the Po family, who are the third generation to be involved in the production of range cooking equipment.",
+            "shop-btn-link": "https:\/\/steelbrand.com.au\/"
           }
         }
       },
@@ -57,13 +57,13 @@
     "1653531260ffce2a62": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/OPMOTO120_750x_d646f229-050d-4c8f-8986-4e89e553e7d0.webp",
+        "image": "shopify:\/\/shop_images\/Teppanyaki-Plate-SA-PX-768x959.jpg",
         "image_width": 580,
-        "subtitle": "PREMIUM\/DELUXE",
-        "title": "Electric Projection Screen-120’’",
-        "text": "<p>A motorized, remote control electric projector drop down screen. With a touch of a button, easily convert your living room into a home theater.<\/p>",
+        "subtitle": "ascot",
+        "title": "TEPPANYAKI PLATE",
+        "text": "<p>Shop from our wide range of accessories.<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "https:\/\/one-products.com.au\/products\/opmoto120-premium-deluxe-electric-projection-screen-120-16-9-4k-white-pvc-fabric-for-normal-long",
+        "button_link": "https:\/\/steelbrand.com.au\/product\/teppanyaki-plate-sa-px\/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -72,6 +72,7 @@
     },
     "1653531272c6c35cdc": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "IMPRESSIVE",
         "title": "ONE CABLE",
@@ -88,13 +89,13 @@
     "1653531300bf45a031": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/005_OMT8405-AU_TV-Mount_1800x1800_750x_95eeda98-5832-4603-a58f-ab733c1888e7.webp",
+        "image": "shopify:\/\/shop_images\/AFE6-WH-C-Ascot-60cm-Oven-768x763.jpg",
         "image_width": 700,
-        "subtitle": "X-LARGE",
-        "title": "Tilt Mount 60\"-100\"",
-        "text": "<p>A secure & easy to install, low profile design sits just 3.35” (8.5 cm) from the wall.<\/p>",
+        "subtitle": "Steel",
+        "title": "EX DISPLAY & FACTORY SECONDS",
+        "text": "<p>Full 3-Year Warranty Applies To Ex-Display And Showroom Stock<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "https:\/\/one-products.com.au\/products\/omt8405-au-tilt-mount-x-large-60-100?_pos=2&_psq=tilt%20mo&_ss=e&_v=1.0",
+        "button_link": "https:\/\/steelbrand.com.au\/products\/ex-display-factory-seconds\/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",

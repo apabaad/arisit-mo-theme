@@ -12,14 +12,14 @@
         "165353101251614a3e-0": {
           "type": "image",
           "settings": {
-            "title": "ONE PRODUCTS",
+            "title": "SMART BBQ",
             "title_size": 66,
             "subheading1": "",
             "subheading": "",
-            "link": "https:\/\/one-products.com.au\/",
+            "link": "https:\/\/smartbbqs.com.a",
             "link_text": "Visit Website",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify:\/\/shop_images\/Main1_1944x_13f4d57e-55bf-4131-b1f7-c9c2bf08386c.webp",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/Home-Slider-2-1905x645.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -29,7 +29,7 @@
         "165353101251614a3e-0"
       ],
       "settings": {
-        "section_height": "750px",
+        "section_height": "650px",
         "mobile_height": "auto",
         "parallax": false,
         "style": "arrows",
@@ -43,8 +43,8 @@
         "3253e590-c043-41d8-b443-d972b16b93ed": {
           "type": "Description",
           "settings": {
-            "page-description": "Established in 2004 in the USA under the ProMounts brand, our focus from day one was to deliver innovative and exceptional products to consumers. Our product range initially started with mounting solutions for flat panel TV’s due to the ever-increasing demand which has continued to this day. We then expanded our products to include a more comprehensive and diverse range which include audio speakers, HDMI cables, HD antennas and much more. We then created the OneProducts brand to diversify this range even more which resulted in us becoming one of the industry leaders for innovation and excellence.",
-            "shop-btn-link": "https:\/\/one-products.com.au\/"
+            "page-description": "Since its launch in 2010 within the Australian and New Zealand market, Smart BBQ’s have developed a range of premium gas, electric and wood fired outdoor cooking appliances that refuse to compromise on reliability, quality and innovation. Smart is a proudly Australian owned and operated brand with years of experience in delivering premium quality products and appliances with top level after product care and service. Our products are widely loved within backyards by those who love to entertain friends and family within the privacy of their own home.",
+            "shop-btn-link": "https:\/\/smartbbqs.com.aU"
           }
         }
       },
@@ -57,13 +57,13 @@
     "1653531260ffce2a62": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/OPMOTO120_750x_d646f229-050d-4c8f-8986-4e89e553e7d0.webp",
+        "image": "shopify:\/\/shop_images\/Smart-6-Burner-Built-In-BBQ-Stainless-Steel-601WB-W-Front-Open.jpg",
         "image_width": 580,
-        "subtitle": "PREMIUM\/DELUXE",
-        "title": "Electric Projection Screen-120’’",
+        "subtitle": "Smart",
+        "title": "GAS BBQ",
         "text": "<p>A motorized, remote control electric projector drop down screen. With a touch of a button, easily convert your living room into a home theater.<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "https:\/\/one-products.com.au\/products\/opmoto120-premium-deluxe-electric-projection-screen-120-16-9-4k-white-pvc-fabric-for-normal-long",
+        "button_link": "https:\/\/smartbbqs.com.au\/gas-bbq\/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -72,6 +72,7 @@
     },
     "1653531272c6c35cdc": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "IMPRESSIVE",
         "title": "ONE CABLE",
@@ -88,16 +89,24 @@
     "1653531300bf45a031": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/005_OMT8405-AU_TV-Mount_1800x1800_750x_95eeda98-5832-4603-a58f-ab733c1888e7.webp",
+        "image": "shopify:\/\/shop_images\/DSC_0277-Built-In-LR.jpg",
         "image_width": 700,
-        "subtitle": "X-LARGE",
-        "title": "Tilt Mount 60\"-100\"",
-        "text": "<p>A secure & easy to install, low profile design sits just 3.35” (8.5 cm) from the wall.<\/p>",
+        "subtitle": "smart",
+        "title": "Pizza Ovens",
+        "text": "<p>Cassic style wood-fired pizza oven made from high-grade stainless steel, designed to be incorporated into your outdoor kitchen cabinetry.<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "https:\/\/one-products.com.au\/products\/omt8405-au-tilt-mount-x-large-60-100?_pos=2&_psq=tilt%20mo&_ss=e&_v=1.0",
+        "button_link": "https:\/\/smartbbqs.com.au\/product-category\/pizza-oven\/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",
+        "divider": false
+      }
+    },
+    "1653619066cb387558": {
+      "type": "featured-video",
+      "settings": {
+        "title": "Smart Wall Mount BBQ",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=y3bLehV2b4I",
         "divider": false
       }
     }
@@ -108,6 +117,7 @@
     "1653544741c80114a4",
     "1653531260ffce2a62",
     "1653531272c6c35cdc",
-    "1653531300bf45a031"
+    "1653531300bf45a031",
+    "1653619066cb387558"
   ]
 }

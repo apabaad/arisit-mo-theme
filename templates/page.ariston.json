@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16535310126e449e09": {
+      "type": "slideshow",
+      "blocks": {
+        "165353101251614a3e-0": {
+          "type": "image",
+          "settings": {
+            "title": "ARISTON",
+            "title_size": 66,
+            "subheading1": "",
+            "subheading": "",
+            "link": "https:\/\/ariston.com.au\/",
+            "link_text": "Visit Website",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify:\/\/shop_images\/Banner-Final.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "165353101251614a3e-0"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1653544741c80114a4": {
+      "type": "arisit-page-description",
+      "blocks": {
+        "3253e590-c043-41d8-b443-d972b16b93ed": {
+          "type": "Description",
+          "settings": {
+            "page-description": "Ariston is one of Europe’s largest brands of home appliances, including kitchen and laundry.\nAriston is suppliers of electrical appliances across Australia. We offer range of laundry, kitchen and cooking appliances.",
+            "shop-btn-link": "https:\/\/ariston.com.au\/"
+          }
+        }
+      },
+      "block_order": [
+        "3253e590-c043-41d8-b443-d972b16b93ed"
+      ],
+      "settings": {
+      }
+    },
+    "1653531260ffce2a62": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ariston-laundry-appliances-b.jpg",
+        "image_width": 580,
+        "subtitle": "ARISTON",
+        "title": "LAUNDRY APPLIANCES",
+        "text": "<p>Ariston boasts a range of innovative, large drum washing machines and washer dryer combination machines.<\/p><p>With large load capacities of up to 8.5kg and features such as Auto-Dose technology and fast washing and drying programs, Ariston laundry appliances help take the hassle out of cleaning your clothes.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/ariston.com.au\/laundry\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "1653531272c6c35cdc": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "ARISTON KITCHEN",
+        "text": "<p>Ariston is the chosen brand and proud partner of hit television series <em>MasterChef Australia<\/em>,<em>The Great Australian Bake Off<\/em>and<em>Family Food Fight<\/em>. <\/p>",
+        "button_label": "Shop Now",
+        "button_link": "https:\/\/ariston.com.au\/kitchen\/",
+        "image": "shopify:\/\/shop_images\/ariston-dishwashers-new-LFO-web.jpg",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 550,
+        "parallax": false
+      }
+    },
+    "1653531300bf45a031": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ariston-kitchen.jpg",
+        "image_width": 700,
+        "subtitle": "ariston",
+        "title": "Kitchen Appliances",
+        "text": "<p>Ariston is the chosen brand and proud partner of hit television series <em>MasterChef Australia<\/em>, <em>The Great Australian Bake Off<\/em>and<em>Family Food Fight<\/em>. <\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/ariston.com.au\/kitchen\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16535310126e449e09",
+    "1653544741c80114a4",
+    "1653531260ffce2a62",
+    "1653531272c6c35cdc",
+    "1653531300bf45a031"
+  ]
+}

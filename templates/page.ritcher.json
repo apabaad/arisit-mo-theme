@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16535310126e449e09": {
+      "type": "slideshow",
+      "blocks": {
+        "165353101251614a3e-0": {
+          "type": "image",
+          "settings": {
+            "title": "RITCHER",
+            "title_size": 66,
+            "subheading1": "",
+            "subheading": "",
+            "link": "https:\/\/www.richter.com.au\/",
+            "link_text": "Visit Website",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify:\/\/shop_images\/Screenshot_1_9a34c058-c2e1-448e-be93-aa69f907fc88.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "165353101251614a3e-0"
+      ],
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1653544741c80114a4": {
+      "type": "arisit-page-description",
+      "blocks": {
+        "3253e590-c043-41d8-b443-d972b16b93ed": {
+          "type": "Description",
+          "settings": {
+            "page-description": "Bring your favourite music to life with our new Series 6 range of loudspeakers and subwoofers. In a new clean modern look, we’ve taken a new approach and designed this range to deliver clarity and realism with an exceptional sound stage, so you can immerse yourself in an engaging entertainment experience.",
+            "shop-btn-link": "https:\/\/www.richter.com.au\/"
+          }
+        }
+      },
+      "block_order": [
+        "3253e590-c043-41d8-b443-d972b16b93ed"
+      ],
+      "settings": {
+      }
+    },
+    "1653531260ffce2a62": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/RR28-Black-Front-1200-510x510.jpg",
+        "image_width": 580,
+        "subtitle": "ritcher",
+        "title": "Digital Radio",
+        "text": "<p>This Richter AM\/FM Portable DAB+ Digital Radio lets you take your favourite Radio Stations wherever you go. The inbuilt AM\/FM tuner ensures you can enjoy local stations that aren’t on the Digital Platform or remain listening where you find yourself outside the DAB+ Digital area. Battery operated for when you are out and plugin to mains when you get home.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/www.richter.com.au\/dab-digital-radio-and-alarm-clock-digital-radios\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "1653531272c6c35cdc": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "IMPRESSIVE",
+        "title": "ONE CABLE",
+        "text": "<p>The ultimate solution for high definition picture and sound. <\/p>",
+        "button_label": "ALL CABLES",
+        "button_link": "https:\/\/one-products.com.au\/collections\/cables",
+        "image": "shopify:\/\/shop_images\/download.webp",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 650,
+        "parallax": true
+      }
+    },
+    "1653531300bf45a031": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/p-Thor-10-6-white-subwoofer-1250-front-510x494.jpg",
+        "image_width": 580,
+        "subtitle": "ritcher",
+        "title": "Subwoofer Speaker",
+        "text": "<p>The Thor Series 6 takes Richter subwoofer speakers to a whole new level. We have focused on Music, integration with other Richter products for a seamless experience and powerful Home Theatre Performance.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/www.richter.com.au\/thor-series-6-10-6-subwoofer-speakers\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16535310126e449e09",
+    "1653544741c80114a4",
+    "1653531260ffce2a62",
+    "1653531272c6c35cdc",
+    "1653531300bf45a031"
+  ]
+}

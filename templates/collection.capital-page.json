@@ -6,11 +6,11 @@
         "1652769532c102b60e-0": {
           "type": "image",
           "settings": {
-            "title": "",
-            "title_size": 80,
+            "title": "CAPITAL",
+            "title_size": 56,
             "subheading1": "",
             "subheading": "",
-            "link": "",
+            "link": "https:\/\/capitalbrand.com.au\/",
             "link_text": "visit website",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/capital.jpg",
@@ -68,8 +68,8 @@
         "subtitle": "",
         "title": "Progrill Series",
         "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
-        "button_label": "Shop progrill series",
-        "button_link": "shopify:\/\/collections\/sanus-products",
+        "button_label": "Shop Now",
+        "button_link": "https:\/\/capitalbrand.com.au\/progrill-series-outdoor-bbq-kitchen\/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -82,13 +82,13 @@
         "subtitle": "Capital’s Outdoor",
         "title": "BBQ Kitchen",
         "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
-        "button_label": "SHOP",
-        "button_link": "shopify:\/\/collections\/capital",
-        "image": "shopify:\/\/shop_images\/steel-banner_nl.jpg",
+        "button_label": "Shop Now",
+        "button_link": "https:\/\/capitalbrand.com.au\/outdoor-bbq-kitchen\/",
+        "image": "shopify:\/\/shop_images\/Homepage_Slider6.jpg",
         "focal_point": "center",
         "layout": "right",
-        "height": 650,
-        "parallax": true
+        "height": 550,
+        "parallax": false
       }
     },
     "165274346483a68eef": {
@@ -100,7 +100,7 @@
         "title": "Precision Series",
         "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
         "button_label": "Shop Precision Series",
-        "button_link": "",
+        "button_link": "https:\/\/capitalbrand.com.au\/outdoor-bbq-kitchen\/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",

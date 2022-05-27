@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16535310126e449e09": {
+      "type": "slideshow",
+      "blocks": {
+        "165353101251614a3e-0": {
+          "type": "image",
+          "settings": {
+            "title": "SIRIUS",
+            "title_size": 66,
+            "subheading1": "",
+            "subheading": "",
+            "link": "https:\/\/siriusbrand.com\/",
+            "link_text": "Visit Website",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/sirius-valentina-arisit-web-banner.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "165353101251614a3e-0"
+      ],
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1653544741c80114a4": {
+      "type": "arisit-page-description",
+      "blocks": {
+        "3253e590-c043-41d8-b443-d972b16b93ed": {
+          "type": "Description",
+          "settings": {
+            "page-description": "Sirius is a specialist producer of high–end rangehoods.\nFounded in Italy in 1996, Sirius combines an unmistakable Italian design aesthetic with effective, energy efficient extraction.\n\nSirius rangehoods have won numerous design and manufacturing awards due principally to their combination of style with substance; Sirius’ distinctive designs are backed by components such as aluminium motor casings that increase the performance and longevity of the rangehoods.",
+            "shop-btn-link": "https:\/\/siriusbrand.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "3253e590-c043-41d8-b443-d972b16b93ed"
+      ],
+      "settings": {
+      }
+    },
+    "1653531260ffce2a62": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sirius-home-page-image.jpg",
+        "image_width": 580,
+        "subtitle": "sirius",
+        "title": "RANGEHOOD",
+        "text": "<p>A Sirius rangehood brings powerful extraction and a modern design aesthetic to your kitchen.<\/p><p>Striking, effective and boasting near silent operation, a Sirius rangehood clears your kitchen of steam, smoke and odours so you can cook in greater comfort. Easy–to&ndashuse and easy–to–maintain, Sirius rangehoods offer long term, reliable extraction.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/siriusbrand.com\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "1653531272c6c35cdc": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "sirius",
+        "title": "VALENTINA COLLECTION",
+        "text": "<p>The ultimate solution for high definition picture and sound. <\/p>",
+        "button_label": "ALL CABLES",
+        "button_link": "https:\/\/siriusbrand.com\/valentina-collection\/",
+        "image": "shopify:\/\/shop_images\/Screenshot_2_63dc0bae-1216-4d27-8f42-2619902c872d.png",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 650,
+        "parallax": false
+      }
+    },
+    "1653531300bf45a031": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HALO-rangehood-lifestyle-web-image.jpg",
+        "image_width": 580,
+        "subtitle": "sirius",
+        "title": "Pendant Collection",
+        "text": "<p>Italian designed Pendant Rangehoods that create a focal point to any kitchen. Not only is a Sirius Pendant eye catching, the motor extracts up to 600 m3\/hr though the latest high-performance rejuvenating recirculating filters, boasting 98.8% efficiency.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/siriusbrand.com\/brand\/pendant-collection\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16535310126e449e09",
+    "1653544741c80114a4",
+    "1653531260ffce2a62",
+    "1653531272c6c35cdc",
+    "1653531300bf45a031"
+  ]
+}

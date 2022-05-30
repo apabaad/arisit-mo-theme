@@ -501,7 +501,8 @@
           "settings": {
             "tile-image": "shopify:\/\/shop_images\/Arisit_1000x1000_142a0389-5fe1-4257-9469-99236bea91da.png",
             "tile-title": "warehousing, it & logistics",
-            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances."
+            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "tile-url": "shopify:\/\/pages\/warehouse"
           }
         },
         "c9fbf182-794d-4865-9919-3bdc3a915ce8": {
@@ -509,7 +510,8 @@
           "settings": {
             "tile-image": "shopify:\/\/shop_images\/Promounts_1000x1000_d5b9afc7-68e3-4b63-96bd-bc08f5b8f65b.png",
             "tile-title": "sales & customer support team",
-            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances."
+            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances.",
+            "tile-url": "shopify:\/\/pages\/warehouse"
           }
         },
         "310a1f19-9c20-4f10-807e-502534e3d6ba": {
@@ -517,7 +519,8 @@
           "settings": {
             "tile-image": "shopify:\/\/shop_images\/Arisit_1000x1000_142a0389-5fe1-4257-9469-99236bea91da.png",
             "tile-title": "Online Channels & Strategies",
-            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances. microwave ovens, & cooking appliances."
+            "tile-text": "Shop for Whirlpool washing machines, refrigerators, microwave ovens, & cooking appliances. microwave ovens, & cooking appliances.",
+            "tile-url": "shopify:\/\/pages\/warehouse"
           }
         }
       },

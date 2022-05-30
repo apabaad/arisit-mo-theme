@@ -1,3 +1,5 @@
+
+{% comment %} Original code EVERYTHING COMMENTED TO ADJUST LOGO SIZE ON NORMAL SCREENS
 {%- liquid
   assign has_logo = true
   assign header_logo_size = section.settings.desktop_logo_width | append: 'x'
@@ -47,9 +49,9 @@
   <div id="LogoContainer" class="h1 site-header__logo" itemscope itemtype="http://schema.org/Organization">
 {%- endif -%}
 {%- if section.settings.logo -%}
-  {% comment %}
+  
     .logo--has-inverted is only applied to the default logo if the inverted logo exists. That way it'll only be hidden on the slider when it has a backup.
-  {% endcomment %}
+  
   <a
     href="{{ routes.root_url }}"
     itemprop="url"
@@ -111,3 +113,20 @@
     </div>
   {%- endif -%}
 {%- endunless -%}
+
+
+{% endcomment %}
+
+<img class ="arisit-logo" src="http://cdn.shopify.com/s/files/1/0630/1057/0459/files/Arisit_Logo_200x.png?v=1650938522">
+
+{% style %}
+  .arisit-logo{
+    width:150px;
+    margin-bottom:5px;
+    align-items:center;
+    text-align:center;
+    
+  }
+
+ 
+{% endstyle %}

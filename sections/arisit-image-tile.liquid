@@ -4,7 +4,9 @@
     <div class="tile-row">
         {% for block in section.blocks %}
             {% if block.settings.tile-image != blank %}
-            <div class="tile-item">
+               
+            <div class="tile-item" onclick="window.location='{{ block.settings.tile-url }}';">
+                
                 <span class = "tile-title"> {{ block.settings.tile-title }} </span>
                <img src={{ block.settings.tile-image | img_url: 'master' }} class="tile-image" >
                {% comment %} <span class = "tile-title"> {{ block.settings.tile-title }} </span> {% endcomment %}
@@ -13,7 +15,9 @@
                         {{ block.settings.tile-text }}
                     </div>
                 </div>
+          
             </div>
+        
             {% endif %}
         {% endfor %}
     </div>
@@ -49,6 +53,11 @@
         "type":"textarea",
         "id":"tile-text",
         "label":"Tile Text"
+    },
+    {
+        "type":"url",
+        "id":"tile-url",
+        "label":"URL"
     }
         ]}
     ],

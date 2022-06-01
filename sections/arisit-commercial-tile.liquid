@@ -5,8 +5,7 @@
             {% if block.settings.tile-commercial != blank %}
             <div class="commercial-tile-item">
                 <span class = "commercial-tile-title"> {{ block.settings.tile-title }} </span>
-               <img src={{ block.settings.tile-commercial | img_url: 'master' }} class="tile-commercial" >
-               {% comment %} <span class = "tile-title"> {{ block.settings.tile-title }} </span> {% endcomment %}
+               <img src={{ block.settings.tile-commercial | img_url: 'master' }} class="tile-commercial" loading="lazy" >
                 <div class="commercial-tile-text-container">
                     <div class="commercial-tile-text">
                         {{ block.settings.tile-text }}
@@ -63,9 +62,6 @@
 
 {% style %}
 
-.arisit-hr-line{
-    margin-top:150px;
-}
  .commercial-tile-container{
      align-items:center;
      margin: 0 auto;

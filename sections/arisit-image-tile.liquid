@@ -8,8 +8,7 @@
             <div class="tile-item" onclick="window.location='{{ block.settings.tile-url }}';">
                 
                 <span class = "tile-title"> {{ block.settings.tile-title }} </span>
-               <img src={{ block.settings.tile-image | img_url: 'master' }} class="tile-image" >
-               {% comment %} <span class = "tile-title"> {{ block.settings.tile-title }} </span> {% endcomment %}
+               <img src={{ block.settings.tile-image | img_url: 'master' }} class="tile-image" loading="lazy">
                 <div class="tile-text-container">
                     <div class="tile-text">
                         {{ block.settings.tile-text }}

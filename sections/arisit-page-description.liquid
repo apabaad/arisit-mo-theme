@@ -6,7 +6,7 @@
     <div class="enlarge-text arisit-enlarge-text">
         {% for block in section.blocks %}
       {{ block.settings.page-description }}
-      <a class="btn btn--tertiary btn--small btn-shop-all" href={{block.settings.shop-btn-link}}> Shop Now </a>
+      {% if block.settings.shop-btn-link != blank %} <a class="btn btn--tertiary btn--small btn-shop-all" href={{block.settings.shop-btn-link}}> Shop Now </a> {% endif %}
        {% endfor %}
     </div>
   </div>
@@ -24,7 +24,7 @@
                     "settings":[
                         {
                         "id": "page-description",
-                        "type": "textarea",
+                        "type": "liquid",
                         "label": "Description"
                         },
                         {

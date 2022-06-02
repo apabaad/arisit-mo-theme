@@ -101,6 +101,23 @@
         "layout": "left",
         "divider": false
       }
+    },
+    "1654125760953d9791": {
+      "type": "arisit-page-description",
+      "blocks": {
+        "482b6c66-5564-44b6-bad7-93ffee4cbcbf": {
+          "type": "Description",
+          "settings": {
+            "page-description": "<h2>About Richter<\/h2>\n<div style=\"margin-bottom:45px;\">\nFrom a low-key launch in 1986, Richter Acoustics has steadily grown to become Australia’s favourite home-grown speaker brand..\nWith over thirty years of designing and manufacturing speakers renowned for performance and value for money, the company has garnered in excess of 30 industry and government awards for excellence. <br>\nThe model which undoubtedly put Richter on the map was the Wizard which still ranks as the largest selling Australian loudspeaker of all time, with many thousands of pairs finding an appreciative home the length and breadth of the country. The Wizard is universally acknowledged as the product that, single handed, legitimised the entire Australian loudspeaker manufacturing industry, offering as it did, some very serious competition to the imports and embarrassing many highly respected brands from the U.S.A. and U.K.<br>\n \n“This latest S6 version of the Richter Wizard takes a proven award-winning design to its highest level yet in terms of sound quality, visual appearance, cabinet stability and amplifier friendliness, so it seems certain that the Richter Wizard will continue to wear the crown of being the best-selling Australian loudspeaker” (quoted in Best Buys Magazine Jan 2020) <br>\n \nRecently Richter embraced Digital DAB+ Radio launching the first Richter Digital Radios in August 2017 bringing Richter to a new audience with plans to also launch a Streaming Radio Range in the future embracing the wide World of digital content. <br>\n \nOur objective at Richter is to continue to design and engineer products that deliver features and performance in excess of what the price might suggest.<br>\n\n<div>",
+            "shop-btn-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "482b6c66-5564-44b6-bad7-93ffee4cbcbf"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -109,6 +126,7 @@
     "1653544741c80114a4",
     "1653531260ffce2a62",
     "1653531272c6c35cdc",
-    "1653531300bf45a031"
+    "1653531300bf45a031",
+    "1654125760953d9791"
   ]
 }

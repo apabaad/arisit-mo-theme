@@ -8,12 +8,11 @@
     },
     "16535310126e449e09": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "165353101251614a3e-0": {
           "type": "image",
           "settings": {
-            "title": "CHIEF",
+            "title": "MEDISANA",
             "title_size": 66,
             "subheading1": "",
             "subheading": "",
@@ -43,8 +42,8 @@
         "3253e590-c043-41d8-b443-d972b16b93ed": {
           "type": "Description",
           "settings": {
-            "page-description": "<span class=\"arisit-page-subheading\">About Chief <\/span>\nChief is a division of Legrand AV Technologies. With over 35 years of proven product and service excellence, hundreds of product awards and patented designs, Chief is globally recognised as an AV industry leader. Chief designs state-of-the-art mount and rack solutions that complement the technology its supports. Chief is committed to delivering high-quality products that are easy to install and maintain. <br><br>\n\n<span class=\"arisit-page-subheading\">Video Wall & Menu Board Solutions<\/span>\n\nDigital signage mounts from Chief maximise the impact of the content. Chief strives to provide a digital signage solution that is strong, functional, aesthetically pleasing and easy-to-install. Whether it be sports arenas, retail, airports, health or education institutions around the world, architects and specifiers choose digital signage mounts from Chief.<\/br><br>\n\n<span class=\"arisit-page-subheading\">Corporate AV Solutions<\/span>\n\n<li>Boardrooms & Conference Rooms<\/li>\n<li>Training Facilities<\/li>\n<li>Auditoriums<\/li>\n\n<br>\n <span>For more details regarding Chief AV Solutions<\/span>\n  \nPlease contact Timothy Gaedtke at <strong><a href=\"mailto:tim.gaedtke@arisit.com\" target=\"_blank\"> tim.gaedtke@arisit.com<\/a>\n<\/strong>",
-            "shop-btn-link": ""
+            "page-description": "Medisana is one of the leading specialists in the home health care market. For around 40 years, we have been committed to people’s health under the motto, your health in good hands“. We are continuously working on the further development and manufacture of health products for end-users, so that these products can help more and more people to independently control their state of health, self-treat without risks, and actively promote their own well-being.",
+            "shop-btn-link": "shopify:\/\/pages\/medisana"
           }
         }
       },
@@ -56,12 +55,11 @@
     },
     "1653531260ffce2a62": {
       "type": "text-and-image",
-      "disabled": true,
       "settings": {
         "image_width": 580,
-        "subtitle": "chief",
-        "title": "CHIEF",
-        "text": "<p>--- DESCRIPTION ---<\/p>",
+        "subtitle": "",
+        "title": "featured product",
+        "text": "<p>featured product description<\/p>",
         "button_label": "SHOP NOW",
         "button_link": "",
         "button_style": "primary",
@@ -72,13 +70,12 @@
     },
     "1653531272c6c35cdc": {
       "type": "background-image-text",
-      "disabled": true,
       "settings": {
-        "subtitle": "IMPRESSIVE",
-        "title": "chief",
-        "text": "<p>--- DESCRIPTION ---<\/p>",
-        "button_label": "ALL CABLES",
-        "button_link": "",
+        "subtitle": "",
+        "title": "featured product",
+        "text": "<p>featured product description<\/p>",
+        "button_label": "Buy Now",
+        "button_link": "https:\/\/one-products.com.au\/collections\/cables",
         "focal_point": "center",
         "layout": "right",
         "height": 650,
@@ -87,14 +84,13 @@
     },
     "1653531300bf45a031": {
       "type": "text-and-image",
-      "disabled": true,
       "settings": {
         "image_width": 700,
-        "subtitle": "chief",
-        "title": "product",
-        "text": "<p>--- DESCRIPTION ---<\/p>",
+        "subtitle": "",
+        "title": "featured product",
+        "text": "<p>featured product description<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "",
+        "button_link": "https:\/\/one-products.com.au\/products\/omt8405-au-tilt-mount-x-large-60-100?_pos=2&_psq=tilt%20mo&_ss=e&_v=1.0",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",

@@ -82,7 +82,7 @@
         "46e73b3c-9bcd-4283-95f7-06e791c8a930": {
           "type": "arisit-statistics",
           "settings": {
-            "arisit-statistics-number": "1,000,000",
+            "arisit-statistics-number": "900,000",
             "arisit-statistics-text": "products",
             "arisit-statistics-small-text": "sold annually within australia"
           }

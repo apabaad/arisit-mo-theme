@@ -19,7 +19,33 @@
 <footer class="site-footer" data-section-id="{{ section.id }}" data-section-type="footer">
   <div class="page-width">
 
-    <div class="grid">
+    <div class="grid__item arisit-footer-items" >
+      
+     
+      <div class="enquiry-contact" >
+        <img width="150px" src="https://cdn.shopify.com/s/files/1/0630/1057/0459/files/arisit-logo-white.png?v=1650938522" loading="lazy"><br><br>
+      
+        <i class="contact-fa fa-solid fa-location-dot"></i>
+
+      <span class="get-in-touch-title"> Head Office (Australia)</span><br>
+      <div class="arisit-contact-details">
+      Arisit Pty. Ltd.<br>
+      40-50 Mark Anthony Drive<br>
+      Dandenong South, VIC 3175<br>
+    </div>
+    <br>
+      <i class="contact-fa fa-solid fa-location-dot"></i>
+       <span class="get-in-touch-title">Head Office (New
+        Zealand)</span><br>
+      <div class="arisit-contact-details">
+        Arisit Pty. Ltd.<br>
+      1A Howe Street, Auckland 1010
+      
+     
+    </div>
+    </div>
+
+       
       {%- assign row_width = 0 -%}
       {%- for block in section.blocks -%}
         {%- assign row_width = row_width | plus: block.settings.container_width -%}
@@ -55,6 +81,7 @@
           </div>
         {%- endcase -%}
       {%- endfor -%}
+      
     </div>
 
     <div class="site-footer__bottom">
@@ -137,7 +164,7 @@
       <div class="footer__copyright site-footer__bottom-block">
         {%- if section.settings.show_copyright -%}
           <span>
-            &copy; {{ 'now' | date: '%Y' }} {{ shop.name }}
+            &copy; {{ 'now' | date: '%Y' }}  Arisit Pty. Limited ABN: 23 091 515 294
             {%- if section.settings.copyright_text != blank -%}
               {{ section.settings.copyright_text }}
             {%- endif -%}
@@ -359,3 +386,17 @@
   }
 }
 {% endschema %}
+
+
+{% style %}
+  .arisit-footer-items{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .contact-fa, .get-in-touch-title{
+    color:#F9F872;
+  }
+
+
+{% endstyle %}

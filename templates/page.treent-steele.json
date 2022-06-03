@@ -8,6 +8,7 @@
     },
     "16535310126e449e09": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "165353101251614a3e-0": {
           "type": "image",
@@ -16,9 +17,10 @@
             "title_size": 66,
             "subheading1": "",
             "subheading": "",
-            "link": "",
+            "link": "https:\/\/www.harveynorman.com.au\/brands\/trent-steele",
             "link_text": "Visit Website",
             "text_align": "vertical-center horizontal-right",
+            "image": "shopify:\/\/shop_images\/white-banner.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -28,7 +30,7 @@
         "165353101251614a3e-0"
       ],
       "settings": {
-        "section_height": "550px",
+        "section_height": "450px",
         "mobile_height": "auto",
         "parallax": false,
         "style": "arrows",
@@ -42,8 +44,8 @@
         "3253e590-c043-41d8-b443-d972b16b93ed": {
           "type": "Description",
           "settings": {
-            "page-description": "Description here....",
-            "shop-btn-link": "https:\/\/one-products.com.au\/"
+            "page-description": "<strong>Trent & Steele <\/strong> is an Australian, small kitchen appliances brand that offers a wide range of effective products such as toasters, kettles and blenders.",
+            "shop-btn-link": "https:\/\/www.harveynorman.com.au\/brands\/trent-steele"
           }
         }
       },
@@ -56,12 +58,13 @@
     "1653531260ffce2a62": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/ts45_3.jpg",
         "image_width": 580,
-        "subtitle": "",
-        "title": "featured product",
-        "text": "<p>featured product description<\/p>",
+        "subtitle": "Trent & Steele",
+        "title": "Toasters",
+        "text": "<p>Effective, uncomplicated and stylish, Trent & Steele toasters make a welcome addition to any kitchen.<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "",
+        "button_link": "https:\/\/www.harveynorman.com.au\/kitchen-appliances\/small-kitchen-appliances\/toasters\/trent+and+steele\/993",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -70,12 +73,13 @@
     },
     "1653531272c6c35cdc": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "",
-        "title": "featured product",
-        "text": "<p>featured product description<\/p>",
+        "title": "",
+        "text": "",
         "button_label": "Buy Now",
-        "button_link": "https:\/\/one-products.com.au\/collections\/cables",
+        "button_link": "https:\/\/www.harveynorman.com.au\/kitchen-appliances\/small-kitchen-appliances\/kettles\/trent+and+steele\/993",
         "focal_point": "center",
         "layout": "right",
         "height": 650,
@@ -85,12 +89,46 @@
     "1653531300bf45a031": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/trent-steele-kettles.jpg",
         "image_width": 700,
-        "subtitle": "",
-        "title": "featured product",
-        "text": "<p>featured product description<\/p>",
+        "subtitle": "TRENT & STEELE",
+        "title": "KETTLES",
+        "text": "<p>Trent & Steele kettles help you prepare hot drinks with the minimum of fuss.<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "https:\/\/one-products.com.au\/products\/omt8405-au-tilt-mount-x-large-60-100?_pos=2&_psq=tilt%20mo&_ss=e&_v=1.0",
+        "button_link": "https:\/\/www.harveynorman.com.au\/kitchen-appliances\/small-kitchen-appliances\/kettles\/trent+and+steele\/993",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "165421365065998692": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ts7050_2.jpg",
+        "image2": "shopify:\/\/shop_images\/ts8809-trent-steele-ice-cream-maker.jpg",
+        "image_width": 580,
+        "subtitle": "TRENT & STEELE",
+        "title": "Small Kitchen Appliances",
+        "text": "<p>Prepare more food with less effort with a Trent & Steele cooking appliance.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/www.harveynorman.com.au\/kitchen-appliances\/small-kitchen-appliances\/trent+and+steele\/\/compact+ovens_egg+cooker_frying+pans_ice+cream+makers_multicookers_rice+cookers_slow+cookers\/993-02-1065",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "165421380601efd61f": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ts200w_1.jpg",
+        "image_width": 700,
+        "subtitle": "TRENT & STEELE",
+        "title": "Food Preparation",
+        "text": "<p>Trent & Steele food preparation appliances enable you turn ingredients into delicious meals with ease.<\/p>",
+        "button_label": "SHOP NOW",
+        "button_link": "https:\/\/www.harveynorman.com.au\/kitchen-appliances\/food-preparation\/trent+and+steele\/993",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",
@@ -104,6 +142,8 @@
     "1653544741c80114a4",
     "1653531260ffce2a62",
     "1653531272c6c35cdc",
-    "1653531300bf45a031"
+    "1653531300bf45a031",
+    "165421365065998692",
+    "165421380601efd61f"
   ]
 }

@@ -8,6 +8,7 @@
     },
     "16535310126e449e09": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "165353101251614a3e-0": {
           "type": "image",
@@ -42,8 +43,8 @@
         "3253e590-c043-41d8-b443-d972b16b93ed": {
           "type": "Description",
           "settings": {
-            "page-description": "<span class=\"arisit-page-subheading\">Who are we?<\/span>\nOur business is built on providing a safer alternative to the harsh and sometimes toxic chemicals used in industrial scale cleaning and sanitation. For years we have been developing organic and environmentally friendly products which utilise the latest science to clean, disinfect and eliminate odour.<br><br>\n<span class=\"arisit-page-subheading\">What makes our products different?<\/span>\nWe designed our products with the environment, people and equipment in focus. Our products have been tested and proven to be the best, environmentally safest, pH neutral product of its kind sold or distributed anywhere in the world.\n<br><br><span class=\"arisit-page-subheading\">Why should you use our products?<\/span>\nDespite our products being environmentally friendly or Australian owned and developed, our products are simply highly effective. With just one of our products you have a heavy duty cleaner, a disinfectant with a 6 log reduction (99.9999%) on pathogens and bacteria within 30 seconds - 10 minutes and a product that can eliminate odour instantly.\n<br><br><span class=\"arisit-page-subheading\">Who are our products for?<\/span>\nWith the benefit of being environmentally friendly our products can be used in almost any industry. Currently our products are being used in animal care, waste management, water treatment facilities, sewage plants, mining operations, food processing, commercial cleaning, hospitals, schools and agricultural operations. <br><br>",
-            "shop-btn-link": "shopify:\/\/pages\/enzyme-wizard"
+            "page-description": "<span class=\"arisit-page-subheading\">Who is Enzyme Wizard?<\/span>\nOur business is built on providing a safer alternative to the harsh and sometimes toxic chemicals used in industrial scale cleaning and sanitation. For years we have been developing organic and environmentally friendly products which utilise the latest science to clean, disinfect and eliminate odour.<br><br>\n<span class=\"arisit-page-subheading\">What makes our products different?<\/span>\nWe designed our products with the environment, people and equipment in focus. Our products have been tested and proven to be the best, environmentally safest, pH neutral product of its kind sold or distributed anywhere in the world.\n<br><br><span class=\"arisit-page-subheading\">Why should you use our products?<\/span>\nDespite our products being environmentally friendly or Australian owned and developed, our products are simply highly effective. With just one of our products you have a heavy duty cleaner, a disinfectant with a 6 log reduction (99.9999%) on pathogens and bacteria within 30 seconds - 10 minutes and a product that can eliminate odour instantly.\n<br><br><span class=\"arisit-page-subheading\">Who are our products for?<\/span>\nWith the benefit of being environmentally friendly our products can be used in almost any industry. Currently our products are being used in animal care, waste management, water treatment facilities, sewage plants, mining operations, food processing, commercial cleaning, hospitals, schools and agricultural operations. <br><br>",
+            "shop-btn-link": "https:\/\/www.harveynorman.com.au\/vacuum-laundry-appliances\/steam-cleaners-shampooers\/floor-cleaners\/enzyme+wizard\/993"
           }
         }
       },
@@ -56,12 +57,13 @@
     "1653531260ffce2a62": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/ewfc1l-enzyme-wizard-no-rinse-floor-cleaner.jpg",
         "image_width": 580,
-        "subtitle": "",
-        "title": "featured product",
-        "text": "<p>featured product description<\/p>",
+        "subtitle": "Enzyme Wizard",
+        "title": "1L No Rinse Floor Cleaner",
+        "text": "<p>Enjoy a more hygienic home with the Enzyme Wizard Floor Cleaner, which thoroughly breaks down tough stains and odours on various surfaces  <\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "",
+        "button_link": "https:\/\/www.harveynorman.com.au\/enzyme-wizard-1l-no-rinse-floor-cleaner.html",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -70,6 +72,7 @@
     },
     "1653531272c6c35cdc": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "",
         "title": "featured product",
@@ -84,6 +87,7 @@
     },
     "1653531300bf45a031": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image_width": 700,
         "subtitle": "",

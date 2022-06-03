@@ -74,7 +74,7 @@
         "7cd68470-f402-41ad-bf72-08bc6790b1f0": {
           "type": "arisit-statistics",
           "settings": {
-            "arisit-statistics-number": "20",
+            "arisit-statistics-number": "22",
             "arisit-statistics-text": "brands",
             "arisit-statistics-small-text": "imported & sold within aus\/nz"
           }
@@ -82,9 +82,9 @@
         "46e73b3c-9bcd-4283-95f7-06e791c8a930": {
           "type": "arisit-statistics",
           "settings": {
-            "arisit-statistics-number": "900,000",
+            "arisit-statistics-number": "+1M",
             "arisit-statistics-text": "products",
-            "arisit-statistics-small-text": "sold annually within australia"
+            "arisit-statistics-small-text": "sold annually"
           }
         },
         "548aab80-1c76-462c-b507-0299b5110c84": {
@@ -274,7 +274,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/tns-logo.png",
             "arisit-brand-text": "Create the ultimate\nkitchen with your style.",
-            "brand-btn-link": "http:\/\/trentandsteele.com.au\/",
+            "brand-btn-link": "shopify:\/\/pages\/treent-steele",
             "brand-shop-btn": "find out more"
           }
         },

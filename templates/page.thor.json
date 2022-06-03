@@ -43,8 +43,8 @@
         "3253e590-c043-41d8-b443-d972b16b93ed": {
           "type": "Description",
           "settings": {
-            "page-description": "<h2 align=\"center\">SONOROUS<\/h2>\nWith stylish design and durable construction, Sonorous products are a welcome addition to your home setup.",
-            "shop-btn-link": "https:\/\/www.harveynorman.com.au\/tv-blu-ray-home-theatre\/tv-accessories\/sonorous\/993"
+            "page-description": "<h2 class=\"collection-title\"> THOR <\/h2>\nSince its inception in 2001 Thor has grown significantly and this is shown by the innovation in its latest range of cutting-edge products. Research, development, and engineering are undertaken in Australia and New Zealand. Thor Technologies is 100% Australian and proud of it. Even today the hardwired range is still manufactured 100% locally.",
+            "shop-btn-link": "https:\/\/www.harveynorman.com.au\/tv-blu-ray-home-theatre\/tv-accessories\/power-surge-protectors\/thor\/993"
           }
         }
       },
@@ -57,13 +57,13 @@
     "1653531260ffce2a62": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/lb1830bnwau-sonorous-black-north-wood-tv-cabinet-2.jpg",
+        "image": "shopify:\/\/shop_images\/a8-plus-thor-apex-8-8-outlet-power-filter-surge-protector-2.jpg",
         "image_width": 580,
-        "subtitle": "SONOROUS",
-        "title": "Wood TV Cabinet",
-        "text": "<p>The Sonorous 1800mm Black North Wood TV Cabinet has multiple compartments and a glossy, black body, giving access to all your entertainment needs without sacrificing style.<\/p>",
+        "subtitle": "FIREPROOF",
+        "title": "Power Filter & Surge Protector",
+        "text": "<p>Offering enhanced power protection and filtration in a compact design, the Thor APEX 8 8-Outlet Power Filter & Surge Protector with Fireproof MOV makes it easy to safeguard appliances and other electronics from power surges and electrical noise.<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "",
+        "button_link": "https:\/\/www.harveynorman.com.au\/thor-apex-8-8-outlet-power-filter-surge-protector-with-fireproof-mov.html",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -88,13 +88,13 @@
     "1653531300bf45a031": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/lb1530blkbnw-sonorous-1500mm-cabinet-black-north-wood-3.jpg",
+        "image": "shopify:\/\/shop_images\/a7-thor-alpha-7-outlet-power-filter-surge-protector_750x_d644b320-985f-4084-b5f4-0142e54b6611.webp",
         "image_width": 580,
-        "subtitle": "SONOROUS",
-        "title": "1500 mm Cabinet",
-        "text": "<p>The Sonorous Cabinet has multiple compartments and a glossy, elegant body giving access to all your entertainment needs without sacrificing style.<\/p>",
+        "subtitle": "THOR",
+        "title": "Outlet Power Filter & Surge Protector",
+        "text": "<p>The Thor Alpha 7 Outlet Power Filter & Surge Protector is a handy solution for keeping appliances, computers, active\/passive speakers, and other devices protected from power surges.<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "https:\/\/www.harveynorman.com.au\/sonorous-1500mm-cabinet-black-north-wood.html",
+        "button_link": "https:\/\/www.harveynorman.com.au\/thor-alpha-7-outlet-power-filter-surge-protector.html",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",

@@ -8,7 +8,6 @@
     },
     "16535310126e449e09": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "165353101251614a3e-0": {
           "type": "image",
@@ -18,8 +17,9 @@
             "subheading1": "",
             "subheading": "",
             "link": "",
-            "link_text": "Visit Website",
+            "link_text": "",
             "text_align": "vertical-center horizontal-right",
+            "image": "shopify:\/\/shop_images\/4d_adcanced_tilt_1728x_a786646e-ec3a-411b-a8d9-219a431dc187.webp",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -43,8 +43,8 @@
         "3253e590-c043-41d8-b443-d972b16b93ed": {
           "type": "Description",
           "settings": {
-            "page-description": "<h2 align=\"center\">SONOROUS<\/h2>\nWith stylish design and durable construction, Sonorous products are a welcome addition to your home setup.",
-            "shop-btn-link": "https:\/\/www.harveynorman.com.au\/tv-blu-ray-home-theatre\/tv-accessories\/sonorous\/993"
+            "page-description": "<h2 class=\"collection-title\">SANUS<\/h2>\nSanus, the #1 best-selling TV mount brand in the United States designs and builds fine AV mounts, furniture, stands, and accessories. Every SANUS product is engineered to enhance AV systems and the surrounding decor. Today SANUS offers more than 300 home theatre units, TV and audio stands, mounts, speaker supports, AV equipment racks, and accessories. SANUS products are available at thousands of retail locations worldwide",
+            "shop-btn-link": "https:\/\/www.harveynorman.com.au\/brands\/sanus"
           }
         }
       },
@@ -57,13 +57,13 @@
     "1653531260ffce2a62": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/lb1830bnwau-sonorous-black-north-wood-tv-cabinet-2.jpg",
+        "image": "shopify:\/\/shop_images\/sanus-hero_750x_4f11e076-0cd7-4893-b14a-ed624b184ec2.webp",
         "image_width": 580,
-        "subtitle": "SONOROUS",
-        "title": "Wood TV Cabinet",
-        "text": "<p>The Sonorous 1800mm Black North Wood TV Cabinet has multiple compartments and a glossy, black body, giving access to all your entertainment needs without sacrificing style.<\/p>",
+        "subtitle": "SANUS",
+        "title": "AV Furnishings",
+        "text": "<p>SANUS offers an extensive range of TV wall mounts, TV stands and speaker brackets that enable users to place their AV equipment wherever they want it.<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "",
+        "button_link": "https:\/\/www.harveynorman.com.au\/tv-blu-ray-home-theatre\/tv-accessories\/tv-mounts-brackets\/sanus\/993",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -88,13 +88,13 @@
     "1653531300bf45a031": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/lb1530blkbnw-sonorous-1500mm-cabinet-black-north-wood-3.jpg",
+        "image": "shopify:\/\/shop_images\/vlf728_b2-sanus-advance-full-motion-tv-mount_750x_5b8aa8ba-be19-403d-baff-25b1ef20460b.webp",
         "image_width": 580,
-        "subtitle": "SONOROUS",
-        "title": "1500 mm Cabinet",
-        "text": "<p>The Sonorous Cabinet has multiple compartments and a glossy, elegant body giving access to all your entertainment needs without sacrificing style.<\/p>",
+        "subtitle": "Full-Motion",
+        "title": "Premium TV Mount",
+        "text": "<p>Enjoy an all-new perspective when watching your favourite movies and TV shows with the Sanus 42-inch to 90-inch Advance Full-Motion Premium TV Mount. It offers up to 15 degrees of tilt and up to 57 degrees of left and right swivel, so you can position your TV in an angle that suits you best.<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "https:\/\/www.harveynorman.com.au\/sonorous-1500mm-cabinet-black-north-wood.html",
+        "button_link": "https:\/\/www.harveynorman.com.au\/sanus-42-inch-to-90-inch-advance-full-motion-premium-tv-mount-black.html",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",

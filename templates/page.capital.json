@@ -8,18 +8,18 @@
     },
     "16535310126e449e09": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "165353101251614a3e-0": {
           "type": "image",
           "settings": {
-            "title": "",
+            "title": "CAPITAL",
             "title_size": 66,
             "subheading1": "",
             "subheading": "",
-            "link": "",
+            "link": "https:\/\/capitalbrand.com.au\/",
             "link_text": "Visit Website",
-            "text_align": "vertical-center horizontal-right",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/capital.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -43,8 +43,8 @@
         "3253e590-c043-41d8-b443-d972b16b93ed": {
           "type": "Description",
           "settings": {
-            "page-description": "<h2 align=\"center\">SONOROUS<\/h2>\nWith stylish design and durable construction, Sonorous products are a welcome addition to your home setup.",
-            "shop-btn-link": "https:\/\/www.harveynorman.com.au\/tv-blu-ray-home-theatre\/tv-accessories\/sonorous\/993"
+            "page-description": "Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household. Capital BBQs are designed to complete the look of your outdoor kitchen design as well as give you outstanding cooking results. For your convenience, our Capital Outdoor BBQs are also designed with a Smart Drip Pan Tray for catching oils and fats. Both of our Outdoor Kitchen BBQs include features like stainless steel grates for reducing flare ups and extending the longevity of your outdoor BBQ.",
+            "shop-btn-link": "https:\/\/capitalbrand.com.au\/"
           }
         }
       },
@@ -57,13 +57,13 @@
     "1653531260ffce2a62": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/lb1830bnwau-sonorous-black-north-wood-tv-cabinet-2.jpg",
+        "image": "shopify:\/\/shop_images\/progrill_750x_11623fa4-a871-4c28-948e-2edb92e0962c.webp",
         "image_width": 580,
-        "subtitle": "SONOROUS",
-        "title": "Wood TV Cabinet",
-        "text": "<p>The Sonorous 1800mm Black North Wood TV Cabinet has multiple compartments and a glossy, black body, giving access to all your entertainment needs without sacrificing style.<\/p>",
+        "subtitle": "CAPITAL",
+        "title": "Progrill Series",
+        "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "",
+        "button_link": "https:\/\/capitalbrand.com.au\/progrill-series-outdoor-bbq-kitchen\/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -72,29 +72,29 @@
     },
     "1653531272c6c35cdc": {
       "type": "background-image-text",
-      "disabled": true,
       "settings": {
-        "subtitle": "",
-        "title": "",
-        "text": "",
+        "subtitle": "CAPITAL’S OUTDOOR",
+        "title": "BBQ Kitchen",
+        "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
         "button_label": "Buy Now",
         "button_link": "",
+        "image": "shopify:\/\/shop_images\/Homepage_Slider6_1904ce2e-5fac-432d-b31a-e16dbfa12903.jpg",
         "focal_point": "center",
         "layout": "right",
-        "height": 650,
-        "parallax": true
+        "height": 550,
+        "parallax": false
       }
     },
     "1653531300bf45a031": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/lb1530blkbnw-sonorous-1500mm-cabinet-black-north-wood-3.jpg",
+        "image": "shopify:\/\/shop_images\/precision_750x_ea6e63b6-5b1c-4953-b4e4-6f0c5adfa4bf.webp",
         "image_width": 580,
-        "subtitle": "SONOROUS",
-        "title": "1500 mm Cabinet",
-        "text": "<p>The Sonorous Cabinet has multiple compartments and a glossy, elegant body giving access to all your entertainment needs without sacrificing style.<\/p>",
+        "subtitle": "CAPITAL",
+        "title": "Precision Series",
+        "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "https:\/\/www.harveynorman.com.au\/sonorous-1500mm-cabinet-black-north-wood.html",
+        "button_link": "https:\/\/capitalbrand.com.au\/outdoor-bbq-kitchen\/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",

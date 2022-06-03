@@ -152,12 +152,30 @@
             "brand-shop-btn": "find out more"
           }
         },
+        "f4cb38db-bddd-42db-844f-4d42c9cc2af6": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AVF.png",
+            "arisit-brand-text": "Based in the UK, AVF are one of the worlds’ best-known suppliers of innovative TV Wall Mounts and stylish TV Stands",
+            "brand-btn-link": "shopify:\/\/pages\/avf",
+            "brand-shop-btn": "find out more"
+          }
+        },
         "ba9ff469-c160-4289-a24c-d779482903f2": {
           "type": "arisit-brands",
           "settings": {
             "image": "shopify:\/\/shop_images\/AVS.png",
             "arisit-brand-text": "Safe, easy to install, high quality and great looking audio visual experiences to our customers.",
             "brand-btn-link": "shopify:\/\/pages\/avs",
+            "brand-shop-btn": "find out more"
+          }
+        },
+        "e42fc8af-d8d9-4790-85ba-9631d9c3e4e2": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blue_Jet.png",
+            "arisit-brand-text": "Premium audio video products and electronic accessories that are 100% QC tested from our U.S. headquarters.",
+            "brand-btn-link": "shopify:\/\/pages\/bluejet-by-vanco",
             "brand-shop-btn": "find out more"
           }
         },
@@ -179,12 +197,30 @@
             "brand-shop-btn": "find out more"
           }
         },
+        "af86c880-cb97-4b8d-8dc4-a4b35c2ae2b5": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Enzyme_Wizard.png",
+            "arisit-brand-text": "providing a safer alternative to the harsh and sometimes toxic chemicals used in industrial scale cleaning and sanitation",
+            "brand-btn-link": "shopify:\/\/pages\/enzyme-wizard",
+            "brand-shop-btn": "find out more"
+          }
+        },
         "9804673f-b205-4be6-8ed1-bc8678546f07": {
           "type": "arisit-brands",
           "settings": {
             "image": "shopify:\/\/shop_images\/Husky_ec05ce51-0f46-480e-b9e8-a092874ca58d.png",
             "arisit-brand-text": "Wide range of retro, back bar fridges, alfresco bar fridges and Vino Pro wine fridges for the domestic market and a commercial range.",
             "brand-btn-link": "shopify:\/\/pages\/husky",
+            "brand-shop-btn": "find out more"
+          }
+        },
+        "c27c2a6c-4373-4ce0-a031-2722ee132d1d": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Medisana.png",
+            "arisit-brand-text": "Medisana is one of the leading specialists in the home health care market.",
+            "brand-btn-link": "shopify:\/\/pages\/medisana",
             "brand-shop-btn": "find out more"
           }
         },
@@ -273,7 +309,7 @@
           "type": "arisit-brands",
           "settings": {
             "image": "shopify:\/\/shop_images\/tns-logo.png",
-            "arisit-brand-text": "Create the ultimate\nkitchen with your style.",
+            "arisit-brand-text": "An Australian, small kitchen appliances brand that offers a wide range of effective products such as toasters, kettles and blenders.",
             "brand-btn-link": "shopify:\/\/pages\/treent-steele",
             "brand-shop-btn": "find out more"
           }
@@ -291,10 +327,14 @@
       "block_order": [
         "a2e74a32-ab99-4c3a-afb0-3ead0d4477e7",
         "2a40549b-d50e-4f2a-b18d-fedf36efe891",
+        "f4cb38db-bddd-42db-844f-4d42c9cc2af6",
         "ba9ff469-c160-4289-a24c-d779482903f2",
+        "e42fc8af-d8d9-4790-85ba-9631d9c3e4e2",
         "ed58c176-a57a-4600-8614-bcaf53a27881",
         "d0a0e4ab-f588-4a86-a34b-b97f0a56dd31",
+        "af86c880-cb97-4b8d-8dc4-a4b35c2ae2b5",
         "9804673f-b205-4be6-8ed1-bc8678546f07",
+        "c27c2a6c-4373-4ce0-a031-2722ee132d1d",
         "d75df7a5-ed9e-40f0-afad-63d99c7153d2",
         "e4a84a47-bb87-4be9-8bc9-42342c2fe81a",
         "aba9d3ce-4f03-4fce-9269-5ce668e18a0d",

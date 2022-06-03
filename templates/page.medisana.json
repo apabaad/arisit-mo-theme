@@ -8,6 +8,7 @@
     },
     "16535310126e449e09": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "165353101251614a3e-0": {
           "type": "image",
@@ -55,6 +56,7 @@
     },
     "1653531260ffce2a62": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image_width": 580,
         "subtitle": "",
@@ -70,6 +72,7 @@
     },
     "1653531272c6c35cdc": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "",
         "title": "featured product",
@@ -84,6 +87,7 @@
     },
     "1653531300bf45a031": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image_width": 700,
         "subtitle": "",

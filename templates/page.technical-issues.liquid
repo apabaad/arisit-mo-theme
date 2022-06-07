@@ -55,7 +55,7 @@
         <div class="contact-form-section">
             <div class="page-width page-width--narrow"><div class="section-header">
                 <h2 class="section-header__title">
-                  Your Technical Query
+                  Technical Query
                 </h2></div>
             
         
@@ -76,23 +76,14 @@
                   
 
                   <label for="Brand"> Brand </label>
-                  <select name="Brand" id="Brand" form="technical-issues-form" style="width:100%">
-                      <option value="ariston">Ariston</option>
-                      <option value="airpop">Airpop</option>
-                      <option value="avf">AVF</option>
-                      <option value="avs">AVS</option>
-                      <option value="avs">Bluejet by Vanco</option>
-  
+
+                  <select name="contact[brand]" id="brand" form="technical-issues-form" style="width:100%">
+                      <option value="">Select Brand</option>
                     </select>
 
-                  <label for="model"> Model </label>
-                  <select name="model" id="model" form="technical-issues-form" style="width:100%">
-                      <option value="abc">abc</option>
-                      <option value="cdc">cdc</option>
-                      {% comment %} <option value="avf">AVF</option>
-                      <option value="avs">AVS</option>
-                      <option value="avs">Bluejet by Vanco</option> {% endcomment %}
-  
+                  <label for="model"> Model (Optional) </label>
+                  <select name="contact[model]" id="model" form="technical-issues-form" style="width:100%">
+                      <option value="">Please select brand first</option>  
                     </select>
 
                   
@@ -115,6 +106,35 @@
     </div>
   </div>
 
+
+  <script>
+
+    var brandObject = {
+        Ariston: ["a","b","c","d"],
+        Airpop: ["a","b"],
+        }
+
+      window.onload = function() {
+        var brandSel = document.getElementById("brand");
+        var modelSel = document.getElementById("model");
+       
+        for (var x in brandObject) {
+          brandSel.options[brandSel.options.length] = new Option(x, x);
+        }
+        brandSel.onchange = function() {
+          //empty Chapters- and Topics- dropdowns
+          modelSel.length = 1;
+
+          //display correct values
+          for (var y in brandObject[this.value]) {
+            for(var items in y){
+            modelSel.options[modelSel.options.length] = new Option(items);}
+            
+          }
+        }    
+      }
+
+  </script>
 
 
   <style>
@@ -176,3 +196,6 @@
               padding-top:15px;
           }
   </style>
+
+
+ 

@@ -72,6 +72,7 @@
     },
     "1653531272c6c35cdc": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "washing machine",
         "title": "FRONT LOADER",

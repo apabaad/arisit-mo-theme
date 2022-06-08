@@ -57,7 +57,7 @@
     "1653531260ffce2a62": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/progrill_750x_11623fa4-a871-4c28-948e-2edb92e0962c.webp",
+        "image": "shopify:\/\/shop_images\/PRO36RBI-new-web-scaled.jpg",
         "image_width": 580,
         "subtitle": "CAPITAL",
         "title": "Progrill Series",
@@ -73,11 +73,11 @@
     "1653531272c6c35cdc": {
       "type": "background-image-text",
       "settings": {
-        "subtitle": "CAPITAL’S OUTDOOR",
-        "title": "BBQ Kitchen",
-        "text": "<p>Capital’s Outdoor BBQ Kitchen has the best state-of-the-art features that make them a great addition to every modern household.<\/p>",
-        "button_label": "Buy Now",
-        "button_link": "",
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "https:\/\/capitalbrand.com.au\/",
         "image": "shopify:\/\/shop_images\/Homepage_Slider6_1904ce2e-5fac-432d-b31a-e16dbfa12903.jpg",
         "focal_point": "center",
         "layout": "right",
@@ -88,7 +88,7 @@
     "1653531300bf45a031": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/precision_750x_ea6e63b6-5b1c-4953-b4e4-6f0c5adfa4bf.webp",
+        "image": "shopify:\/\/shop_images\/ACG40RFS.1web.png",
         "image_width": 580,
         "subtitle": "CAPITAL",
         "title": "Precision Series",

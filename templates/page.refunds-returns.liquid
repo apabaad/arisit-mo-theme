@@ -71,6 +71,7 @@
                     <label for="ContactFormEmail-template--15945108553947__form">Email</label>
                     <input type="email" id="ContactFormEmail-template--15945108553947__form" class="input-full" name="contact[email]" autocorrect="off" autocapitalize="off" value="" wtx-context="BAF5BF30-B928-4926-847C-7562651F62E7">
                   </div>
+
                 </div><label for="ContactFormPhone-template--15945108553947__form">Phone number</label>
                   <input type="tel" id="ContactFormPhone-template--15945108553947__form" class="input-full" name="contact[phone]" pattern="[0-9\-]*" value="" wtx-context="53268590-8700-4E77-A348-96F591A4B18C">
                   
@@ -81,13 +82,17 @@
                       <option value="">Select Brand</option>
                     </select>
 
-                  <label for="model"> Model (Optional) </label>
+                  <label for="model"> Model  </label>
                   <select name="contact[model]" id="model" form="technical-issues-form" style="width:100%">
                       <option value="">Please select brand first</option>  
                     </select>
 
-                  
-                  <label for="ContactFormMessage-template--15945108553947__form">Technical Issue</label>
+                <div class="grid__item medium-up--one-half">
+                    <label for="purchase date"> Purchase Date </label>
+                 <input type ="date" id="purchase-date" name="contact[purchase-date]">
+                </div>
+
+                  <label for="ContactFormMessage-template--15945108553947__form">Refund/return Description</label>
                 <textarea rows="5" id="ContactFormMessage-template--15945108553947__form" class="input-full" name="contact[body]"></textarea>
 
                

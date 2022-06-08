@@ -6,7 +6,7 @@
     <div class="enlarge-text arisit-enlarge-text">
         {% for block in section.blocks %}
       {{ block.settings.page-description }}
-      {% if block.settings.shop-btn-link != blank %} <a class="btn btn--tertiary btn--small btn-shop-all" href={{block.settings.shop-btn-link}}> Shop Now </a> {% endif %}
+      {% if block.settings.shop-btn-link != blank %} <a target="_blank" class="btn btn--tertiary btn--small btn-shop-all" href={{block.settings.shop-btn-link}}> Shop Now </a> {% endif %}
        {% endfor %}
     </div>
   </div>

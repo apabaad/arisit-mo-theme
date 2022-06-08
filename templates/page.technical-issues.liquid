@@ -110,8 +110,27 @@
   <script>
 
     var brandObject = {
-        Ariston: ["a","b","c","d"],
-        Airpop: ["a","b"],
+        Ariston: ["Ariston A","Ariston b","Ariston c",""],
+        Airpop: ["Airpop a","Airpop b"],
+        AVF:[],
+        AVS:[],
+        'Bluejet by Vanco':[],
+        Capital:[],
+        Chief:[],
+        'Enzyme Wizard':[],
+        Husky:[],
+        Medisana:["M1","M2"],
+        'One Products':["One 1","One 2"],
+        Richter:[],
+        Sanus:[],
+        Sirius:[],
+        'Smart BBQ':[],
+        Sonorous:[],
+        Steel:[],
+        Thor:[],
+        Tisira:[],
+        'Trent & Steele':[],
+        Whirlpool:[],
         }
 
       window.onload = function() {
@@ -127,8 +146,9 @@
 
           //display correct values
           for (var y in brandObject[this.value]) {
-            for(var items in y){
-            modelSel.options[modelSel.options.length] = new Option(items);}
+            
+            modelSel.options[modelSel.options.length] = new Option(brandObject[this.value][y],y);
+            
             
           }
         }    

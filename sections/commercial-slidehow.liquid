@@ -28,7 +28,17 @@
 
 
 <script>
-    $('.commercial-project-row').slick();
+    $('.commercial-project-item').slick
+        ({
+            
+            dots: true,
+            infinite: true,
+            slidesToShow: 3
+            slidesToScroll: 3,
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
     
 </script>
 
@@ -148,7 +158,7 @@ text-align:justify;
 
 @media screen and (max-width: 599px){
 .commercial-project-item{
-    flex-direction:column;
+    /* flex-direction:column; */
     margin: 20px 0 0 0;
 }
 }

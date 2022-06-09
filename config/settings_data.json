@@ -95,7 +95,7 @@
           "header_sticky": false,
           "sticky_index": false,
           "sticky_collection": false,
-          "show_announcement": true,
+          "show_announcement": false,
           "announcement_text": "FREE METRO DELIVERIES ON ORDER OVER $99",
           "announcement_link": "",
           "announcement_closable": false

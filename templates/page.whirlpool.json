@@ -18,8 +18,8 @@
             "subheading": "",
             "link": "https:\/\/whirlpool.com.au\/",
             "link_text": "Visit Website",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/home_slide01.jpg",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/whirlpool-australia-slider_cfd3c14a-688a-4b6a-b3f0-d30441b0394f.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -29,7 +29,7 @@
         "165353101251614a3e-0"
       ],
       "settings": {
-        "section_height": "750px",
+        "section_height": "550px",
         "mobile_height": "auto",
         "parallax": false,
         "style": "arrows",

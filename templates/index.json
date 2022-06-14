@@ -375,21 +375,28 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Appliances_Online.png",
-            "link": ""
+            "link": "https:\/\/www.appliancesonline.com.au\/"
           }
         },
         "8e093c64-f53c-41b5-9543-a351f3caa1fa": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Betta.png",
-            "link": ""
+            "link": "https:\/\/betta.com.au\/"
           }
         },
         "16509418276831eb52-2": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Bing_Lee_360x_2a0717eb-9aca-472e-933a-03f9aafa11c4.png",
-            "link": "shopify:\/\/pages\/contact-new"
+            "link": "https:\/\/www.binglee.com.au\/"
+          }
+        },
+        "c8566632-4b33-42bc-b9eb-727b7e2aa572": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bi-tire.png",
+            "link": "https:\/\/www.birite.com.au\/"
           }
         },
         "16509418276831eb52-3": {
@@ -403,7 +410,7 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Designer_Appliances.png",
-            "link": ""
+            "link": "https:\/\/www.designerappliances.com.au\/"
           }
         },
         "16509418276831eb52-1": {
@@ -417,28 +424,28 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/E_S.png",
-            "link": ""
+            "link": "https:\/\/www.eands.com.au\/"
           }
         },
         "99414c1b-16d2-43d5-9408-068871521361": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Hardings.png",
-            "link": ""
+            "link": "https:\/\/www.hardingshardware.com.au\/"
           }
         },
         "13a1b539-2857-4beb-8585-35cdeb5b4fa3": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Hart_Co.png",
-            "link": ""
+            "link": "https:\/\/hartandcoappliances.com.au\/"
           }
         },
         "948b992f-40ae-49db-b806-0f6990790d04": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Harvey_Norman_2nds_World.png",
-            "link": ""
+            "link": "https:\/\/www.2ndsworld.com.au\/"
           }
         },
         "f1115400-7658-4439-87b8-93a00915b62b": {
@@ -452,7 +459,7 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Harvey_Norman_Factory_Outlets.png",
-            "link": ""
+            "link": "https:\/\/stores.harveynorman.com.au\/"
           }
         },
         "16509418276831eb52-0": {
@@ -469,13 +476,6 @@
             "link": "https:\/\/www.joycemayne.com.au\/"
           }
         },
-        "c8566632-4b33-42bc-b9eb-727b7e2aa572": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Bi-tire.png",
-            "link": "https:\/\/www.birite.com.au\/"
-          }
-        },
         "6deecfe2-a863-442a-9c03-e6671ae714db": {
           "type": "logo_image",
           "settings": {
@@ -487,22 +487,14 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Spartan_Electrical_2.png",
-            "link": ""
-          }
-        },
-        "f60c6b95-8db1-4e5a-996b-17a1688d6fb8": {
-          "type": "logo_image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hart-and-co-web.jpg",
-            "link": ""
+            "link": "https:\/\/spartanelectrical.com.au\/"
           }
         },
         "8ba53a0d-1292-42dd-8e18-4a5e0d29943f": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Status_Plus.png",
-            "link": ""
+            "link": "https:\/\/statusplus.com.au\/"
           }
         },
         "8eb9e67b-9490-4ffa-823e-0f73bf7b047c": {
@@ -517,6 +509,7 @@
         "92a51ec6-5523-4646-aee6-c95e837b2ad5",
         "8e093c64-f53c-41b5-9543-a351f3caa1fa",
         "16509418276831eb52-2",
+        "c8566632-4b33-42bc-b9eb-727b7e2aa572",
         "16509418276831eb52-3",
         "0acab954-2503-43d9-905f-f8a93acc1297",
         "16509418276831eb52-1",
@@ -528,10 +521,8 @@
         "495ccfed-b58c-4895-b26b-d6c6797bb603",
         "16509418276831eb52-0",
         "1e304322-da96-4c9b-b4b3-d44264219c9e",
-        "c8566632-4b33-42bc-b9eb-727b7e2aa572",
         "6deecfe2-a863-442a-9c03-e6671ae714db",
         "e1a3a91f-0e56-439d-b841-e99e15178317",
-        "f60c6b95-8db1-4e5a-996b-17a1688d6fb8",
         "8ba53a0d-1292-42dd-8e18-4a5e0d29943f",
         "8eb9e67b-9490-4ffa-823e-0f73bf7b047c"
       ],
@@ -543,7 +534,6 @@
     },
     "16522239895aa3d498": {
       "type": "arisit-image-tile",
-      "disabled": true,
       "blocks": {
         "1e90598e-7599-41f0-85d2-44f22ce069d8": {
           "type": "arisit-images",

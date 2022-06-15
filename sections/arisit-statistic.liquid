@@ -20,12 +20,12 @@
 
 <script>
     $(document).on('ready', function () {
-        $('.arisit-statistics-row').slick({
+        {% comment %} $('.arisit-statistics-row').slick({ {% endcomment %}
             
             dots: true,
             {% comment %} infinite: true, {% endcomment %}
             slidesToShow: 3,
-            slidesToScroll: 1,
+            slidesToScroll: 3,
             arrows: true,
             autoplay: true,
             autoplaySpeed: 5000,
@@ -37,7 +37,7 @@
                   settings: {
                     arrows: true,
                     slidesToShow: 3,
-                    slidesToScroll: 1,
+                    slidesToScroll: 3,
                     infinite: true,
                     dots: true
                   }
@@ -113,7 +113,7 @@ display:flex;
 flex-wrap: wrap; /* it tells items to wrap in a container making multiline. in default there is nowrap which brings items in a single line  */
 flex-direction:row;
 justify-content:space-between;
-max-width:1522px;
+/* max-width:1522px; */
 }
 
 

@@ -79,7 +79,11 @@
     };
   </script>
 
+
+  
+  
   {{ content_for_header }}
+  
   
 
   <script src="{{ 'vendor-scripts-v14.js' | asset_url | split: '?' | first }}" defer="defer"></script>
@@ -129,5 +133,9 @@
     render 'photoswipe-template'
     render 'tool-tip'
   -%}
+
+  {% render 'back-to-top' %}  {% comment %} scroll button {% endcomment %}
+  
+
 </body>
 </html>

@@ -176,15 +176,15 @@
             "type": "image",
             "settings": {
               "title": "Arisit Commercial",
-              "title_size": 68,
+              "title_size": 50,
               "subheading1": "",
               "subheading": "",
               "link": "",
               "link_text": "",
-              "text_align": "vertical-center horizontal-left",
+              "text_align": "vertical-bottom horizontal-left",
               "image": "shopify:\/\/shop_images\/commercial_banner.jpg",
               "overlay_opacity": 0,
-              "focal_point": "center center"
+              "focal_point": "top center"
             }
           }
         },
@@ -192,7 +192,7 @@
           "d241bb79-4f1a-4dd9-b49d-0f22dc5d6258"
         ],
         "settings": {
-          "section_height": "750px",
+          "section_height": "550px",
           "mobile_height": "auto",
           "parallax": false,
           "style": "arrows",
@@ -466,6 +466,15 @@
           "0bdc2805-110b-4910-9fcb-53016666fe47"
         ],
         "settings": {
+        }
+      },
+      "contact-form": {
+        "type": "contact-form",
+        "settings": {
+          "title": "",
+          "text": "",
+          "show_phone": true,
+          "narrow_column": true
         }
       }
     },

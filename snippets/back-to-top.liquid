@@ -2,14 +2,14 @@
   Reduce below value if you need the back to the top button to appear higher up on the page.
   That value is in pixels.
 {% endcomment %}
-{% assign vertical_offset_for_trigger = 2000 %}
+{% assign vertical_offset_for_trigger = 1500 %}
 
 {% comment %}
   Vertical offset from bottom of browser for the position of the button.
 {% endcomment %}
-{% assign position_from_bottom = '1em' %}
+{% assign position_from_bottom = '3em' %}
 
-<div id="BackToTop" onclick="topFunction()" title="Top" class="back-to-top hide">
+<div id="BackToTop" onclick="topFunction()" title="Back to top" class="back-to-top hide">
   <span>Top</span> <i class="fa fa-arrow-circle-o-up fa-2x"></i>
   </div>
 {{ '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css' | stylesheet_tag }}
@@ -19,7 +19,7 @@
     bottom: {{ position_from_bottom }};
     right: 0px;
     text-decoration: none;
-    color: #999;
+    color: black;
     background-color: #eee;
     font-size: 16px;
     padding: 0.3em;

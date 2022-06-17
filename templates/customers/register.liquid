@@ -25,7 +25,8 @@
           <input required type="password" name="customer[password]" id="CreatePassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
 
           <label for="ConfirmPassword">Confirm Password</label>
-          <input required type="password" name="customer[password]" id="CreatePassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
+          <span class="password-match" style="display:none; color:red;">Passwords do not match</span>
+          <input required type="password"  id="confirmPassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
 
           <p>
             <input type="submit" value="{{ 'customer.register.submit' | t }}" class="btn btn--full btn--no-animate">
@@ -38,3 +39,20 @@
 
   </div>
 </div>
+
+<script>
+
+  $('form#create_customer').submit(function(e) { 
+
+    if ( $('#CreatePassword').val() === $('#confirmPassword').val()) {
+      //alert('Password Good!!');
+
+    } else {
+      $('.password-match').fadeIn("slow");
+      e.preventDefault();
+      e.stopPropagation();
+    }
+});
+</script>
+
+

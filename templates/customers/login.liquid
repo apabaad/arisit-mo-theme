@@ -17,7 +17,7 @@
           {{ form.errors | default_errors }}
 
           <label for="CustomerEmail">{{ 'customer.login.email' | t }}</label>
-          <input type="email" name="customer[email]" id="CustomerEmail" class="input-full{% if form.errors contains 'email' %} error{% endif %}" autocorrect="off" autocapitalize="off" autofocus required>
+          <input required type="email" name="customer[email]" id="CustomerEmail" class="input-full{% if form.errors contains 'email' %} error{% endif %}" autocorrect="off" autocapitalize="off" autofocus>
 
           {% if form.password_needed %}
           <div class="grid">
@@ -32,7 +32,7 @@
               </small>
             </div>
           </div>
-          <input type="password" value="" name="customer[password]" id="CustomerPassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}" required>
+          <input required type="password" value="" name="customer[password]" id="CustomerPassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
           {% endif %}
 
           <p>

@@ -49,12 +49,44 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "503183d8-5093-4451-88d2-d0b75c4fdae1": {
+          "type": "image",
+          "settings": {
+            "title": "ARISIT AUSTRALIA & NEW ZEALAND",
+            "title_size": 45,
+            "subheading1": "WELCOME TO",
+            "subheading": "Importer & Distributor of Home Appliances & Electronics",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Arisit_Building-Image_1570x600_Option-02.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "2fcfc67a-d1ab-4bcd-8de3-53dc3e247a79": {
+          "type": "image",
+          "settings": {
+            "title": "ARISIT AUSTRALIA & NEW ZEALAND",
+            "title_size": 46,
+            "subheading1": "WELCOME TO",
+            "subheading": "Importer & Distributor of Home Appliances & Electronics",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Arisit_Building-Image_1570x600_Option-03.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "9f35571e-f7bd-49d9-83c8-f6b2cba871f4",
         "5e53ccfe-a6a6-4dec-a0b6-6e807459455a",
-        "55741c81-7d08-4b34-af45-39d5e48dedde"
+        "55741c81-7d08-4b34-af45-39d5e48dedde",
+        "503183d8-5093-4451-88d2-d0b75c4fdae1",
+        "2fcfc67a-d1ab-4bcd-8de3-53dc3e247a79"
       ],
       "settings": {
         "section_height": "550px",

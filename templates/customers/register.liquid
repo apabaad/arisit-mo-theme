@@ -44,13 +44,11 @@
 
   $('form#create_customer').submit(function(e) { 
 
-    if ( $('#CreatePassword').val() === $('#confirmPassword').val()) {
-      //alert('Password Good!!');
-
-    } else {
-      $('.password-match').fadeIn("slow");
+    if ( $('#CreatePassword').val() != $('#confirmPassword').val()) {
       e.preventDefault();
-      e.stopPropagation();
+      $('.password-match').fadeIn("slow");
+      
+      return false;
     }
 });
 </script>

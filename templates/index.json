@@ -257,6 +257,15 @@
             "brand-shop-btn": "find out more"
           }
         },
+        "1bf58838-db3b-40fe-80d4-13c3c330c88d": {
+          "type": "arisit-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Header_logo_2_300x_c2dd4b1d-420b-46c9-bd05-be5d4aa74bf6.webp",
+            "arisit-brand-text": "Transform your home from smart to stunning with the highest quality home furnishing solutions for SONOS smart speakers.",
+            "brand-btn-link": "https:\/\/flexson.com.au\/",
+            "brand-shop-btn": "find out more"
+          }
+        },
         "9804673f-b205-4be6-8ed1-bc8678546f07": {
           "type": "arisit-brands",
           "settings": {
@@ -376,18 +385,10 @@
         },
         "c4778beb-8380-4ab5-a8f8-2cb5cd9b8b2a": {
           "type": "arisit-brands",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/soundxtra-logo_360x_80f3b6dd-ae33-4ae5-8146-b42e4e9bb014.webp",
             "arisit-brand-text": "Essential audio accessories. Essential audio accessories. Essential audio accessories.",
-            "brand-btn-link": "https:\/\/flexson.com.au\/",
-            "brand-shop-btn": "find out more"
-          }
-        },
-        "1bf58838-db3b-40fe-80d4-13c3c330c88d": {
-          "type": "arisit-brands",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_4.png",
-            "arisit-brand-text": "Transform your home from smart to stunning with the highest quality home furnishing solutions for SONOS smart speakers.",
             "brand-btn-link": "https:\/\/flexson.com.au\/",
             "brand-shop-btn": "find out more"
           }
@@ -402,6 +403,7 @@
         "ed58c176-a57a-4600-8614-bcaf53a27881",
         "d0a0e4ab-f588-4a86-a34b-b97f0a56dd31",
         "af86c880-cb97-4b8d-8dc4-a4b35c2ae2b5",
+        "1bf58838-db3b-40fe-80d4-13c3c330c88d",
         "9804673f-b205-4be6-8ed1-bc8678546f07",
         "c27c2a6c-4373-4ce0-a031-2722ee132d1d",
         "d75df7a5-ed9e-40f0-afad-63d99c7153d2",
@@ -415,8 +417,7 @@
         "6a41c149-dbd2-452e-b410-11256b1bee51",
         "8536c887-988e-4eed-951d-5ce6ad50f6e8",
         "f031863c-d1c5-4348-8bf5-f7902798c45a",
-        "c4778beb-8380-4ab5-a8f8-2cb5cd9b8b2a",
-        "1bf58838-db3b-40fe-80d4-13c3c330c88d"
+        "c4778beb-8380-4ab5-a8f8-2cb5cd9b8b2a"
       ],
       "settings": {
         "brand-row-title": "OUR BRANDS"

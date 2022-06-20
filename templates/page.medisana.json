@@ -23,10 +23,25 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "af2096cb-bd73-411c-8f29-285e8c2222cc": {
+          "type": "image",
+          "settings": {
+            "title": "Two line\nslide title.",
+            "title_size": 80,
+            "subheading1": "And an optional subheading",
+            "subheading": "And an optional subheading",
+            "link": "",
+            "link_text": "Optional button",
+            "text_align": "vertical-bottom horizontal-left",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
-        "165353101251614a3e-0"
+        "165353101251614a3e-0",
+        "af2096cb-bd73-411c-8f29-285e8c2222cc"
       ],
       "settings": {
         "section_height": "550px",
@@ -44,7 +59,7 @@
           "type": "Description",
           "settings": {
             "page-description": "Medisana is one of the leading specialists in the home health care market. For around 40 years, we have been committed to people’s health under the motto, your health in good hands“. We are continuously working on the further development and manufacture of health products for end-users, so that these products can help more and more people to independently control their state of health, self-treat without risks, and actively promote their own well-being.",
-            "shop-btn-link": "shopify:\/\/pages\/medisana"
+            "shop-btn-link": ""
           }
         }
       },

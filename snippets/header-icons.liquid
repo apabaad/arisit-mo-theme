@@ -5,7 +5,7 @@
     {% if shop.customer_accounts_enabled %}
       <a class="site-nav__link site-nav__link--icon medium-down--hide" {% if customer %} style="margin-top:7px; letter-spacing:-2px;" {% endif %} href="{{ routes.account_url }}">
         {% if customer %}
-          <div style ="border:0.1em solid #20447E; height:25px; padding:1px; border-radius:50%; font-size:13px; width:25px; display:flex; justify-content:center">
+          <div style ="border:1px solid #20447E; height:25px; padding:1px; border-radius:50%; font-size:13px; width:25px; display:flex; justify-content:center">
           {{ customer.first_name | slice: 0 | capitalize }}
           {{ customer.last_name | slice: 0 | capitalize }}
           </div>

@@ -44,6 +44,7 @@
     "cart_type": "drawer",
     "cart_additional_buttons": true,
     "cart_notes_enable": false,
+    "favicon": "shopify:\/\/shop_images\/Arisit_Favicon.png",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",

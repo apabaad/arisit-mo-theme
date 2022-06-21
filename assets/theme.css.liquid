@@ -11709,10 +11709,13 @@ text-align:center;
 
   html, body{
   scroll-behavior: smooth;
-  /* overflow: hidden; */
-  /* height: 100%; */
+  overflow-x: hidden;
+  height: 100%;
 }
 
+[data-animate_images=true] [data-aos=logo__animation] .logo-bar__item{
+  opacity:100%;
+}
 
 
 
@@ -11779,5 +11782,16 @@ text-align:center;
 
   }
 }
+
+@media screen and (max-width:354px){
+  .slideshow-wrapper{
+    max-width:100% !important;
+  }
+
+  .page-width{
+    max-width: 100% !important;
+  }
+}
+
 
 

@@ -35,18 +35,8 @@
                 {
                   breakpoint: 1024,
                   settings: {
-                    arrows: true,
+                    arrows: false,
                     slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                  }
-                },
-                {
-                  breakpoint: 850,
-                  settings: {
-                    arrows: true,
-                    slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: true
@@ -55,23 +45,13 @@
                 {
                   breakpoint: 600,
                   settings: {
-                    arrows: true,
+                    arrows: false,
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: true
                   }
-                },
-                {
-                  breakpoint: 300,
-                  settings: {
-                    arrows: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                  }
-                },
+                }
                 
                 // You can unslick at a given breakpoint now by adding:
                 // settings: "unslick"
@@ -117,7 +97,7 @@
 {% style %}
 
 .arisit-statistics-row{
-margin-top:-130px;
+/* margin-top:-130px; */
 
 display:flex;
 flex-wrap: wrap; /* it tells items to wrap in a container making multiline. in default there is nowrap which brings items in a single line  */

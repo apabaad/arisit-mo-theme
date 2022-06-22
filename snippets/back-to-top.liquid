@@ -2,7 +2,7 @@
   Reduce below value if you need the back to the top button to appear higher up on the page.
   That value is in pixels.
 {% endcomment %}
-{% assign vertical_offset_for_trigger = 1500 %}
+{% assign vertical_offset_for_trigger = 1000 %}
 
 {% comment %}
   Vertical offset from bottom of browser for the position of the button.
@@ -82,4 +82,6 @@
     var topFunction = () => {
         document.documentElement.scrollTop = 0;
       }
+
+      console.log(window.pageYOffset)
 </script>

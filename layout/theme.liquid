@@ -36,6 +36,9 @@
   {%- render 'social-meta-tags' -%}
 
   {%- render 'font-face' -%}
+
+  {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
+  
   {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
   {%- render 'css-variables' -%}
 
@@ -77,6 +80,21 @@
       themeName: 'Motion',
       themeVersion: "8.5.3"
     };
+
+    $(window).scroll(function () {
+      if ($(this).scrollTop()) {
+        $('#toTop').fadeIn();
+      } else {
+        $('#toTop').fadeOut();
+      }
+    });
+    
+    $(document).ready(function () {
+      $('#toTop').click(function () {
+        $('html, body').animate({ scrollTop: 0 }, 1000);
+      });
+    });
+    
   </script>
 
 
@@ -137,6 +155,11 @@
 
   {% render 'back-to-top' %}  {% comment %} scroll button {% endcomment %}
   
+
+  {% comment %} <div id="toTop">
+    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="327.000000pt" viewBox="0 0 512.000000 327.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,327.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"> <path d="M1277 1992 c-702 -702 -1277 -1282 -1277 -1287 0 -13 692 -705 705 -705 5 0 425 415 932 922 l923 923 923 -923 c507 -507 927 -922 932 -922 13 0 705 692 705 705 0 10 -2550 2565 -2560 2565 -3 0 -580 -575 -1283 -1278z"/> </g> </svg>
+  </div> {% endcomment %}
+
 
 </body>
 </html>

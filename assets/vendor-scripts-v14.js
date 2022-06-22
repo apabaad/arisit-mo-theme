@@ -1,3 +1,8 @@
+/*
+@license
+Motion by Archetype Themes (https://archetypethemes.co)
+*/
+
 !(function (t, e) {
   var i = function () {
     e(t.lazySizes), t.removeEventListener('lazyunveilread', i, !0);

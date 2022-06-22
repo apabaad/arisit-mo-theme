@@ -1,3 +1,16 @@
+/*
+@license
+  Motion by Archetype Themes (https://archetypethemes.co)
+  Access unminified JS in assets/theme.js
+
+  Use this event listener to run your own JS outside of this file.
+  Documentation - https://archetypethemes.co/blogs/motion/javascript-events-for-developers
+
+  document.addEventListener('page:loaded', function() {
+    // Page has loaded and theme assets are ready
+  });
+*/
+
 window.theme = window.theme || {};
 window.Shopify = window.Shopify || {};
 

@@ -125,49 +125,55 @@
         "7cd68470-f402-41ad-bf72-08bc6790b1f0": {
           "type": "arisit-statistics",
           "settings": {
-            "arisit-statistics-number": "22",
+            "stats-icon": "<i class=\"fa fa-industry\"><\/i>",
+            "arisit-statistics-number": "+20",
             "arisit-statistics-text": "brands",
-            "arisit-statistics-small-text": "imported & sold within aus\/nz"
+            "arisit-statistics-small-text": "Imported and sold"
           }
         },
         "46e73b3c-9bcd-4283-95f7-06e791c8a930": {
           "type": "arisit-statistics",
           "settings": {
+            "stats-icon": "<i class=\"fa fa-cart-plus\"><\/i>",
             "arisit-statistics-number": "+1M",
             "arisit-statistics-text": "products",
-            "arisit-statistics-small-text": "sold annually"
+            "arisit-statistics-small-text": "Sold annually"
           }
         },
         "548aab80-1c76-462c-b507-0299b5110c84": {
           "type": "arisit-statistics",
           "settings": {
+            "stats-icon": "<i class=\"fa-solid fa-people-group\"><\/i>",
             "arisit-statistics-number": "+100",
             "arisit-statistics-text": "full time staff",
-            "arisit-statistics-small-text": "employed in total"
+            "arisit-statistics-small-text": "Employed in total"
           }
         },
         "63b35845-e97c-460c-a5eb-83cb5ac25502": {
           "type": "arisit-statistics",
           "settings": {
+            "stats-icon": "<i class=\"fa-solid fa-people-carry-box\"><\/i>",
             "arisit-statistics-number": "+20",
             "arisit-statistics-text": "dedicated staff",
-            "arisit-statistics-small-text": "warranty & customer care"
+            "arisit-statistics-small-text": "Warranty & customer care"
           }
         },
         "5f7ab400-3807-4e90-a7fb-da1fbd582deb": {
           "type": "arisit-statistics",
           "settings": {
+            "stats-icon": "<i class=\"fad fa-chart-network\"><\/i>",
             "arisit-statistics-number": "6",
             "arisit-statistics-text": "distribution centres",
-            "arisit-statistics-small-text": "within aus & nz"
+            "arisit-statistics-small-text": "Within Aus & NZ"
           }
         },
         "991646ae-35c8-4e2b-a058-70019e31a1b9": {
           "type": "arisit-statistics",
           "settings": {
+            "stats-icon": "<i class=\"fad fa-broadcast-tower\"><\/i>",
             "arisit-statistics-number": "6",
             "arisit-statistics-text": "sales divisions",
-            "arisit-statistics-small-text": "each with specialist products & staff"
+            "arisit-statistics-small-text": "Specialist products & staff"
           }
         }
       },

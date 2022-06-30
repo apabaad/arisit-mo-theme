@@ -1,0 +1,107 @@
+
+<section class="page-width">
+  <span style ="margin-left:20px;color:#20447E;" class="label">Additional Resources</span>
+    {% for block in section.blocks %}
+      <h2>{{presets.settings.section-heading}}</h2>
+    {% endfor %}
+    <div class="manual-buttons-container">
+   
+    {% for block in section.blocks %}
+    {% if block.settings.view-btn-link and block.settings.view-btn != blank %}
+    <a class="manual-buttons " href="{{ block.settings.view-btn-link }}" target="_blank">
+          {{ block.settings.view-btn }}
+        </a>
+    {%endif%}
+    {% endfor %}
+  
+  </div>
+  </section>
+  
+         {% schema %} 
+            {
+              "blocks": [
+                            {
+                              "type": "first-section",
+                              "name": "Buttons",
+                              "settings": [
+                                            {
+                                            "id": "view-btn-link",
+                                            "type": "url",
+                                            "label": "Button URL"
+                                            },
+                                            {
+                                            "id": "view-btn",
+                                            "type": "text",
+                                            "label": "Button name"
+                                            }
+                                          ]
+                             }
+                          ],
+               "presets": [
+                                {
+                                "name": "Manual Buttons",
+                                "category": "ADVANCED LAYOUT"	
+                                }
+                           ]
+            }
+          {% endschema %}
+  
+  
+  
+  
+  
+    {% style %}
+      
+    .manual-buttons-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction:row;
+        color:white;
+        margin-bottom: 30px;
+          }
+  
+    .manual-buttons{
+        margin-left: 20px;
+        background: white;
+        color: black;
+        border: 1px solid black;
+        padding: 11px 20px;
+        max-width: 50%;
+        min-width:300px;
+        line-height: 1.42;
+        font-size: 16px;
+        
+        text-align: center;
+        cursor: pointer;
+        border-radius: 1px;
+        flex: 1 0 29%;
+        
+    }
+  
+    .manual-buttons:hover{
+          background:#20447E;
+          color:white;
+        }
+  
+    
+    @media screen and (max-width: 600px) {
+   
+      .manual-buttons-container {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction:column;
+              margin-top: 25px;
+              margin-bottom: 100px;
+              max-width: 100%;
+        }
+          .manual-buttons	{
+        margin: 0px 20px 7px 20px;
+             
+      }
+    
+  }
+  
+        {% endstyle %}
+      

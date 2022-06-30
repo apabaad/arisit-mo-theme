@@ -2,7 +2,7 @@
   Reduce below value if you need the back to the top button to appear higher up on the page.
   That value is in pixels.
 {% endcomment %}
-{% assign vertical_offset_for_trigger = 1000 %}
+{% assign vertical_offset_for_trigger = 800 %}
 
 {% comment %}
   Vertical offset from bottom of browser for the position of the button.
@@ -51,9 +51,12 @@
 
   @media screen and (max-width:600px){
 
-    .back-to-top span {
-        font-size:14px;
-      }    
+    .back-to-top{
+      padding:6px 13px;
+    min-width:40px;}
+
+      .back-to-top span{
+      display:none;    
 }
 </style>
 

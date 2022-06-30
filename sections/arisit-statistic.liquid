@@ -3,6 +3,12 @@
     {% for block in section.blocks %}
         {% if block.settings.arisit-statistics-number != blank %}
             <div class="arisit-statistics-item">
+              <div class="stats-icon">
+                <div class="icon-shadow">
+                {{ block.settings.stats-icon}}
+                </div>
+              </div>
+              <div class="stats-text">
                 <span class="statistics-number">
                    {{ block.settings.arisit-statistics-number }}
                 </span> <br>
@@ -12,54 +18,14 @@
                 <span class="statistics-small-text">
                     {{ block.settings.arisit-statistics-small-text }}
                 </span>
+              </div>
             </div>
         {%endif%}
         {% endfor %}
 </div>
 
 
-<script>
-    $(document).on('ready', function () {
-        $('.arisit-statistics-row').slick({
-            
-            dots: true,
-            {% comment %} infinite: true, {% endcomment %}
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            arrows: true,
-            autoplay: true,
-            autoplaySpeed: 5000,
-            
-            responsive: [
-             
-                {
-                  breakpoint: 1024,
-                  settings: {
-                    arrows: false,
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                  }
-                },
-                {
-                  breakpoint: 600,
-                  settings: {
-                    arrows: false,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                  }
-                }
-                
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
-              ]
-        });
-    });
-</script>
+
 
 {% schema %}
 
@@ -69,6 +35,11 @@
 "type":"arisit-statistics",
 "name":"Stats Info",
 "settings":[
+  {
+    "type":"html",
+    "id":"stats-icon",
+    "label":"Icon CSS class"
+  },
 {
 "type":"text",
 "id":"arisit-statistics-number",
@@ -97,11 +68,8 @@
 {% style %}
 
 .arisit-statistics-row{
-/* margin-top:-130px; */
-
 display:flex;
 flex-wrap: wrap; /* it tells items to wrap in a container making multiline. in default there is nowrap which brings items in a single line  */
-flex-direction:row;
 justify-content:space-between;
 max-width:1522px;
 }
@@ -110,18 +78,50 @@ max-width:1522px;
 .arisit-statistics-item{
 float:left;
 margin:20px 20px 0 20px;
-background: #E5E5E5;
+background: #FFFFFF;
 text-align:center;
 padding:10px 5px 15px 5px;
-flex: 1 0 29%;  /* flex is a shorthand for flex-grow flex-shrink, flex-basis  */
+flex: 1 0 29%;  flex is a shorthand for flex-grow flex-shrink, flex-basis 
 /* height: 100%; */
 cursor: grab;
+border: 1px solid #E5E5E5;
+border-radius: 18px;
+box-shadow:0 0 13px #0000001a;
+
+display:flex !important;
+justify-content:space-evenly;
+
+
+}
+
+.stats-icon{
+  min-width:30%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.icon-shadow{
+    width:70px;
+    height:70px;
+    /* background-color: #E3F5FF; */
+    background-color: #20447E;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /* color:#20447E; */
+    color:white;
+    font-size:30px;
+}
+
+.stats-text{
 
 }
 
 .statistics-number{
-font-size:40px;
-font-weight: bold;
+font-size:30px;
+font-weight: 4500;
 color:#20447E;
 }
 
@@ -135,7 +135,7 @@ text-transform: uppercase;
 }
 
 .statistics-small-text{
-text-transform: uppercase;
+/* text-transform: uppercase; */
 }
 
 @media screen and (max-width: 600px) {
@@ -162,3 +162,49 @@ text-transform: capitalize;
 }
 
 {% endstyle %}
+
+
+
+
+<script>
+  $(document).on('ready', function () {
+      $('.arisit-statistics-row').slick({
+          
+          dots: true,
+          {% comment %} infinite: true, {% endcomment %}
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          arrows: true,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          
+          responsive: [
+           
+              {
+                breakpoint: 1024,
+                settings: {
+                  arrows: false,
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  dots: true
+                }
+              },
+              {
+                breakpoint: 600,
+                settings: {
+                  arrows: false,
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  dots: true
+                }
+              }
+              
+              // You can unslick at a given breakpoint now by adding:
+              // settings: "unslick"
+              // instead of a settings object
+            ]
+      });
+  });
+</script>

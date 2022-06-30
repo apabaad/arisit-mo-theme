@@ -54,7 +54,6 @@
     },
     "sub": {
       "type": "product-full-width",
-      "disabled": true,
       "settings": {
         "max_width": true
       }
@@ -106,49 +105,6 @@
         "divider": false
       }
     },
-    "testimonials": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonials-0": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "testimonials-1": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "testimonials-2": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author name",
-            "author_info": "Los Angeles, CA"
-          }
-        }
-      },
-      "block_order": [
-        "testimonials-0",
-        "testimonials-1",
-        "testimonials-2"
-      ],
-      "settings": {
-        "title": "Don't take our word for it",
-        "round_images": true,
-        "color_background": "#f9f9f9",
-        "color_text": "#1c1d1d"
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -161,6 +117,47 @@
       "type": "collection-return",
       "settings": {
       }
+    },
+    "165655140852b52d07": {
+      "type": "manual-buttons",
+      "blocks": {
+        "834d4d94-ddf6-4b1d-9563-29bbefc98c53": {
+          "type": "first-section",
+          "settings": {
+            "view-btn-link": "{{ product.metafields.custom.user_manual.value }}",
+            "view-btn": "User Manual"
+          }
+        },
+        "4afe18fa-3296-40d8-9275-a29e41f3d0a9": {
+          "type": "first-section",
+          "settings": {
+            "view-btn-link": "{{ product.metafields.custom.spec_sheet.value }}",
+            "view-btn": "Spec Sheet"
+          }
+        },
+        "0a0bb0b2-9e0c-4e9d-978a-d80645817c7a": {
+          "type": "first-section",
+          "settings": {
+            "view-btn-link": "{{ product.metafields.custom.cad_drawing.value }}",
+            "view-btn": "CAD Drawing"
+          }
+        },
+        "aa2cf198-d074-4fa0-9933-89e4ee74088f": {
+          "type": "first-section",
+          "settings": {
+            "view-btn-link": "{{ product.metafields.custom.warranty_sheet.value }}",
+            "view-btn": "Warranty"
+          }
+        }
+      },
+      "block_order": [
+        "834d4d94-ddf6-4b1d-9563-29bbefc98c53",
+        "4afe18fa-3296-40d8-9275-a29e41f3d0a9",
+        "0a0bb0b2-9e0c-4e9d-978a-d80645817c7a",
+        "aa2cf198-d074-4fa0-9933-89e4ee74088f"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -169,8 +166,8 @@
     "background-image-text",
     "text-and-image",
     "text-and-image2",
-    "testimonials",
     "product-recommendations",
-    "collection-return"
+    "collection-return",
+    "165655140852b52d07"
   ]
 }

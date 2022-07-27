@@ -2,12 +2,14 @@
   "sections": {
     "1652769532d458e9a1": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "1652769532c102b60e-0": {
           "type": "image",
           "settings": {
             "title": "",
             "title_size": 80,
+            "subheading1": "And an optional subheading",
             "subheading": "",
             "link": "",
             "link_text": "",
@@ -32,6 +34,7 @@
     },
     "1652763813505c2bc4": {
       "type": "arisit-collection-description",
+      "disabled": true,
       "blocks": {
         "c6e3c306-d3fa-458f-90bc-1cd78069708d": {
           "type": "shop-all-url",
@@ -48,7 +51,19 @@
     },
     "main-collection": {
       "type": "main-collection",
-      "disabled": true,
+      "blocks": {
+        "fff3e3d9-efe4-4134-8dd5-f4a7e0529330": {
+          "type": "product_grid",
+          "settings": {
+            "collection_subnav_style": "inline",
+            "per_row": 4,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "fff3e3d9-efe4-4134-8dd5-f4a7e0529330"
+      ],
       "settings": {
         "collection_image_enable": false,
         "collection_image_height": 550,
@@ -61,6 +76,7 @@
     },
     "1652743193157a6141": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/progrill_35e3992e-69d2-435c-b0e5-fc5b7cdb4161.png",
         "image_width": 650,
@@ -77,6 +93,7 @@
     },
     "165274518879973c72": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "Capital’s Outdoor",
         "title": "BBQ Kitchen",
@@ -92,6 +109,7 @@
     },
     "165274346483a68eef": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/precision_4c5cf04a-cebd-47de-b322-1e7f9f5f22ba.png",
         "image_width": 700,

@@ -101,164 +101,17 @@
         "divider": false
       }
     },
-    "1656548777c32c98fb": {
-      "type": "featured-collections",
-      "blocks": {
-        "1656548777a77c97a2-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "wide"
-          }
-        },
-        "1656548777a77c97a2-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "square-small"
-          }
-        },
-        "1656548777a77c97a2-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "square-small"
-          }
-        },
-        "1656548777a77c97a2-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "square-small"
-          }
-        },
-        "1656548777a77c97a2-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "square-small"
-          }
-        },
-        "1656548777a77c97a2-5": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "focal_point": "center center",
-            "size": "wide"
-          }
-        }
-      },
-      "block_order": [
-        "1656548777a77c97a2-0",
-        "1656548777a77c97a2-1",
-        "1656548777a77c97a2-2",
-        "1656548777a77c97a2-3",
-        "1656548777a77c97a2-4",
-        "1656548777a77c97a2-5"
-      ],
-      "settings": {
-        "title": "Collection list",
-        "divider": false,
-        "enable_gutter": false
-      }
-    },
-    "1656548805fcc1e188": {
+    "165871109567b9d918": {
       "type": "collection-callout",
       "settings": {
-        "collection": "",
-        "subtitle": "Brand new",
-        "title": "Collection callout",
-        "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
-        "cta_text1": "Shop Jackets",
-        "cta_link1": "",
-        "cta_text2": "Shop All Mens",
+        "collection": "avs-products",
+        "subtitle": "AVS",
+        "title": "Products",
+        "text": "Explore all AVS products.",
+        "cta_text1": "Explore",
+        "cta_link1": "shopify:\/\/collections\/avs",
+        "cta_text2": "",
         "cta_link2": "",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "16565504451a9f474e": {
-      "type": "featured-product",
-      "blocks": {
-        "1656550445ba07443f-0": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1656550445ba07443f-1": {
-          "type": "separator",
-          "settings": {
-          }
-        },
-        "1656550445ba07443f-2": {
-          "type": "variant_picker",
-          "settings": {
-            "size_chart": "",
-            "variant_labels": true,
-            "picker_type": "button",
-            "color_swatches": false
-          }
-        },
-        "1656550445ba07443f-3": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "surface_pickup_enable": true
-          }
-        },
-        "1656550445ba07443f-4": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
-          }
-        }
-      },
-      "block_order": [
-        "1656550445ba07443f-0",
-        "1656550445ba07443f-1",
-        "1656550445ba07443f-2",
-        "1656550445ba07443f-3",
-        "1656550445ba07443f-4"
-      ],
-      "settings": {
-        "featured_product": "avs-radio-test-product",
-        "divider": false,
-        "sku_enable": false,
-        "image_size": "medium",
-        "product_zoom_enable": true,
-        "thumbnail_position": "beside",
-        "thumbnail_arrows": false,
-        "enable_video_looping": true,
-        "product_video_style": "muted"
-      }
-    },
-    "16565504671787e110": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "1656550498a6129d20": {
-      "type": "text-and-image",
-      "settings": {
-        "image_width": 700,
-        "subtitle": "",
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "View Product",
-        "button_link": "shopify:\/\/products\/avs-radio-test-product",
-        "button_style": "primary",
-        "align_text": "left",
         "layout": "right",
         "divider": false
       }
@@ -271,10 +124,6 @@
     "1653531260ffce2a62",
     "1653531272c6c35cdc",
     "1653531300bf45a031",
-    "1656548777c32c98fb",
-    "1656548805fcc1e188",
-    "16565504451a9f474e",
-    "16565504671787e110",
-    "1656550498a6129d20"
+    "165871109567b9d918"
   ]
 }

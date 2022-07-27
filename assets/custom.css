@@ -1,0 +1,120 @@
+.form-vertical input {
+    border: 1px solid rgba(37,52,106,.25);
+    border-radius: 4px;
+    height: 68px;
+    padding: 0 16px;
+}
+.form-vertical textarea {
+    border: 1px solid rgba(37,52,106,.25);
+    border-radius: 4px;
+    padding: 16px 16px;
+}
+.form-vertical label {
+    display: none;
+}
+.form-vertical input::placeholder, .form-vertical textarea::placeholder {
+    font-size: 14px;
+    color:#25346a;
+}
+.form-vertical .btn {
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    height: 68px;
+    align-items: center;
+}
+.form-vertical {
+    text-align: right;
+}
+.text-with-img-overlay .full-width {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.text-with-img-overlay .image-with-overlay-box {
+    position: relative;
+  overflow:hidden;
+}
+.text-with-img-overlay .text-with-img-box-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  text-align:center;
+}
+.text-with-img-overlay .icon {
+    display: inline-block;
+    width: 82px;
+    height: 82px;
+    vertical-align: middle;
+    fill: currentColor;
+  	margin-bottom:20px;
+}
+.text-with-img-overlay  .headline {
+    font-size: 30px;
+    color: #fff;
+}
+.text-with-img-overlay  .item-description--area {
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+  padding:15px 0;
+}
+.text-with-img-overlay p {
+    font-size: 19px!important;
+}
+.image-with-overlay{
+  position:relative;
+  transition:1s ease-out;
+}
+.image-with-overlay:hover {
+    transform: scale(1.2);
+}
+.image-with-overlay::before {
+    background-color: rgba(0,0,0,.4);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.text-with-img-overlay a {
+  	padding-bottom:10px;
+    border-bottom: 2px solid #17a2b8;
+    color: #fff;
+    font-size: 20px!important;
+}
+.form-vertical .grid {
+   display:block;
+}
+.none{
+  display:none;
+}
+#toTop {
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #ccc;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#toTop svg{
+    height:15px;
+    width:15px;
+}
+.field-block {
+    position: relative;
+}
+.field-block label.error {
+    position: absolute;
+    bottom: -22px;
+    margin: 0;
+}

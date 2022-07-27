@@ -44,7 +44,7 @@
           "type": "Description",
           "settings": {
             "page-description": "<h2 align=\"center\">SONOROUS<\/h2>\nWith stylish design and durable construction, Sonorous products are a welcome addition to your home setup.",
-            "shop-btn-link": "https:\/\/www.harveynorman.com.au\/tv-blu-ray-home-theatre\/tv-accessories\/sonorous\/993"
+            "shop-btn-link": "shopify:\/\/collections\/sonorous"
           }
         }
       },
@@ -63,7 +63,7 @@
         "title": "Wood TV Cabinet",
         "text": "<p>The Sonorous 1800mm Black North Wood TV Cabinet has multiple compartments and a glossy, black body, giving access to all your entertainment needs without sacrificing style.<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "https:\/\/www.harveynorman.com.au\/sonorous-1800mm-black-north-wood-tv-cabinet.html",
+        "button_link": "shopify:\/\/products\/sonorous-lowboy-series-1800mm",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -94,7 +94,7 @@
         "title": "1500 mm Cabinet",
         "text": "<p>The Sonorous Cabinet has multiple compartments and a glossy, elegant body giving access to all your entertainment needs without sacrificing style.<\/p>",
         "button_label": "SHOP NOW",
-        "button_link": "https:\/\/www.harveynorman.com.au\/sonorous-1500mm-cabinet-black-north-wood.html",
+        "button_link": "shopify:\/\/products\/sonorous-lowboy-series-1500mm",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",

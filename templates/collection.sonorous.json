@@ -1,5 +1,37 @@
 {
   "sections": {
+    "1658889804c8334a99": {
+      "type": "arisit-collection-description",
+      "blocks": {
+        "7d3c524d-b85b-425c-b104-6a66d5961ad0": {
+          "type": "shop-all-url",
+          "settings": {
+            "shop-btn-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7d3c524d-b85b-425c-b104-6a66d5961ad0"
+      ],
+      "settings": {
+      }
+    },
+    "1652743193157a6141": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lb1530blkbnw-sonorous-1500mm-cabinet-black-north-wood-3.jpg",
+        "image_width": 650,
+        "subtitle": "Sonorous",
+        "title": "Lowboy Series 150mm Cabinet",
+        "text": "<p>The Sonorous Cabinet has multiple compartments and a glossy, elegant body giving access to all your entertainment needs without sacrificing style.<\/p>",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/products\/sonorous-lowboy-series-1500mm",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
     "1652769532d458e9a1": {
       "type": "slideshow",
       "disabled": true,
@@ -98,37 +130,22 @@
       "settings": {
         "collection_image_enable": false,
         "collection_image_height": 550,
+        "collection_title_enable": true,
         "parallax": true,
         "enable_sidebar": false,
         "collapsed": false,
         "enable_color_swatches": false,
         "enable_sort": false
       }
-    },
-    "1652743193157a6141": {
-      "type": "text-and-image",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/lb1530blkbnw-sonorous-1500mm-cabinet-black-north-wood-3.jpg",
-        "image_width": 650,
-        "subtitle": "Sonorous",
-        "title": "1500 mm Cabinet",
-        "text": "<p>The Sonorous Cabinet has multiple compartments and a glossy, elegant body giving access to all your entertainment needs without sacrificing style.<\/p>",
-        "button_label": "Shop Now",
-        "button_link": "https:\/\/www.harveynorman.com.au\/sonorous-1500mm-cabinet-black-north-wood.html",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "right",
-        "divider": false
-      }
     }
   },
   "order": [
+    "1658889804c8334a99",
+    "1652743193157a6141",
     "1652769532d458e9a1",
     "1652763813505c2bc4",
     "165274346483a68eef",
     "165274518879973c72",
-    "main-collection",
-    "1652743193157a6141"
+    "main-collection"
   ]
 }

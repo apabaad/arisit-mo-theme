@@ -3,9 +3,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": {
-          "type": "price",
+        "description": {
+          "type": "description",
           "settings": {
+            "is_tab": false
           }
         },
         "de358f02-61a8-4e05-b6a9-01b087a5c4d4": {
@@ -22,38 +23,28 @@
           "settings": {
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
             "surface_pickup_enable": true
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
-          }
-        },
-        "tab": {
-          "type": "tab",
-          "settings": {
-            "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
-        "price",
+        "description",
         "de358f02-61a8-4e05-b6a9-01b087a5c4d4",
         "separator",
-        "buy_buttons",
-        "description",
-        "tab"
+        "price",
+        "buy_buttons"
       ],
       "settings": {
-        "sku_enable": false,
+        "sku_enable": true,
         "image_size": "medium",
         "product_zoom_enable": true,
         "thumbnail_position": "beside",
@@ -118,6 +109,7 @@
     },
     "testimonials": {
       "type": "testimonials",
+      "disabled": true,
       "blocks": {
         "testimonials-0": {
           "type": "testimonial",
@@ -169,6 +161,7 @@
     },
     "collection-return": {
       "type": "collection-return",
+      "disabled": true,
       "settings": {
       }
     }

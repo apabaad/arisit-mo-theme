@@ -59,11 +59,13 @@
     {%- render 'collection-sidebar', section: section -%}
 
     {%- unless section.settings.collection_image_enable and collection.image -%}
+      {% if section.settings.collection_title_enable %}
       <header class="section-header">
-        <h1 class="section-header__title collection-title">
-          {{ collection.title }}
+        <h1 class="section-header__title collection-title" style="padding-bottom:10px;">
+         {{ collection.title }} products
         </h1>
       </header>
+    {% endif %}
     {%- endunless -%}
 
     {% render 'collection-filters',
@@ -171,6 +173,12 @@
       "max": 750,
       "step": 100,
       "unit": "px"
+    },
+    {
+      "type": "checkbox",
+      "id": "collection_title_enable",
+      "label": "Collection title enable",
+      "default": true
     },
     {
       "type": "checkbox",

@@ -82,6 +82,14 @@
                   {{ product.title }}
                 </p>
               {%- else -%}
+              {%- if sku_enable -%}
+                <p data-sku class="product-single__sku">
+                  {%- if current_variant.sku -%}
+                    {{ current_variant.sku }}
+                  {%- endif -%}
+                </p>
+              {%- endif -%}
+              
                 <h1 class="h2 product-single__title">
                   {%- unless product.empty? -%}
                     {{ product.title }}
@@ -91,13 +99,6 @@
                 </h1>
               {%- endif -%}
 
-              {%- if sku_enable -%}
-                <p data-sku class="product-single__sku">
-                  {%- if current_variant.sku -%}
-                    {{ current_variant.sku }}
-                  {%- endif -%}
-                </p>
-              {%- endif -%}
             </div>
 
             <div data-product-blocks>

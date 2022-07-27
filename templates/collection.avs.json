@@ -1,5 +1,26 @@
 {
   "sections": {
+    "16588888461c48edac": {
+      "type": "arisit-collection-description",
+      "settings": {
+      }
+    },
+    "16588901228e56e6d4": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PREMIERE_TVS_200_R02__WHITE_GLOSSY.jpg",
+        "image_width": 700,
+        "subtitle": "AVS",
+        "title": "Premier TV Stand 2000mm",
+        "text": "<p>Our feature rich premier TV stand.<\/p>",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/products\/avs-premiertv-stand-2000mm",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
     "1652769532d458e9a1": {
       "type": "slideshow",
       "disabled": true,
@@ -32,23 +53,6 @@
         "autoplay_speed": 5
       }
     },
-    "1652763813505c2bc4": {
-      "type": "arisit-collection-description",
-      "disabled": true,
-      "blocks": {
-        "c6e3c306-d3fa-458f-90bc-1cd78069708d": {
-          "type": "shop-all-url",
-          "settings": {
-            "shop-btn-link": "shopify:\/\/collections\/avs-products"
-          }
-        }
-      },
-      "block_order": [
-        "c6e3c306-d3fa-458f-90bc-1cd78069708d"
-      ],
-      "settings": {
-      }
-    },
     "main-collection": {
       "type": "main-collection",
       "blocks": {
@@ -67,6 +71,7 @@
       "settings": {
         "collection_image_enable": false,
         "collection_image_height": 550,
+        "collection_title_enable": true,
         "parallax": true,
         "enable_sidebar": false,
         "collapsed": false,
@@ -126,8 +131,9 @@
     }
   },
   "order": [
+    "16588888461c48edac",
+    "16588901228e56e6d4",
     "1652769532d458e9a1",
-    "1652763813505c2bc4",
     "main-collection",
     "1652743193157a6141",
     "165274518879973c72",
